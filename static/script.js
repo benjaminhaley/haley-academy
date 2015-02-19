@@ -1272,19 +1272,6 @@ app.directive('navigation', function() {
 });
 
 
-/* Passage
- *
- * Passage in a modal
- */
-app.directive('passage', function() {
-  return {
-    restrict: 'E',
-    transclude: true,
-    templateUrl: 'passage.html',
-  };
-});
-
-
 /* Test info
  *
  * Info on a test, like progress

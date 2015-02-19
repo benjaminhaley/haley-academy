@@ -21,13 +21,15 @@
     <div ng-if="passage">
       <br>
       <div id="" 
-           class="problem_passage">
+           class="problem_passage"
+           ng-class="test.show_full_passage ? '' : 'problem_passage_short'">
         <div ng-bind-html="passage.content | trust"></div>
       </div>
       <div class="clickable text-muted"
-            data-toggle="modal" 
-            data-target="#passage_modal">
-        <i class="fa fa-align-left"></i> show the full passage
+           ng-click="test.show_full_passage = !test.show_full_passage">
+        <i class="fa fa-align-left"></i> 
+          <span ng-if="!test.show_full_passage">show the full passage</span>
+          <span ng-if="test.show_full_passage">show only part of the passage</span>
       </div>
       <br><br>
     </div>
