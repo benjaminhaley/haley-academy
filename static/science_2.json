@@ -1,0 +1,564 @@
+{
+    "problems": [
+        {
+            "start_of_section": true,
+            "section": 1,
+            "number": 1,
+            "prompt": "Based on the results of Study 1, the highest percent of finches on Island B and Island C had a beak depth of:",
+            "options": {
+                "A": "Island B: 8mm, Island C: 8mm",
+                "B": "Island B: 9mm, Island C: 12mm",
+                "C": "Island B: 10mm, Island C: 8mm",
+                "D": "Island B: 10mm, Island C: 10mm"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 2,
+            "prompt": "During which of the following years were small seeds likely most abundant on Island B ?",
+            "options": {
+                "F": "1977",
+                "G": "1980",
+                "H": "1982",
+                "J": "1984"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 3,
+            "prompt": "Study 1 differed from Study 2 in which of the following ways?",
+            "options": {
+                "A": "G. fortis finches were captured during Study 1 but not during Study 2.",
+                "B": "G. fuliginosa finches were captured during Study 1 but not during Study 2.",
+                "C": "The beak depth of captured birds was measured during Study 1 but not during Study 2.",
+                "D": "The beak depth of captured birds was measured during Study 2 but not during Study 1."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 1,
+            "number": 4,
+            "prompt": "It is most likely that the researchers tagged the birds that they captured during Study 1 to:",
+            "options": {
+                "F": "determine how beak depth was affected by rainfall on Island A.",
+                "G": "determine the average age of each finch population.",
+                "H": "ensure that the beak depth of each finch was measured multiple times during Study 1.",
+                "J": "ensure that the beak depth of each finch was measured only once during Study 1."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 5,
+            "prompt": "Based on the results of Study 2, would a finch with a beak depth of 9.4 mm or a finch with a beak depth of 9.9 mm more likely have had a greater chance of survival during 1977 ?",
+            "options": {
+                "A": "A finch with a beak depth of 9.4 mm, because, on average, the size of available seeds is larger during dry years.",
+                "B": "A finch with a beak depth of 9.4 mm, because, on average, the size of available seeds is smaller during dry years.",
+                "C": "A finch with a beak depth of 9.9 mm, because, on average, the size of available seeds is larger during dry years.",
+                "D": "A finch with a beak depth of 9.9 mm, because, on average, the size of available seeds is smaller during dry years."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 1,
+            "number": 6,
+            "prompt": "A researcher hypothesized that there would be more variation in the beak depths measured for the G. fortis finches when they were forced to compete with another finch species for seeds. Do the results of Study 1 support this hypothesis?",
+            "options": {
+                "F": "Yes; the range of beak depths measured for G. fortis finches was greater on Island A than on Island B.",
+                "G": "Yes; the range of beak depths measured for G. fortis finches was greater on Island B than on Island A.",
+                "H": "No; the range of beak depths measured for G. fortis finches was greater on Island A than on Island B.",
+                "J": "No; the range of beak depths measured for G. fortis finches was greater on Island B than on Island A."
+            },
+            "answer": "F"
+        },
+        {
+            "start_of_section": true,
+            "section": 2,
+            "number": 7,
+            "prompt": "According to Figure 1, over the 12-month period, the monthly precipitation at the urban site was maximum in February and minimum in July. According to Figures 2 and 3, the wet deposition of which ion was also maximum in February and minimum in July?",
+            "options": {
+                "A": "Cu<sup>2+</sup>",
+                "B": "Zn<sup>2+</sup>",
+                "C": "Cl<sup>-</sup>",
+                "D": "SO<sub>4</sub><sup>2-</sup>"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 2,
+            "number": 8,
+            "prompt": "Based on the results of Study 1, the average monthly wet deposition for Cu<sup>2+</sup> over the 12-month period was:",
+            "options": {
+                "F": "less than 50 µg/m<sup>2</sup>.",
+                "G": "between 50 µg/m<sup>2</sup> and 75 µg/m<sup>2</sup>.",
+                "H": "between 75 µg/m<sup>2</sup> and 100 µg/m<sup>2</sup>.",
+                "J": "greater than 100 µg/m<sup>2</sup>."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 9,
+            "prompt": "Is the statement “The values for Cl<sup>−</sup> wet deposition were greater during the winter and early spring when road salt is typically applied” supported by the results of Study 2 ?",
+            "options": {
+                "A": "Yes, because Cl<sup>−</sup> wet deposition values were, on average, greater from November to April than they were from May to October.",
+                "B": "Yes, because Cl<sup>−</sup> wet deposition values were, on average, less from November to April than they were from May to October.",
+                "C": "No, because Cl<sup>−</sup> wet deposition values were, on average, greater from November to April than they were from May to October.",
+                "D": "No, because Cl<sup>−</sup> wet deposition values were, on average, less from November to April than they were from May to October."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 2,
+            "number": 10,
+            "prompt": "Suppose there had been no precipitation during 1 entire month of the 12-month period. Based on the information provided, during that month there would have been:",
+            "options": {
+                "F": "significant wet deposition of all 4 substances.",
+                "G": "significant wet deposition of Cu<sup>2+</sup> and Zn<sup>2+</sup> , but no wet deposition of Cl<sup>-</sup> and SO<sub>4</sub><sup>2-</sup>.",
+                "H": "no wet deposition of any of the 4 substances.",
+                "J": "no wet deposition of Cu<sup>2+</sup> and Zn<sup>2+</sup>, but significant wet deposition of Cl<sup>-</sup> and SO<sub>4</sub><sup>2-</sup>."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 2,
+            "number": 11,
+            "prompt": "According to Study 3, as distance from the urban site increased, the annual wet deposition:",
+            "options": {
+                "A": "increased for both Cu<sup>2+</sup> and Zn<sup>2+</sup>.",
+                "B": "increased for Cu<sup>2+</sup> but decreased for Zn<sup>2+</sup>.",
+                "C": "decreased for both Cu<sup>2+</sup> and Zn<sup>2+</sup>.",
+                "D": "remained the same for both Cu<sup>2+</sup> and Zn<sup>2+</sup>."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 12,
+            "prompt": "Which of the following variables was kept constant in Study 2 ?",
+            "options": {
+                "F": "Site",
+                "G": "Monthly rainfall",
+                "H": "Wet deposition of Zn<sup>2+</sup>",
+                "J": "Wet deposition of Cl<sup>−</sup>"
+            },
+            "answer": "F"
+        },
+        {
+            "start_of_section": true,
+            "section": 3,
+            "number": 13,
+            "prompt": "The percent of Earth’s surface covered by high clouds in January 1987 was closest to which of the following?",
+            "options": {
+                "A": "13.0%",
+                "B": "13.5%",
+                "C": "14.0%",
+                "D": "14.5%"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 14,
+            "prompt": "Based on Table 1, a cosmic ray flux of 440,000 particles/m<sup>2</sup>/hr would correspond to a cover of low clouds that is closest to which of the following?",
+            "options": {
+                "F": "28.7%",
+                "G": "29.0%",
+                "H": "29.3%",
+                "J": "29.6%"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 3,
+            "number": 15,
+            "prompt": "Is the statement “The monthly average cover of low clouds is more directly correlated with cosmic ray flux than is the monthly average cover of high clouds” consistent with Figures 1 and 3 ?",
+            "options": {
+                "A": "Yes, because the plot for the monthly average cover of low clouds more closely parallels the plot for RCRF.",
+                "B": "Yes, because the plot for the monthly average cover of high clouds more closely parallels the plot for RCRF.",
+                "C": "No, because the plot for the monthly average cover of low clouds more closely parallels the plot for RCRF.",
+                "D": "No, because the plot for the monthly average cover of high clouds more closely parallels the plot for RCRF."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 3,
+            "number": 16,
+            "prompt": "Which of the following figures best represents the monthly average cover of high, middle, and low clouds in January 1992 ?",
+            "options": {
+                "F": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2020.37.58.png'></image>",
+                "G": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2020.39.11.png'></image>",
+                "H": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2020.39.50.png'></image>",
+                "J": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2020.40.20.png'></image>"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 3,
+            "number": 17,
+            "prompt": "High clouds are composed primarily of ice crystals, whereas low clouds are composed primarily of water droplets. This difference is most likely because the average air temperature at altitudes from:",
+            "options": {
+                "A": "0 km to 3.2 km is at or below 0°C, whereas the average air temperature at altitudes from 3.2 km to 6.0 km is above 0°C.",
+                "B": "0 km to 3.2 km is at or below 0°C, whereas the average air temperature at altitudes from 6.0 km to 16.0 km is above 0°C.",
+                "C": "0 km to 3.2 km is above 0°C, whereas the average air temperature at altitudes from 3.2 km to 6.0 km is at or below 0°C.",
+                "D": "0 km to 3.2 km is above 0°C, whereas the average air temperature at altitudes from 6.0 km to 16.0 km is at or below 0°C."
+            },
+            "answer": "D"
+        },
+        {
+            "start_of_section": true,
+            "section": 4,
+            "number": 18,
+            "prompt": "In Experiment 1, the sample solution was yellow at which of the following values for the volume of titrant added?",
+            "options": {
+                "F": "0.80 mL",
+                "G": "1.20 mL",
+                "H": "1.60 mL",
+                "J": "2.00 mL"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 4,
+            "number": 19,
+            "prompt": "In Experiment 2, the sample solution was neutral at which of the following values for the volume of titrant added?",
+            "options": {
+                "A": "0.50 mL",
+                "B": "1.00 mL",
+                "C": "1.50 mL",
+                "D": "2.00 mL"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 20,
+            "prompt": ". In Experiment 1, if 2.30 mL of titrant had been added to the sample solution, the conductivity would most likely have been:",
+            "options": {
+                "F": "less than 0.80 kS/cm.",
+                "G": "between 0.80 kS/cm and 2.30 kS/cm.",
+                "H": "between 2.30 kS/cm and 3.80 kS/cm.",
+                "J": "greater than 3.80 kS/cm."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 4,
+            "number": 21,
+            "prompt": "In Experiment 2, which solution was the titrant and which solution was the sample solution?",
+            "options": {
+                "A": "titrant: acetic acid, sample solution: NaOH",
+                "B": "titrant: HCl, sample solution: NaOH",
+                "C": "titrant: NaOH, sample solution: acetic acid",
+                "D": "titrant: NaOH, sample solution: HCl"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 4,
+            "number": 22,
+            "prompt": "In Experiments 1 and 2, the probe that was placed in the sample solution most likely did which of the following?",
+            "options": {
+                "F": "Cooled the solution to its freezing point",
+                "G": "Heated the solution to its boiling point",
+                "H": "Detected the concentration of nitrazine yellow in the solution",
+                "J": "Passed an electrical current through a portion of the solution"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 4,
+            "number": 23,
+            "prompt": "A chemist claimed that in Experiment 2, the pH of the sample solution was greater at a value of 0.2 mL of titrant added than at a value of 1.8 mL of titrant added. Do the results of Experiment 2 support this claim?",
+            "options": {
+                "A": "No; at a value of 0.2 mL of titrant added, the sample solution was yellow, and at a value of 1.8 mL of titrant added, the sample solution was blue.",
+                "B": "No; at a value of 0.2 mL of titrant added, the sample solution was blue, and at a value of 1.8 mL of titrant added, the sample solution was yellow.",
+                "C": "Yes; at a value of 0.2 mL of titrant added, the sample solution was yellow, and at a value of 1.8 mL of titrant added, the sample solution was blue.",
+                "D": "Yes; at a value of 0.2 mL of titrant added, the sample solution was blue, and at a value of 1.8 mL of titrant added, the sample solution was yellow."
+            },
+            "answer": "A"
+        },
+        {
+            "start_of_section": true,
+            "section": 5,
+            "number": 24,
+            "prompt": "Based on Student 2’s discussion, Algol B is part of the present Algol system because of which of the following forces exerted on Algol B by the original Algol system?",
+            "options": {
+                "F": "Electric force",
+                "G": "Magnetic force",
+                "H": "Gravitational force",
+                "J": "Nuclear force"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 5,
+            "number": 25,
+            "prompt": "Based on Student 1’s discussion and Fact 4, while matter flowed between Algol A and Algol B, Algol B produced the majority of its energy by fusing:",
+            "options": {
+                "A": "hydrogen nuclei to make helium nuclei at its center.",
+                "B": "hydrogen nuclei to make helium nuclei in a shell surrounding its center.",
+                "C": "helium nuclei to make hydrogen nuclei at its center.",
+                "D": "helium nuclei to make hydrogen nuclei in a shell surrounding its center."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 5,
+            "number": 26,
+            "prompt": "Suppose that chemical composition is uniform among stars formed from the same cloud of gas and dust, but that chemical composition varies among stars formed from different clouds of gas and dust. Student 2 would most likely agree with which of the following statements comparing the chemical compositions of the stars in the present-day Algol system at the time they formed?",
+            "options": {
+                "F": "Algol A and Algol B had the most similar compositions.",
+                "G": "Algol A and Algol C had the most similar compositions.",
+                "H": "Algol B and Algol C had the most similar compositions.",
+                "J": "Algol A, Algol B, and Algol C had the same composition."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 27,
+            "prompt": "If the mass of the Sun is 2.0 × 10 <sup>30</sup> kg, what is the mass of Algol C ?",
+            "options": {
+                "A": "1.6 × 10 <sup>30</sup> kg",
+                "B": "2.0 × 10 <sup>30</sup> kg",
+                "C": "3.4 × 10 <sup>30</sup> kg",
+                "D": "7.2 × 10 <sup>30</sup> kg"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 5,
+            "number": 28,
+            "prompt": "Which of the following statements best explains why the reaction described in Fact 3 requires a high temperature and pressure?",
+            "options": {
+                "F": "All protons are positively charged, and like charges attract each other.",
+                "G": "All protons are positively charged, and like charges repel each other.",
+                "H": "All electrons are negatively charged, and like charges attract each other.",
+                "J": "All electrons are negatively charged, and like charges repel each other."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 29,
+            "prompt": "Based on Fact 5 and Student 1’s discussion, which of the 3 stars in the Algol system, if any, was most likely the first to become an MS star?",
+            "options": {
+                "A": "Algol A",
+                "B": "Algol B",
+                "C": "Algol C",
+                "D": "The 3 stars became MS stars at the same time."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 5,
+            "number": 30,
+            "prompt": "Based on Fact 5, would Student 2 agree that by the time Algol A stops being an MS star, Algol A will have spent as much time being an MS star as Algol B spent being an MS star?",
+            "options": {
+                "F": "Yes, because according to Student 2, Algol A has always been more massive than Algol B.",
+                "G": "Yes, because according to Student 2, Algol A has always been less massive than Algol B.",
+                "H": "No, because according to Student 2, Algol A has always been more massive than Algol B.",
+                "J": "No, because according to Student 2, Algol A has always been less massive than Algol B."
+            },
+            "answer": "H"
+        },
+        {
+            "start_of_section": true,
+            "section": 6,
+            "number": 31,
+            "prompt": ". Based on Figure 2, if 13 g of Kr had been added to the 6 L vessel, the pressure would have been:",
+            "options": {
+                "A": "less than 200 torr.",
+                "B": "between 200 torr and 400 torr.",
+                "C": "between 400 torr and 600 torr.",
+                "D": "greater than 600 torr."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 6,
+            "number": 32,
+            "prompt": "Suppose the experiments had been repeated, except with a 5 L vessel. Based on Figures 1 and 2, the pressure exerted by 7 g of CO<sub>2</sub> would most likely have been:",
+            "options": {
+                "F": "less than 500 torr.",
+                "G": "between 500 torr and 1,000 torr.",
+                "H": "between 1,000 torr and 1,500 torr.",
+                "J": "greater than 1,500 torr."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 6,
+            "number": 33,
+            "prompt": "Based on Figures 1 and 2, for a given mass of O<sub>2</sub> at 22°C, how does the pressure exerted by the O<sub>2</sub> in a 6 L vessel compare to the pressure exerted by the O<sub>2</sub> in a 3 L vessel? In the 6 L vessel, the O<sub>2</sub> pressure will be:",
+            "options": {
+                "A": "1/2 as great as in the 3 L vessel.",
+                "B": "the same as in the 3 L vessel.",
+                "C": "2 times as great as in the 3 L vessel.",
+                "D": "4 times as great as in the 3 L vessel."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 6,
+            "number": 34,
+            "prompt": "Which of the following best explains why equal masses of O<sub>2</sub> and CO<sub>2</sub> at the same temperature and in the same-size vessel had different pressures? The pressure exerted by the O<sub>2</sub> was:",
+            "options": {
+                "F": "less, because there were fewer O<sub>2</sub> molecules per gram than there were CO<sub>2</sub> molecules per gram.",
+                "G": "less, because there were more O<sub>2</sub> molecules per gram than there were CO<sub>2</sub> molecules per gram.",
+                "H": "greater, because there were fewer O<sub>2</sub> molecules per gram than there were CO<sub>2</sub> molecules per gram.",
+                "J": "greater, because there were more O<sub>2</sub> molecules per gram than there were CO<sub>2</sub> molecules per gram."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 6,
+            "number": 35,
+            "prompt": "Suppose the experiment involving O<sub>2</sub> and the 6 L vessel had been repeated, except at a room temperature of 14°C. For a given mass of O<sub>2</sub>, compared to the pressure measured in the original experiment, the pressure measured at 14°C would have been:",
+            "options": {
+                "A": "less, because pressure is directly proportional to temperature.",
+                "B": "less, because pressure is inversely proportional to temperature.",
+                "C": "greater, because pressure is directly proportional to temperature.",
+                "D": "greater, because pressure is inversely proportional to temperature."
+            },
+            "answer": "A"
+        },
+        {
+            "start_of_section": true,
+            "section": 7,
+            "number": 36,
+            "prompt": "According to the figure, which of the following is closest to the lowest frequency that can be heard by a human being?",
+            "options": {
+                "F": "8 Hz",
+                "G": "20 Hz",
+                "H": "1,000 Hz",
+                "J": "20,000 Hz"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 7,
+            "number": 37,
+            "prompt": "As humans age, it is common for selective hearing loss to occur at high sound frequencies. Which of the following figures best illustrates this loss?<br><image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2021.07.29.png'></image>",
+            "options": {
+                "A": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2021.08.48.png'></image>",
+                "B": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2021.09.22.png'></image>",
+                "C": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2021.10.00.png'></image>",
+                "D": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-17%2021.10.39.png'></image>"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 7,
+            "number": 38,
+            "prompt": "Based on the figure, a sound of a given frequency will have the highest intensity for which of the following sets of conditions?",
+            "options": {
+                "F": "Sound is passing through: water, S: 100%",
+                "G": "Sound is passing through: water, S: 10<sup>–8</sup>%",
+                "H": "Sound is passing through: air, S: 100%",
+                "J": "Sound is passing through: air, S: 10<sup>–8</sup>%"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 7,
+            "number": 39,
+            "prompt": "A student hypothesized that sounds of any intensity at a frequency of 10<sup>5</sup> Hz would be painful for humans to hear. Do the data in the figure support this hypothesis?",
+            "options": {
+                "A": "Yes, because the threshold of pain is relatively constant with changes in frequency.",
+                "B": "Yes, because as frequency increases above 10<sup>5</sup> Hz, the threshold of pain increases.",
+                "C": "No, because humans cannot hear sounds at 10<sup>5</sup> Hz.",
+                "D": "No, because the threshold of pain is relatively constant with changes in frequency."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 7,
+            "number": 40,
+            "prompt": "Based on the figure, does S depend on the frequency of a sound wave of a given intensity?",
+            "options": {
+                "F": "Yes, because as frequency increases, S increases.",
+                "G": "Yes, because as frequency increases, S remains constant.",
+                "H": "No, because as frequency increases, S increases.",
+                "J": "No, because as frequency increases, S remains constant."
+            },
+            "answer": "J"
+        }
+    ],
+    "passages": [
+        {
+            "section": 1,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/science_2/passage_1.png'></image>"
+        },
+        {
+            "section": 2,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/science_2/passage_2.png'></image>"
+        },
+        {
+            "section": 3,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/science_2/passage_3.png'></image>"
+        },
+        {
+            "section": 4,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/science_2/passage_4.png'></image>"
+        },
+        {
+            "section": 5,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/science_2/passage_5.png'></image>"
+        },
+        {
+            "section": 6,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/science_2/passage_6.png'></image>"
+        },
+        {
+            "section": 7,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/science_2/passage_7.png'></image>"
+        }
+    ],
+    "score_conversion": {
+        "0": 1,
+        "1": 3,
+        "2": 4,
+        "3": 6,
+        "4": 7,
+        "5": 8,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 15,
+        "13": 16,
+        "14": 17,
+        "15": 17,
+        "16": 18,
+        "17": 19,
+        "18": 19,
+        "19": 20,
+        "20": 20,
+        "21": 21,
+        "22": 21,
+        "23": 22,
+        "24": 23,
+        "25": 23,
+        "26": 24,
+        "27": 24,
+        "28": 25,
+        "29": 25,
+        "30": 26,
+        "31": 27,
+        "32": 27,
+        "33": 28,
+        "34": 29,
+        "35": 30,
+        "36": 31,
+        "37": 33,
+        "38": 34,
+        "39": 35,
+        "40": 36
+    }
+}

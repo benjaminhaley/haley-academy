@@ -1,0 +1,40 @@
+<ul ng-if="test_loaded" class="pager">
+  <span ng-click="get_previous_problem()">
+    <page>
+      &nbsp;
+      <i class="fa fa-chevron-left"></i>
+      &nbsp;
+    </page>
+  </span>
+  &nbsp;
+  <span ng-click="check();" 
+        ng-if="!get_my(problem.attempts).graded && !get_my(problem.attempts).check"
+        popover="Check your answer" 
+        popover-placement="top" 
+        popover-trigger="mouseenter">
+    <page>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <i class="fa fa-check fa-lg"></i>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </page>
+  </span>
+  <span ng-click="show_discussion()"
+          ng-if="problem.graded && !should_show_discussion()"
+          popover="Show discussion" 
+          popover-placement="top" 
+          popover-trigger="mouseenter">
+    <page>
+      &nbsp;
+        <i class="fa fa-comments fa-lg"></i>
+      &nbsp;
+    </page>
+  </span>
+  &nbsp;
+  <span ng-click="get_next_problem()">
+    <page>
+      &nbsp;
+      <i class="fa fa-chevron-right"></i>
+      &nbsp;
+    </page>
+  </span>
+</ul>

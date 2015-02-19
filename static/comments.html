@@ -1,0 +1,133 @@
+<!-- Show comments -->
+<span class="clickable text-muted pull-right"
+      ng-click="contribution.show_comments = !contribution.show_comments"
+      popover="{{(contribution.show_comments && 'hide comments') || 'show comments'}}" 
+      popover-placement="top" 
+      popover-trigger="mouseenter">
+  <span ng-if="contribution.comments.length > 0 && !contribution.editing">
+    <small><small><small>
+      <span class="fa-stack" 
+            ng-if="!contribution.show_comments">
+        <i class="fa fa-comment-o fa-stack-2x"></i>
+        <i class="fa fa-stack-1x">{{contribution.comments.length}}</i>
+      </span>
+      <span class="fa-stack"
+            ng-if="contribution.show_comments">
+        <i class="fa fa-comment fa-stack-2x"></i>
+      </span>
+    </small></small></small>
+  </span>
+  <span ng-if="(!contribution.comments || contribution.comments.length == 0) && !contribution.editing">
+    <small>
+      <i class="fa fa-comment-o"
+         ng-if="!contribution.show_comments"></i>
+      <i class="fa fa-comment"
+         ng-if="contribution.show_comments"></i>
+    </small>
+  </span>
+</span>
+
+<!-- Show existing comments -->
+<span ng-if="contribution.show_comments && !contribution.editing">
+  <hr/>
+  <div class="well">
+    <small class="text-muted">
+      <ul class="list-unstyled">
+        <li ng-repeat="comment in contribution.comments track by comment.modified">
+    
+          <!-- Others comments -->
+          <span ng-if="user != comment.user">
+            <span ng-bind-html="comment.content | trust"></span>
+            <!-- Signature -->
+            <br><br>
+            <span class="text-muted">
+              <small><em>- {{comment.user}}</em></small>
+            </span>
+          </span>
+    
+          <!-- My comments -->
+          <span ng-if="user == comment.user">
+            
+            <span ng-if="!comment.editing">
+              <span class="clickable pull-right"
+                    ng-really-message="Really delete your comment?  This cannot be undone." 
+                    ng-really-click="delete_item(comment)"
+                    popover="Delete your comment" 
+                    popover-placement="bottom" 
+                    popover-trigger="mouseenter">
+                <span aria-hidden="true">
+                  &nbsp;
+                  <b ng-if="!comment.deleting && !comment.delete_failed">&times;</b>
+                  <span ng-if="comment.deleting"><i class="fa fa-spinner fa-spin"></i></span>
+                  <span ng-if="comment.delete_failed" class="text-warning">Could not delete your comment.<br>Click here to try again.</span>
+                  </span>
+              </span>
+    
+              <!-- Editable comment -->
+              <span ng-bind-html="comment.content | trust" 
+                 ng-click="edit_item(comment)" 
+                 popover="Click to edit your comment" 
+                 popover-placement="bottom" 
+                 popover-trigger="mouseenter">
+              </span>
+              
+              <!-- Signature -->
+              <br><br>
+              <span class="text-muted">
+                <small><em>- {{comment.user}}</em></small>
+              </span>
+              
+            </span>
+            
+            <!-- Edit comment -->
+            <div ng-if="comment.editing && !comment.canceled">
+              <br>
+              <textarea class="form-control" 
+                        rows="3" 
+                        ng-model="comment.content" 
+                        placeholder="Contribute to this point or give some constructive criticism.  Avoid comments that don't add to the discussion, like 'now I get it!' or 'I agree'."></textarea>
+              <br>
+              <button type="button" 
+                      class="btn btn-default" 
+                      ng-click="save_item(comment)">
+                    <span ng-if="!comment.saving && !comment.save_failed">Save</span>
+                    <span ng-if="comment.saving">Saving <i class="fa fa-spinner fa-spin"></i></span>
+                    <span ng-if="comment.save_failed">Could not save, click to retry</span>
+              </button>
+              <button type="button" 
+                      class="btn btn-default" 
+                      ng-click="cancel_my(comment)">Cancel</button>
+            </div>
+            
+          </span>
+          <hr>
+        </li>
+      </ul>
+      
+      <!-- Add comment -->
+      <span ng-if="!(contribution.comments && i_have_any(contribution.comments)) &&
+                   !(is_mine(contribution) && contribution.editing)">
+        <span class="clickable" 
+              ng-if="user_is_logged_in()"
+              ng-click="add_child(
+                          new_item('comment', {'editing': true}),
+                          contribution)
+                          "
+              popover="comment on {{contribution.user}}'s contribution" 
+              popover-placement="right" 
+              popover-trigger="mouseenter">
+              <i class="fa fa-plus"></i> add a comment
+        </span>
+        <span class="clickable" 
+              ng-if="!user_is_logged_in()"
+              ng-click="ask_user_to_log_in()"
+              popover="log in to comment on {{contribution.user}}'s contribution" 
+              popover-placement="right" 
+              popover-trigger="mouseenter">
+              <i class="fa fa-plus"> add a comment</i>
+        </span>
+      </span>
+    </small>
+  </div>
+</span>
+

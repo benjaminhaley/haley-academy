@@ -1,0 +1,533 @@
+{
+    "problems": [
+        {
+            "section": 1,
+            "number": 1,
+            "prompt": "The point of view from which the passage is told can best be described as that of:",
+            "options": {
+                "A": "a man looking back on the best years of his life as director of a community center in a strife-ridden neighborhood.",
+                "B": "a narrator describing his experiences as they happen, starting with childhood and continuing through his adult years as an advocate for troubled children.",
+                "C": "an unidentified narrator describing a man who devoted his life to neighborhood children years after his own difficult childhood.",
+                "D": "an admiring relative of a man whose generosity with children was widely respected in the neighborhood where he turned around a declining community center."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 1,
+            "number": 2,
+            "prompt": "It can reasonably be inferred from the passage that which of the following is a cherished dream that Abshu expects to make a reality in his lifetime?",
+            "options": {
+                "F": "Establishing himself financially so as to be able to bring his original family back under one roof",
+                "G": "Seeing the children at the community center shift their interest from sports to the dramatic arts",
+                "H": "Building on the success of the community center by opening other centers like it throughout the state",
+                "J": "Expanding for some, if not all, of the children the vision they have of themselves and their futures"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 3,
+            "prompt": "It can reasonably be inferred from the passage that Abshu and the Masons would agree with which of the following statements about the best way to raise a child?",
+            "options": {
+                "A": "For a child to be happy, he or she must develop a firm basis in religion at an early age.",
+                "B": "For a child to be fulfilled, he or she must be exposed to great works of art and literature that contain universal themes.",
+                "C": "For a child to thrive and be a responsible member of society, he or she must develop a sense of discipline.",
+                "D": "For a child to achieve greatness, he or she must attach importance to the community and not to the self."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 1,
+            "number": 4,
+            "prompt": "The fourth paragraph (lines 31-37) establishes all of the following EXCEPT:",
+            "options": {
+                "F": "that Abshu had foster brothers.",
+                "G": "that the Masons maintained a clean house.",
+                "H": "how Mother Mason felt about the location of their house.",
+                "J": "what Abshu remembered most about his years with the Masons."
+            },
+            "answer": "J"
+        },        {
+            "section": 1,
+            "number": 5,
+            "prompt": "It can reasonably be inferred that which of the following characters from the passage lives according to Abshu's definition of a life fully lived?",
+            "options": {
+                "A": "Mother Mason",
+                "B": "Father Mason",
+                "C": "Abshu as a child",
+                "D": "Abshu as an adult"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 6,
+            "prompt": "Which of the following statements about the children entering the community center is supported by the passage?",
+            "options": {
+                "F": "They had unrealistic expectations that Abshu toned down in the course of informal conversations.",
+                "G": "In Abshu's eyes, they were all gifted.",
+                "H": "In Abshu's eyes, the children who were likely to succeed were the ones who gave him the most trouble at the outset.",
+                "J": "They were prepared to believe in each other more than in themselves."
+            },
+            "answer": "G"
+        },        {
+            "section": 1,
+            "number": 7,
+            "prompt": "It can reasonably be inferred from the first paragraph that in obtaining outside funding for the community center, Abshu could be characterized as:",
+            "options": {
+                "A": "thorough in seeking out potential sources for financial backing.",
+                "B": "reluctant to spoil the children with charity.",
+                "C": "excited about having the children write grant applications.",
+                "D": "determined to let the children decide how the money would be spent."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 8,
+            "prompt": "Which of the following statements about Abshu's attitude toward his mother's choices early in his life is supported by the passage?",
+            "options": {
+                "F": "Abshu wishes he could get over the bitterness he feels toward her for allowing him and his siblings to be placed in foster care.",
+                "G": "Abshu is worried that his mother is troubled by her decision to place her children in foster care and wants to comfort and support her now that he is a grown man.",
+                "H": "Abshu wonders if she might have made a better decision about letting him and his siblings go into foster care, even though he understands why she did it.",
+                "J": "Abshu wants to apologize for having been ungrateful as a child to his mother, who was only doing what she felt was best for her family."
+            },
+            "answer": "H"
+        },        {
+            "section": 1,
+            "number": 9,
+            "prompt": "As it is used in line 65, the term <i>the edge</i> refers to a place where Abshu felt:",
+            "options": {
+                "A": "most alive.",
+                "B": "unfulfilled.",
+                "C": "defeated.",
+                "D": "most competitive."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 10,
+            "prompt": "According to the passage, which of the following most closely identifies Abshu's definition of a life fully lived?",
+            "options": {
+                "F": "Happiness in your work and love in your house",
+                "G": "The pursuit of your goals and the realization of your dreams",
+                "H": "Togetherness with your family and the sharing of laughter",
+                "J": "Working in the community and striving for equality"
+            },
+            "answer": "F"
+        },        {
+            "section": 2,
+            "number": 1,
+            "prompt": "One of the author’s main points about the legal concept of responsibility in the passage is that:",
+            "options": {
+                "A": "the phrase “not guilty by reason of insanity” has made our legal system more efficient.",
+                "B": "responsibility and guilt are legal concepts, and their meanings can be modified.",
+                "C": "knowing right from wrong is a simple matter of admitting the truth to oneself.",
+                "D": "people can become severely disturbed without a word of warning to anyone."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 2,
+            "prompt": "Based on the passage, the primary purpose for the 1970s redefinition of insanity proposed by the American Law Institute was to:",
+            "options": {
+                "F": "eliminate the insanity defense from American courtrooms.",
+                "G": "more precisely define the concepts of responsibility and intellectual capacity.",
+                "H": "redefine legal insanity so that it might include as many criminals as possible.",
+                "J": "apply the McNaghten Rule only to trials involving cases of mistaken identity."
+            },
+            "answer": "G"
+        },        {
+            "section": 2,
+            "number": 3,
+            "prompt": "From information in the third and fourth paragraphs (lines 35–58) it can reasonably be inferred that the legal definition of insanity was changed in the 1970s after:",
+            "options": {
+                "A": "federal courts won a dispute with state courts over a proposal made by the American Law Institute.",
+                "B": "the doctrine of “irresistible impulse ” was found to contradict accepted notions of justice.",
+                "C": "proponents of the McNaghten Rule had been using the insanity defense in far too many murder trials.",
+                "D": "several courts found that justice was not always best served when the McNaghten Rule was applied."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 2,
+            "number": 4,
+            "prompt": "According to the explanation provided in the fourth paragraph (lines 43–58), use of the word appreciate in the phrase “to appreciate the wrongfulness” (lines 48–49) instead of know implies which of the following?",
+            "options": {
+                "F": "The difference between right and wrong is something people feel rather than know, which makes deciding legal responsibility difficult.",
+                "G": "To know implies certainty, and distinguishing right from wrong is often a subjective matter in determining legal responsibility.",
+                "H": "The word appreciate suggests that an action and that action’s implications must be understood for there to be legal responsibility.",
+                "J": "An insane person would “know” something the way a sane person would “know” something, and be able to appreciate that knowledge, too."
+            },
+            "answer": "H"
+        },        {
+            "section": 2,
+            "number": 5,
+            "prompt": "The passage indicates that the McNaghten case became the basis for future decisions about legal insanity because:",
+            "options": {
+                "A": "the House of Lords upheld the verdict of the court despite considerable political pressure.",
+                "B": "there had been an increase in cases of murder involving mistaken identity arising from delusions.",
+                "C": "McNaghten was unable to convince the jury at his trial that he was incoherent and insane.",
+                "D": "McNaghten used a gun to commit murder, thus aggravating the crime in the jury’s mind."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 2,
+            "number": 6,
+            "prompt": "The passage states that McNaghten wanted to kill the English prime minister because the Scotsman thought that he:",
+            "options": {
+                "F": "would establish a confusing legal precedent.",
+                "G": "had been rejected by Peel’s secretary.",
+                "H": "would be better off in a mental hospital.",
+                "J": "had been wronged by the minister."
+            },
+            "answer": "J"
+        },        {
+            "section": 2,
+            "number": 7,
+            "prompt": "According to the passage, one of the reasons some mental health and legal groups want to abolish the insanity defense is that:",
+            "options": {
+                "A": "even clever lawyers are confused about when to use and when not to use it.",
+                "B": "juries that must sort out conflicting testimony become confused, and justice suffers.",
+                "C": "when it is invoked, even if the case is won, the punishment often ends up being too lenient.",
+                "D": "innocent defendants are too often being punished unfairly by unsympathetic juries."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 8,
+            "prompt": "The passage suggests that individuals who use the insanity defense:",
+            "options": {
+                "F": "are not permitted to do so unless it can be proved beforehand that they are really insane.",
+                "G": "should be tried, convicted, and punished whether or not they are really insane.",
+                "H": "are legally responsible for their actions even if a jury decides they are not guilty.",
+                "J": "might risk a lifelong confinement even if acquitted by a jury, if the acquittal is based on insanity."
+            },
+            "answer": "J"
+        },        {
+            "section": 2,
+            "number": 9,
+            "prompt": "According to the passage, a lawyer contemplating using insanity as a defense for a client should do which of the following?",
+            "options": {
+                "A": "Carefully evaluate using the defense, since in actual practice it rarely works",
+                "B": "Assemble for trial a team of expert witnesses with a wide range of viewpoints on mental illness",
+                "C": "Make sure that the doctrine of “irresistible impulse” is not used by the prosecution in his or her client’s trial",
+                "D": "Recommend that the client be acquitted because he or she has been judged criminally insane by a doctor"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 2,
+            "number": 10,
+            "prompt": "One of the main points made in the last paragraph is that insanity pleas were:",
+            "options": {
+                "F": "unconvincing to most juries in California in 1980.",
+                "G": "used in most cases in California in 1980.",
+                "H": "often successful in California in 1980.",
+                "J": "popular with lawyers in California in 1980."
+            },
+            "answer": "F"
+        },        {
+            "section": 3,
+            "number": 1,
+            "prompt": "Which of the following most fully lists solutions considered by the author to the problem that the list of beloved women poets is not nearly as long as the list of beloved men poets?",
+            "options": {
+                "A": "Reading women poets who have never been read, rejecting the writing of those whose names contain double Ws, and redefining what’s good about the literary canon",
+                "B": "Reappraising the literary canon, adding new women’s names to the list, weighing the importance of some male poets, and reading work by women as yet not widely read",
+                "C": "Questioning the importance of some male poets, encouraging readers to study women’s journals, and creating a world in which women will flourish",
+                "D": "Promoting the best work of current women writers, rediscovering older writers, reappraising Matthew Arnold’s view of criticism, and acknowledging differences in literary taste"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 2,
+            "prompt": "Which of the following sentences best summarizes the first paragraph?",
+            "options": {
+                "F": "It is disloyal to encourage women to write, and to ask: Why do male poets flourish more readily than female poets?",
+                "G": "We must ask why there are so few women writers; perhaps asking this question will help create a women-centered culture.",
+                "H": "It can be liberating to ask questions such as: What can be done about the fact that there are fewer beloved male poets than female poets?",
+                "J": "If we admit that there is not enough quality poetry written by women, it can make it easier to discover why this is so, and help us change the situation."
+            },
+            "answer": "J"
+        },        {
+            "section": 3,
+            "number": 3,
+            "prompt": "It may reasonably be inferred from lines 10–17 that James Merrill respected Elizabeth Bishop’s poetry:",
+            "options": {
+                "A": "and wished that reaction to her poems had not been complicated by gender issues.",
+                "B": "but was disturbed by her refusal to be included in women’s anthologies.",
+                "C": "but felt she should be more concerned with women’s issues.",
+                "D": "and was glad she was one of the four best women poets ever."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 3,
+            "number": 4,
+            "prompt": "According to the third paragraph (lines 25–39), Emily Dickinson’s career was helped by Helen Hunt Jackson, who:",
+            "options": {
+                "F": "published her; Mabel Loomis Todd, who transcribed her writing; and Lavinia Dickinson, who discovered her poems in a cabinet.",
+                "G": "encouraged her; Mabel Loomis Todd, who transcribed her work using a bizarre machine; and Lavinia Dickinson, who rescued her work from oblivion.",
+                "H": "encouraged her sister to keep writing; Mabel Loomis Todd, who convinced her to use a typewriter; and Lavinia Dickinson, who rescued her poems from a dresser drawer.",
+                "J": "taught her; Mabel Loomis Todd, who translated her writing into English; and Lavinia Dickinson, who introduced her poems to the public."
+            },
+            "answer": "G"
+        },        {
+            "section": 3,
+            "number": 5,
+            "prompt": "Which of the following most clearly distinguishes between the “two ways” suggested by the author’s assertion that “we can’t have it both ways” (line 54)?",
+            "options": {
+                "A": "Women haven’t until recently been allowed to see the depths in Shakespeare, but nobody bothers to read Shakespeare anyway.",
+                "B": "Women haven’t written as well as men because they’ve been too busy being spouses, but nobody takes time to read women writers anyway.",
+                "C": "Women haven’t written as well as men because they have not had the same educational opportunities, yet there are many great women writers no one reads.",
+                "D": "Women have always had an abundance of Shakespeares, yet have not experienced the kind of education it takes to appreciate Shakespeare."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 6,
+            "prompt": "The author feels that “all this rating and counting and classifying of authors“ (lines 61–62) is:",
+            "options": {
+                "F": "an example of giving in to a competitive approach to literature, which the author feels is counterproductive.",
+                "G": "an example of an approach to literature that feminists have supported and should continue to support.",
+                "H": "at odds with Matthew Arnold’s view of the function of criticism, a view that the author endorses.",
+                "J": "important, especially if it helps eliminate the entire oeuvre of writers whose names contain double Ws."
+            },
+            "answer": "F"
+        },        {
+            "section": 3,
+            "number": 7,
+            "prompt": "Which of the following best states the author’s response to Matthew Arnold’s view of the function of criticism (lines 65–76)?",
+            "options": {
+                "A": "It makes her reflect on why criticism is always so negative, yet she knows that most people don’t read criticism.",
+                "B": "It makes her uncomfortable because so many respect Matthew Arnold, yet she realizes his ideas about poetry are now irrelevant.",
+                "C": "It makes her wonder who decides what is good, yet she knows most readers think they know what good poetry is and don’t have time to read bad poetry.",
+                "D": "It makes her question why more women don’t read Matthew Arnold, yet she realizes that few women today would find Arnold’s views engaging."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 8,
+            "prompt": "Which of the following most nearly paraphrases Helen Hunt Jackson’s statement to Emily Dickinson that “it is wrong to the day you live in, that you will not sing aloud” (lines 35–36)?",
+            "options": {
+                "F": "It is morally reprehensible of you not to let other poets read your work.",
+                "G": "It is unacceptable for you to continue writing; you should become a singer.",
+                "H": "It is stingy and wrong of you not to read out loud to those who like your work.",
+                "J": "It is unfair to this age that you do not share your poetry with the world."
+            },
+            "answer": "J"
+        },        {
+            "section": 3,
+            "number": 9,
+            "prompt": "It may reasonably be inferred that the author considers Emily Dickinson “one of the luckiest great writers who ever lived” (lines 42–43) in part because:",
+            "options": {
+                "A": "her writing was discovered in such a dramatic way by her editor.",
+                "B": "she lived such a romantic life, dressing in white and enjoying many suitors.",
+                "C": "she was never interrupted by her disciples.",
+                "D": "she lived in isolation, which allowed her much time to write."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 3,
+            "number": 10,
+            "prompt": "The last paragraph suggests that those who would reevaluate, and perhaps want to devalue, the work of famous male poets should above all be:",
+            "options": {
+                "F": "cautious.",
+                "G": "decisive.",
+                "H": "opinionated.",
+                "J": "zealous."
+            },
+            "answer": "F"
+        },        {
+            "section": 4,
+            "number": 1,
+            "prompt": "The main point of this passage is to:",
+            "options": {
+                "A": "illustrate the importance of genetics in the formation of a baby’s brain.",
+                "B": "illustrate the importance of stimulation and experience in the formation of a baby’s brain.",
+                "C": "indicate the great need for conducting further research on babies’ brains.",
+                "D": "compare the latest research on babies’ brains with similar research conducted fifteen years ago."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 2,
+            "prompt": "The main point made in the second, third, and fourth paragraphs (lines 14–52) is that the structure of a baby’s brain:",
+            "options": {
+                "F": "is genetically determined before the child is born.",
+                "G": "can be seen through positron-emission tomography.",
+                "H": "can be altered through a process known as pruning.",
+                "J": "is still developing after the child is born."
+            },
+            "answer": "J"
+        },        {
+            "section": 4,
+            "number": 3,
+            "prompt": "According to the passage, one thing PET allows neurobiologists to do is:",
+            "options": {
+                "A": "observe activity in the frontal cortex of a baby’s brain.",
+                "B": "determine the number of genes involved in the formation of a baby’s brain.",
+                "C": "control the release of neurotransmitters in a baby’s auditory cortex.",
+                "D": "restore microscopic connections in a baby’s brain."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 4,
+            "number": 4,
+            "prompt": "When she compares a baby’s brain to city neighborhoods, the author is most nearly illustrating her point that:",
+            "options": {
+                "F": "neurotransmitters are actually brain chemicals.",
+                "G": "regions of the brain are awakened through experience.",
+                "H": "the visual cortex allows a baby to recognize specific images.",
+                "J": "a baby’s brain has about 1,000 trillion synapses."
+            },
+            "answer": "G"
+        },        {
+            "section": 4,
+            "number": 5,
+            "prompt": "Which of the following would the author of the passage be LEAST likely to recommend as a way to strengthen the synapses of a baby’s brain?",
+            "options": {
+                "A": "Reading to a baby",
+                "B": "Playing peekaboo with a baby",
+                "C": "Teaching a baby with flashcards",
+                "D": "Showing a baby how to distinguish red socks from blue blocks"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 4,
+            "number": 6,
+            "prompt": "The last paragraph suggests that the formation of synapses occurs most rapidly:",
+            "options": {
+                "F": "during the first two months of a child’s life.",
+                "G": "during the first nine months of a child’s life.",
+                "H": "from the time a child is about six months old until that child is about ten years old.",
+                "J": "from the time a child is about one year old until that child is well into adolescence."
+            },
+            "answer": "H"
+        },        {
+            "section": 4,
+            "number": 7,
+            "prompt": "As it is used in line 30, the phrase something innate most nearly means:",
+            "options": {
+                "A": "a memory.",
+                "B": "learned behavior.",
+                "C": "physical immaturity.",
+                "D": "an inherited trait."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 4,
+            "number": 8,
+            "prompt": "The fifth paragraph (lines 53–70) suggests that one of the main causes of pruning is:",
+            "options": {
+                "F": "a lack of stimulation.",
+                "G": "an insufficient number of genes.",
+                "H": "the use of flashcards.",
+                "J": "the strengthening of synapses."
+            },
+            "answer": "F"
+        },        {
+            "section": 4,
+            "number": 9,
+            "prompt": "When the author refers to “entrepreneurs preying on the anxieties of new parents” (lines 60–61), she is most likely suggesting that new parents should:",
+            "options": {
+                "A": "give their babies products such as flashcards only if they have examined these products carefully.",
+                "B": "not be deceived by advertising that claims certain products will increase a baby’s intelligence.",
+                "C": "not worry if their babies’ development is slightly behind that suggested by neurobiologists.",
+                "D": "take their pediatrician’s advice before they listen to the advice given by other family members."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 10,
+            "prompt": "The passage states that, in terms of development, the average baby should be able to:",
+            "options": {
+                "F": "focus his or her eyes on an object at two months of age.",
+                "G": "develop a “startle” reflex at about two months of age.",
+                "H": "make logical connections between ideas at about four months of age.",
+                "J": "form explicit memories at about nine months of age."
+            },
+            "answer": "J"
+        }
+    ],
+    "passages": [
+        {
+            "section": 1,
+            "content": "<div class='six columns readingpassage'><p>Clifford Jackson, or Abshu, as he preferred to be<br> known in the streets, had committed himself several<br> years ago to use his talents as a playwright to broaden<br> the horizons for the young, gifted, and black—which <br> <span class='linenumber'>5</span> was how he saw every child milling around that dark<br> street. As head of the community center he went after<br> every existing grant on the city and state level to bring<br> them puppet shows with the message to avoid drugs<br> and stay in school; and plays in the park such as actors <br> <span class='linenumber2'>10</span> rapping their way through Shakespeare's <i>A Midsummer<br> Night's Dream</i>. Abshu believed there was something in<br> Shakespeare for everyone, even the young of Brewster<br> Place, and if he broadened their horizons just a little<br> bit, there might be enough room for some of them to <br> <span class='linenumber2'>15</span>slip through and see what the world had waiting. No, it<br> would not be a perfect world, but definitely one with<br> more room than they had now.</p><p>The kids who hung around the community center<br> liked Abshu, because he never preached and it was <br> <span class='linenumber2'>20</span>clear that when they spoke he listened; so he could zero<br> in on the kid who had a real problem. It might be an<br> offhand remark while shooting a game of pool or a one-<br> on-one out on the basketball court, but he had a way of<br> making them feel special with just a word or two. <br> <span class='linenumber2'>25</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abshu wished that his own family could have<br> stayed together. There were four of them who ended up<br> in foster care: him, two younger sisters, and a baby<br> brother. He understood why his mother did what she<br> did, but he couldn't help wondering if there might have <br> <span class='linenumber2'>30</span>been a better way</p><p>Abshu was put into a home that already had two<br> other boys from foster care. The Masons lived in a<br> small wooden bungalow right on the edge of Linden<br> Hills. And Mother Mason insisted that they tell any- <br> <span class='linenumber2'>35</span>body who asked that they actually lived <i>in</i> Linden<br> Hills, a more prestigious address than Summit Place. It<br> was a home that was kept immaculate.</p><p>But what he remembered most about the Masons<br> was that it seemed there was never quite enough to eat. <br> <span class='linenumber2'>40</span>She sent them to school with a lunch of exactly one and<br> a half sandwiches—white bread spread with margarine<br> and sprinkled with sugar—and half an apple.</p><p>When Abshu dreamed of leaving—which was<br> every day—he had his own apartment with a refrigera- <br> <span class='linenumber2'>45</span>tor overflowing with food that he gorged himself with<br> day and night. The Masons weren't mean people; he<br> knew he could have ended up with a lot worse.</p><p>Abshu lived with these people for nine years, won<br> a scholarship to the local college, and moved out to <br> <span class='linenumber2'>50</span>support himself through school by working in a dough-<br> nut shop. By this time his mother was ready to take her<br> children back home, but he decided that since he was<br> already out on his own he would stay there. One less<br> mouth for her to worry about feeding. And after he <br> <span class='linenumber2'>55</span>graduated with his degree in social work, he might even<br> be able to give her a little money to help her along.</p><p>One thing he did thank the Masons for was keep-<br> ing him out of gangs. There was a strict curfew in their<br> home that was rigidly observed. And church was <br> <span class='linenumber2'>60</span>mandatory. “When you're out on your own,” Father<br> Mason always said, “you can do whatever you want,<br> but in my home you do as I say.” No, they weren't<br> mean people, but they were stingy—stingy with their<br> food and with their affection. Existing that way all the <br> <span class='linenumber2'>65</span>time, on the edge of hunger, on the edge of kindness,<br> gave Abshu an appreciation for a life fully lived. Do<br> whatever job makes you happy, regardless of the cost;<br> and fill your home with love. Well, his home became<br> the community center right around the corner from <br> <span class='linenumber2'>70</span>Brewster Place and the job that made him most fulfilled<br> was working with young kids.</p><p>The kids who hung out at the community center<br> weren't all lost yet. They wanted to make use of the<br> tutors for their homework; and they wanted a safe place <br> <span class='linenumber2'>75</span>to hang. His motto was: Lose no child to the streets.<br> And on occasion when that happened, he went home to<br> cry. But he never let his emotions show at work. To the<br> kids he was just a big, quiet kind of dude who didn't go<br> looking for trouble, but he wouldn't run from it either. <br> <span class='linenumber2'>80</span>He was always challenged by a new set of boys who<br> showed up at the center. He made it real clear to them<br> that this was his territory—his rules—and if they<br> needed to flex their muscles, they were welcome to try.<br> And he showed many that just because he was kind, it <br> <span class='linenumber2'>85</span>didn't mean he was weak. There had to be rules some-<br> place in their world, some kind of discipline. And if<br> they understood that, then he worked with them, long<br> and hard, to let them see that they could make a differ-<br> ence in their own lives.</p><p class='citation'><b>LITERARY NARRATIVE:</b> This passage is adapted from the novel <i>The Men of Brewster Place</i> by Gloria Naylor (©1998 by Gloria Naylor).</p></div>"
+        },
+        {
+            "section": 2,
+            "content": "<div class='six columns readingpassage'><p>How should the law treat a mentally disturbed<br> person who commits a criminal offense? Should indi-<br> viduals whose mental faculties are impaired be held<br> responsible for their actions? These questions are of<br><span class='linenumber'>5</span>concern to social scientists, to members of the legal<br> profession, and to individuals who work with criminal<br> offenders.</p><p>Over the centuries, an important part of Western<br> law has been the concept that a civilized society should<br> <span class='linenumber2'>10</span>not punish a person who is mentally incapable of con-<br> trolling his or her conduct. In 1724, an English court<br> maintained that a man was not responsible for an act if<br> “he doth not know what he is doing, no more than . . . a<br> wild beast.” Modern standards of legal responsibility,<br> <span class='linenumber2'>15</span>however, have been based on the McNaghten decision<br> of 1843. McNaghten, a Scotsman, suffered the paranoid<br> delusion that he was being persecuted by the English<br> prime minister, Sir Robert Peel. In an attempt to kill<br> Peel, he mistakenly shot Peel’s secretary. Everyone<br> <span class='linenumber2'>20</span>involved in the trial was convinced by McNaghten’s<br> senseless ramblings that he was insane. He was judged<br> not responsible by reason of insanity and sent to a<br> mental hospital, where he remained until his death. But<br> Queen Victoria was not pleased with the verdict—<br> <span class='linenumber2'>25</span>apparently she felt that political assassinations should<br> not be taken lightly—and called on the House of Lords<br> to review the decision. The decision was upheld and<br> rules for the legal definition of insanity were put into<br> writing. The McNaghten Rule states that a defendant<br> <span class='linenumber2'>30</span>may be found “not guilty by reason of insanity” only if<br> he were so severely disturbed at the time of his act that<br> he did not know what he was doing, or that if he did<br> know what he was doing, he did not know it was<br> wrong.</p><p><span class='linenumber2'>35</span>The McNaghten Rule was adopted in the United<br> States, and the distinction of knowing right from wrong<br> remained the basis of most decisions of legal insanity<br> for over a century. Some states added to their statutes<br> the doctrine of “irresistible impulse,” which recognizes<br> <span class='linenumber2'>40</span>that some mentally ill individuals may respond cor-<br> rectly when asked if a particular act is morally right or<br> wrong but still be unable to control their behavior.</p><p>During the 1970s, a number of state and federal<br> courts adopted a broader legal definition of insanity<br> <span class='linenumber2'>45</span>proposed by the American Law Institute, which states:<br> “A person is not responsible for criminal conduct if at<br> the time of such conduct, as a result of mental disease<br> or defect, he lacks substantial capacity either to appre-<br> ciate the wrongfulness of his conduct or to conform his<br> <span class='linenumber2'>50</span>conduct to the requirements of the law.” The word <i>sub</i>-<br> <i>stantial</i> suggests that “any” incapacity is not enough to<br> avoid criminal responsibility but that “total” incapacity<br> is not required either. The use of the word <i>appreciate</i><br> rather than <i>know</i> implies that intellectual awareness of<br> <span class='linenumber2'>55</span>right or wrong is not enough; individuals must have<br> some understanding of the moral or legal consequences<br> of their behavior before they can be held criminally<br> responsible.</p><p>The problem of legal responsibility in the case of<br> <span class='linenumber2'>60</span>mentally disordered individuals is currently a topic of<br> intense debate, and a number of legal and mental health<br> professionals have recommended abolishing the<br> insanity plea as a defense. The reasons for this recom-<br> mendation are varied. Many experts believe that the<br> <span class='linenumber2'>65</span>current courtroom procedures—in which psychiatrists<br> and psychologists for the prosecution and the defense<br> present contradictory evidence as to the defendant’s<br> mental state—are confusing to the jury and do little to<br> help the cause of justice. Some also argue that the<br> <span class='linenumber2'>70</span>abuse of the insanity plea by clever lawyers has<br> allowed too many criminals to escape conviction.<br> Others claim that acquittal by reason of insanity often<br> leads to a worse punishment (an <i>indeterminate</i> sentence<br> to an institution for the criminally insane that may con-<br> <span class='linenumber2'>75</span>fine a person for life) than being convicted and sent to<br> prison (with the possibility of parole in a few years).</p><p>Despite the current controversy, actual cases of<br> acquittal by reason of insanity are quite rare. Jurors<br> seem reluctant to believe that people are not morally<br> <span class='linenumber2'>80</span>responsible for their acts, and lawyers, knowing that an<br> insanity plea is apt to fail, tend to use it only as a last<br> resort. In California in 1980, only 259 defendants (out<br> of approximately 52,000) were successful in pleading<br> not guilty by reason of insanity.</p><p class='citation'><b>SOCIAL STUDIES:</b> This passage is adapted from the chapter “Personality Disorders” in <i>Introduction to Psychology</i>, edited by Rita L. Atkinson and Richard C. Atkinson (©1981 by Harcourt Brace Jovanovich, Inc.).</p></div>"
+        },
+        {
+            "section": 3,
+            "content": "<div class='six columns readingpassage'><p>The time is overdue to admit that there is some-<br> thing of a vacuum in women’s poetry, and that we<br> abhor it. For a woman to concede this is not disloyal to<br> her sex; it’s the first step in the creation of an environ-<br> <span class='linenumber'>5</span>ment in which women artists will flourish. But what<br> can be done about the fact that the list of beloved<br> women poets is not as long as the list of beloved poets<br> who were born male?</p><p>The most liberating response to the problem was<br> <span class='linenumber2'>10</span>the one Elizabeth Bishop chose. As James Merrill<br> writes, “Lowell called her one of the four best women<br> poets ever—which can hardly have pleased Miss<br> Bishop, who kept her work from appearing in ‘women’s<br> anthologies.’ Better, from her point of view, to be one<br> <span class='linenumber2'>15</span>of the forty, or forty thousand, best <i>poets</i>, and have<br> done with it.” And he adds, “If I raise the issue at all,<br> it’s to dissociate her from these shopworn polarities.”<br> For the working poet, moved by the sexless sunset or<br> the sex-indeterminate beetle, the polarities are indeed<br> <span class='linenumber2'>20</span>shopworn, but perhaps as readers we may pursue the<br> issue an inch further. For one thing that we can do<br> about these two unequal lists is to read women poets of<br> the past who have never been much read and to dis-<br> cover whether or not they deserve to be.</p><p><span class='linenumber2'>25</span>Emily Dickinson, after all, would never have<br> become one of the most revered poets in the world had<br> her sister Lavinia not rescued her poems from the<br> obscurity of a dresser drawer; and had her editor Mabel<br> Loomis Todd not painstakingly transcribed nearly illeg-<br> <span class='linenumber2'>30</span>ible scraps using a bizarre typewriter. Helen Hunt<br> Jackson, that once celebrated, now forgotten poet<br> whose work Dickinson herself admired, was another<br> “sister” in this story, for she alone fully understood<br> Dickinson’s gifts. Jackson wrote to Dickinson urging<br> <span class='linenumber2'>35</span>her to publish: “You are a great poet—and it is wrong<br> to the day you live in, that you will not sing aloud,” her<br> letter went. “When you are what men call dead, you<br> will be sorry you were so stingy.” That has to be one of<br> the most moving moments in American literary history.</p><p><span class='linenumber2'>40</span>And yet, and yet. Another reason many of us are<br> devoted to Dickinson is that we love the romance of her<br> story. Dickinson has to be one of the luckiest great<br> writers who ever lived. She chose to live in isolation,<br> which meant she was saved from the corruption of the<br> <span class='linenumber2'>45</span>literary crowd; no husband ever patted her head dismis-<br> sively, no child ever interrupted her, and when her life<br> was finished a team of disciples ensured her immor-<br> tality. If we do the necessary work of reappraising the<br> literary “canon,” and if we add some new women’s<br> <span class='linenumber2'>50</span>names to the reading list, we will nonetheless have to<br> settle for discoveries less dramatic than Lavinia<br> Dickinson’s, and we can’t expect them to appear with<br> frequency.</p><p>For the fact is that we can’t have it both ways. We<br> <span class='linenumber2'>55</span>can’t simultaneously espouse the line that women<br> haven’t until recently been allowed the depth of educa-<br> tion and experience to become Shakespeare, while also<br> claiming that we really have an abundance of<br> Shakespeares, if anybody would just take the time to<br> <span class='linenumber2'>60</span>read us.</p><p>But what is all this rating and counting and classi-<br> fying of authors about anyway? If we set up one writer<br> against another, aren’t we giving in to what some femi-<br> nists tell us is the adversarial mentality of patriarchal<br> <span class='linenumber2'>65</span>culture? We may think of Matthew Arnold’s view of<br> the function of criticism—“to learn and propagate the<br> best that is known and thought”—and squirm in our<br> chairs: Who’s to say what is best, who’s to say what is<br> relevant?</p><p><span class='linenumber2'>70</span>Theoretically, these questions are of some interest.<br> Practically speaking, most of us who are habitual<br> readers of poetry already have an answer. While<br> acknowledging our profound differences of taste, we<br> never doubt that there are good poems and terrible<br> <span class='linenumber2'>75</span>poems, and that the good ones are the only ones we<br> have time for.</p><p>What else can be done about the fact that the list of<br> the best women poets is not as long as the men’s list?<br> In addition to looking closely for unjustly neglected<br> <span class='linenumber2'>80</span>women, one might question whether some men poets<br> have been overrated. I think, for some reason, of poets<br> whose names contain double Ws—William Wordsworth,<br> Walt Whitman, William Carlos Williams—and while I<br> would be sorry to throw out the entire oeuvre of them, I<br> <span class='linenumber2'>85</span>confess that each of these poets has at times bored me to<br> tears.</p><p>The problem with taking men poets down a peg,<br> however, is that it’s hard to do so with discernment.<br> The zeal to undo, immediately, the centuries of neglect<br> <span class='linenumber2'>90</span>and abuse endured by women poets has resulted in the<br> devaluation of great poets who were born male and (far<br> worse) in the devaluation of poetry itself.</p><p class='citation'><b>HUMANITIES:</b> This passage is adapted from “A Poem of One’s Own,“ an essay by Mary Jo Salter in which she discusses feminist literary critics’ recent reappraisal of women’s writing. The essay was taken from <i>Audiences and Intentions: A Book of Arguments</i> (©1994 by Macmillan College Publishing Company, Inc.).</p></div>"
+        },
+        {
+            "section": 4,
+            "content": "<div class='six columns readingpassage'><p>You cannot see what is going on inside your new-<br> born’s brain. You cannot see the electrical activity as<br> her eyes lock onto yours and, almost instantaneously, a<br> neuron in her retina makes a connection to one in her<br> <span class='linenumber'>5</span>brain’s visual cortex that will last all her life. The<br> image of your face has become an enduring memory in<br> her mind. And you cannot see the explosive release of a<br> neurotransmitter—brain chemical—as a neuron from<br> your baby’s ear, carrying the electrically encoded<br> <span class='linenumber2'>10</span>sound of “ma,” connects to a neuron in her auditory<br> cortex. “Ma” has now commandeered a cluster of cells<br> in the infant’s brain that will, as long as the child lives,<br> respond to no other sound.</p><p>You cannot see any of this. But Dr. Harry Chugani<br> <span class='linenumber2'>15</span>can come close. With positron-emission tomography<br> PET), Chugani, a pediatric neurobiologist, watches the<br> regions of a baby’s brain turn on, one after another, like<br> city neighborhoods having their electricity restored<br> after a blackout. He can measure activity in the primi-<br> <span class='linenumber2'>20</span>tive brain stem and sensory cortex from the moment the<br> baby is born. He can observe the visual cortex burn<br> with activity in the second and third months of life. He<br> can see the frontal cortex light up at 6 to 8 months. He<br> can see, in other words, that the brain of a baby is still<br> <span class='linenumber2'>25</span>forming long after the child has left the womb—not<br> merely growing bigger, but forming the microscopic<br> connections responsible for feeling, learning and<br> remembering.</p><p>Scientists are just now realizing how experiences<br> <span class='linenumber2'>30</span>after birth, rather than something innate, determine the<br> actual wiring of the human brain. Only 15 years ago<br> neuroscientists assumed that by the time babies are<br> born, the structure of their brains had been genetically<br> determined. But by 1996, researchers knew that was<br> <span class='linenumber2'>35</span>wrong. Instead, early-childhood experiences exert a<br> dramatic and precise impact, physically determining<br> how the intricate neural circuits of the brain are wired.<br> Since then they have been learning how those experi-<br> ences shape the brain’s circuits.</p><p><span class='linenumber2'>40</span>At birth, the brain’s 100 billion or so neurons form<br> more than 50 trillion connections (synapses). The genes<br> the baby carries have already determined his brain’s<br> basic wiring. They have formed the connections in the<br> brain stem that will make the heart beat and the lungs<br> <span class='linenumber2'>45</span>respire. But that’s all. Of a human’s 80,000 different<br> genes, fully half are believed to be involved in forming<br> and running the central nervous system. Yet even that<br> doesn’t come close to what the brain needs. In the first<br> months of life, the number of synapses will increase 20-<br> <span class='linenumber2'>50</span>fold—to more than 1,000 trillion. There simply are not<br> enough genes in the human species to specify so many<br> connections.</p><p>That leaves experience—all the signals that a baby<br> receives from the world. Experience seems to exert its<br> <span class='linenumber2'>55</span>effects by strengthening synapses. Just as a memory<br> will fade if it is not accessed from time to time, so<br> synapses that are not used will also wither away in a<br> process called pruning. The way to reinforce these<br> wispy connections has come to be known as stimula-<br> <span class='linenumber2'>60</span>tion. Contrary to the claims of entrepreneurs preying on<br> the anxieties of new parents, stimulation does not mean<br> subjecting a toddler to flashcards. Rather, it is some-<br> thing much simpler—sorting socks by color or listening<br> to the soothing cadences of a fairy tale. In the most<br> <span class='linenumber2'>65</span>extensive study yet of what makes a difference, Craig<br> Ramey of the University of Alabama found that it was<br> blocks, beads, peekaboo and other old-fashioned mea-<br> sures that enhance cognitive, motor and language<br> development—and, absent traumas, enhance them per-<br> <span class='linenumber2'>70</span>manently.</p><p>The formation of synapses (synaptogenesis) and<br> their pruning occurs at different times in different parts<br> of the brain. The sequence seems to coincide with the<br> emergence of various skills. Synaptogenesis begins in<br> <span class='linenumber2'>75</span>the motor cortex at about 2 months. Around then,<br> infants lose their “startle” and “rooting” reflexes and<br> begin to master purposeful movements. At 3 months,<br> synapse formation in the visual cortex peaks; the brain<br> is fine-tuning connections allowing the eyes to focus on<br> <span class='linenumber2'>80</span>an object. At 8 or 9 months the hippocampus, which<br> indexes and files memories, becomes fully functional;<br> only now can babies form explicit memories of, say,<br> how to move a mobile. In the second half of the first<br> year, finds Chugani, the prefrontal cortex, the seat of<br> <span class='linenumber2'>85</span>forethought and logic, forms synapses at such a rate<br> that it consumes twice as much energy as an adult<br> brain. That furious pace continues for the child’s first<br> decade of life.</p><p class='citation'><b>NATURAL SCIENCE:</b> This passage is adapted from the article “How to Build a Baby’s Brain” by Sharon Begley (©1997 by Newsweek, Inc.). In this selection, the term <i>neuron</i> refers to a specialized cell of the nervous system, and <i>tomography</i> refers to a method of producing three-dimensional images of internal structures.</p></div>"
+        }
+    ],
+    "directions": [
+        {
+            "section": 1,
+            "content": "<p><b>DIRECTIONS:</b> There are several passages in this test. Each passage is accompanied by several questions. After reading a passage, choose the best answer to each question and fill in the corresponding oval on your answer document. You may refer to the passages as often as necessary.  The test contains 40 questions to be answered in 35 minutes.</p>"
+        }
+    ],
+    "score_conversion": {
+        "0": 1,
+        "1": 2,
+        "2": 4,
+        "3": 6,
+        "4": 7,
+        "5": 9,
+        "6": 10,
+        "7": 11,
+        "8": 11,
+        "9": 12,
+        "10": 12,
+        "11": 13,
+        "12": 13,
+        "13": 14,
+        "14": 15,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 24,
+        "26": 25,
+        "27": 26,
+        "28": 27,
+        "29": 28,
+        "30": 28,
+        "31": 29,
+        "32": 30,
+        "33": 31,
+        "34": 32,
+        "35": 33,
+        "36": 34,
+        "37": 35,
+        "38": 36,
+        "39": 36,
+        "40": 36
+    }
+}

@@ -1,0 +1,192 @@
+<div class="modal fade" 
+     id="history_modal" 
+     tabindex="-1" 
+     role="dialog" 
+     aria-labelledby="history_modal_label" 
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <span class="text-muted pull-right" 
+              ng-click="load_history()" 
+              popover="update discussion history" 
+              popover-placement="bottom" 
+              popover-trigger="mouseenter">
+              <small>
+                <i ng-if="!updating_history_from_server" 
+                   class="fa fa-refresh"></i>
+                <i ng-if="updating_history_from_server" 
+                   class="fa fa-spinner fa-spin"></i>
+              </small>
+              &nbsp;&nbsp;
+        </span>
+        <h4 class="modal-title" 
+            id="history_modal_label">
+            <i class="fa fa-comments-o"></i> 
+            discussion history
+        </h4>
+
+      </div>
+      <div class="modal-body">
+           
+        <!-- Me or everyone -->
+        <ul class="nav nav-tabs" 
+            role="tablist" 
+            ng-init="history_to_show = 'for_me'">
+          <li role="presentation" 
+              ng-class="{active: history_to_show == 'for_me',
+                         clicakble: !history_to_show == 'for_me'}"
+              ng-click="history_to_show = 'for_me'">
+            <a href="#">Inbox</a>
+          </li>
+          <li role="presentation" 
+              ng-class="{active: history_to_show == 'by_me',
+                         clicakble: !history_to_show == 'by_me'}"
+              ng-click="history_to_show = 'by_me'">
+            <a href="#">Me</a>
+          </li>
+          <li role="presentation" 
+              ng-class="{active: history_to_show == 'everyones',
+                         clicakble: !history_to_show == 'everyones'}"
+              ng-click="history_to_show = 'everyones'">
+            <a href="#">Everyone</a></li>
+        </ul>            
+        <br>
+        
+        <span ng-if="is_history_showing()">
+        
+          <!-- By User Summary -->
+          <div ng-if="history_to_show == 'everyones'">
+            <table class="table table-condensed">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th colspan="2">last activity
+                    <small class="text-muted">(time ago)</small>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Everyone -->
+                <tr ng-class="{highlight: (user_to_show === 'everyone')}"
+                    class="clickable"
+                    ng-click="set_user_to_show('everyone')">
+                  <td>
+                    <span 
+                       popover="Show history for everyone" 
+                       popover-placement="right" 
+                       popover-trigger="mouseenter">
+                       Everyone
+                    </span>
+                  </td>
+                  <td class="text-muted">
+                    {{most_recent_event_time({}) | ago_without_suffix }}
+                  </td>
+                </tr>
+              
+                <!-- By user -->
+                <tr ng-repeat="a_user in users()"
+                    ng-class="{highlight: (user_to_show === a_user)}"
+                    class="clickable"
+                    ng-click="set_user_to_show(a_user)">
+                  <td>
+                    <span 
+                       popover="Show history for {{a_user}}" 
+                       popover-placement="right" 
+                       popover-trigger="mouseenter">
+                       {{a_user}}
+                    </span>
+                  </td>
+                  <td class="text-muted">
+                    {{most_recent_event_time({'by_user':a_user}) | ago_without_suffix }}
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        
+          <!-- Events -->
+          <div infinite-scroll="show_more_events();"
+               infinite-scroll-container="'.modal'"
+               infinite-scroll-distance="3">
+            <div ng-repeat="event in get_history_to_show(n_events_to_show) track by event.modified">
+
+              <!-- Event number (to make counting easier) -->
+              <span class="text-muted pull-right">
+                &nbsp;
+                <small>
+                  # {{$index + 1}}
+                </small>
+              </span>
+              
+              <!-- Comments and contributions -->
+              <span ng-if="event.type == 'comment' || event.type == 'contribution'">
+                <span ng-bind-html="event.content | trust"></span>
+              </span>
+              
+              <!-- Votes -->
+              <span ng-if="event.type == 'vote' && event.content == 'up'">
+                <i class="fa fa-caret-up fa-lg"></i> +1
+              </span>
+              <span ng-if="event.type == 'vote' && event.content == 'down'">
+                <i class="fa fa-caret-down fa-lg"></i> -1
+              </span>
+              
+              <!-- Signature -->
+              <small>
+                <p class="text-muted"> 
+                  {{event.user}} 
+                  <span ng-if="event.type == 'comment'">commenting on {{event.parent_user}}</span> 
+                  <span ng-if="event.type == 'vote' && event.content == 'up'">upvoted {{event.parent_user}}'s contribution</span> 
+                  <span ng-if="event.type == 'vote' && event.content == 'down'">downvoted {{event.parent_user}}'s contribution</span> 
+                  <br>
+                  <span class="clickable"
+                        popover="Go to the problem" 
+                        popover-placement="right" 
+                        popover-trigger="mouseenter"
+                        ng-click="set_current(get_test_from_id(event.test), event.section, event.number); hide_history()">
+                    {{event.test}} {{event.section}}.{{event.number}}
+                  </span>
+                  
+                  - 
+                  <span ng-init="previous = get_history_to_show(n_events_to_show)[$index - 1];"
+                        popover="{{moment(event.modified).from(previous.modified, true)}} earlier than the last event"
+                        popover-placement="right" 
+                        popover-trigger="mouseenter">
+
+                    <!-- Time since now -->
+                    {{ moment(event.modified).fromNow() }}
+                    
+                    <!-- Time since last event -->
+                    <span ng-if="same_time_frame_as_previous">
+                      - {{
+                        moment(
+                          event.modified
+                        ).from(
+                          previous.modified,
+                          true
+                        )
+                      }} earlier than the last event
+                    </span>
+                    
+
+                  </span>
+                  
+                </p>
+              </small>
+              <hr>
+            </div>
+            <a href 
+               ng-if="get_history_to_show(n_events_to_show).length == n_events_to_show"
+               ng-click="n_events_to_show = n_events_to_show + 10">more</a>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

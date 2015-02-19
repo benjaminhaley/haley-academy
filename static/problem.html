@@ -1,0 +1,74 @@
+<div class="panel panel-default" ng-if="test_loaded">
+  <!-- Make sure I have an attempt -->
+  <span ng-if="!i_have_any(problem.attempts)">
+    <span ng-init="add_child(new_item('attempt'), problem)">
+    </span>
+  </span>
+  <div class="panel-heading">
+    <panel-title>
+    
+      <!-- Problem (e.g. 2.5) -->
+      {{problem.section}}.{{problem.number}} 
+      
+      <!-- Place (e.g. 2 of 60) -->
+      <span class="text-muted pull-right">
+        <small>{{problem_number + 1}} of {{problems.length}}</small>
+      </span>
+    </panel-title>
+  </div>
+  <div class="panel-body"
+       ng-class="{'text-muted': get_my(problem.attempts).graded}">
+    <div ng-if="passage">
+      <br>
+      <div id="" 
+           class="problem_passage">
+        <div ng-bind-html="passage.content | trust"></div>
+      </div>
+      <div class="clickable text-muted"
+            data-toggle="modal" 
+            data-target="#passage_modal">
+        <i class="fa fa-align-left"></i> show the full passage
+      </div>
+      <br><br>
+    </div>
+    <div ng-bind-html="problem.prompt | trust"></div>
+    <div class="radio" 
+         ng-repeat-start="(key, option) in problem.options">
+      <div>
+        <label>
+          <input type="radio" 
+                 ng-model="get_my(problem.attempts).choice" 
+                 ng-value="key" 
+                 name="choice" 
+                 id="{{key}}" 
+                 ng-disabled="get_my(problem.attempts).graded" 
+          />{{key}}. <span ng-bind-html="option | trust"></span>
+        </label>
+      </div>
+    </div>
+    <span ng-repeat-end=""></span>
+    <!-- Preload the next problem for faster service -->
+    <div class="ng-hide">
+      <div ng-bind-html="next_problem.prompt | trust"></div>
+      <div ng-repeat="(key, choice) in next_problem.choices">
+        <div ng-bind-html="choice | trust"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel-footer" ng-if="get_my(problem.attempts).graded">
+    <!-- Correct or not? -->
+    <p ng-if="get_my(problem.attempts).wrong && !get_my(problem.attempts).choice && !get_my(problem.attempts).contribution">
+      <strong><i class="fa fa-minus fa-lg text-danger fa-lg"></i> Incorrect -</strong>
+      The correct answer is {{problem.answer}}. You gave no answer.
+    </p>
+    <p ng-if="get_my(problem.attempts).wrong && get_my(problem.attempts).choice && !get_my(problem.attempts).contribution">
+      <strong><i class="fa fa-minus fa-lg text-danger"></i> Incorrect -</strong>
+      You chose {{get_my(problem.attempts).choice}}, but the correct answer is {{problem.answer}}.
+    </p>
+    <p ng-if="get_my(problem.attempts).correct">
+      <strong><i class="fa fa-plus fa-lg"></i> Correct! -</strong>
+      You rock!
+    </p>
+  </div>
+</div>

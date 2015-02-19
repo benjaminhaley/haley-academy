@@ -1,0 +1,1009 @@
+{
+    "problems": [
+        {
+            "section": 1,
+            "number": 1,
+            "start_of_section": true,
+            "prompt": "Select the best replacement for #1.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "snake, curving and bending",
+                "C": "snake curving and bending,",
+                "D": "snake, curving, and bending,"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 1,
+            "number": 2,
+            "prompt": "Which of the following alternatives to the underlined portion would NOT be acceptable in place of #2?",
+            "options": {
+                "F": "path, paving",
+                "G": "path and then paved",
+                "H": "path before paving",
+                "J": "path paved"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 3,
+            "prompt": "Select the best replacement for #3.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "knowing they",
+                "C": "that they",
+                "D": "people"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 4,
+            "prompt": "Select the best replacement for #4.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "day; not on a bike",
+                "H": "day not on a bike",
+                "J": "day, not on a bike;"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 1,
+            "number": 5,
+            "prompt": "If the writer were to delete the preceding sentence, the essay would primarily lose:",
+            "options": {
+                "A": "a reason why the narrator is in the forest.",
+                "B": "a detail important for understanding the essay.",
+                "C": "a contrast to the lighthearted tone of the essay.",
+                "D": "nothing at all; this information is irrelevant to the essay."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 1,
+            "number": 6,
+            "prompt": "Select the best replacement for #6.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "charged, because of that,",
+                "H": "charged, this means that",
+                "J": "charged, so"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 7,
+            "prompt": "Which choice would most logically and effectively emphasize the positive, friendly attitude the narrator has toward Luigi?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "travels safely",
+                "C": "proceeds carefully",
+                "D": "purrs softly"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 8,
+            "prompt": "Select the best replacement for #8.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "You can hear",
+                "H": "One can even hear",
+                "J": "While hearing"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 1,
+            "number": 9,
+            "prompt": "Select the best replacement for #9.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "Due to the fact that it is",
+                "C": "It turns into the month of",
+                "D": "Because it has turned into"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 10,
+            "prompt": "Select the best replacement for #10.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "gentle, along",
+                "H": "gently along",
+                "J": "gentle along,"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 1,
+            "number": 11,
+            "prompt": "Which choice most effectively leads into the new subject of this paragraph?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "The sun begins to set",
+                "C": "Nature always impresses me",
+                "D": "Days can go by quickly"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 12,
+            "prompt": "Select the best replacement for #12.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "dust, however,",
+                "H": "dust.",
+                "J": "dust,"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 1,
+            "number": 13,
+            "prompt": "Select the best replacement for #13.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "hour, looking,",
+                "C": "hour looking;",
+                "D": "hour looking"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 14,
+            "prompt": "Select the best replacement for #14.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "trail’s",
+                "H": "trails’",
+                "J": "trails’s"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 1,
+            "number": 15,
+            "prompt": "This asks about the preceding passage as a whole: Suppose the writer’s goal had been to write an essay illustrating the pleasure that people can take in nature. Would this essay accomplish that goal?",
+            "options": {
+                "A": "Yes, because it focuses on a variety of wildflowers that the narrator enjoys.",
+                "B": "Yes, because it focuses on the narrator’s joy at having access to nature.",
+                "C": "No, because it describes the world of the city as being more important to the narrator.",
+                "D": "No, because it focuses primarily on the functioning of the narrator’s motorized wheelchair."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 16,
+            "prompt": "Select the best replacement for #16.",
+            "start_of_section": true,
+            "options": {
+                "F": "NO CHANGE",
+                "G": "2 p.m. on October 27, 1904, thousands",
+                "H": "2 p.m., on October 27, 1904; thousands,",
+                "J": "2 p.m. on October 27, 1904, thousands,"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 17,
+            "prompt": "Select the best replacement for #17.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "feat, over",
+                "C": "feat:",
+                "D": "feat"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 18,
+            "prompt": "The writer is concerned about the level of detail in the sentence before #18 and is considering deleting the phrase “the first section of” from it. If the writer were to make this deletion, the paragraph would primarily lose information that:",
+            "options": {
+                "F": "reveals how expansive the New York City Subway would become.",
+                "G": "clarifies that only part of the subway system had been completed by October 27, 1904.",
+                "H": "makes clear that by October 27, 1904, construction of the second section of the subway was already underway.",
+                "J": "provides evidence that New York City residents at this celebration believed the entire subway system was complete."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 19,
+            "prompt": "Select the best replacement for #19.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "in the completion of its route.",
+                "C": "in twenty-six minutes.",
+                "D": "DELETE the underlined portion and end the sentence with a period."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 2,
+            "number": 20,
+            "prompt": "Which replacement for #20 would most effectively conclude the sentence by indicating clearly how the subway system could address the problem described in the first part of the sentence?",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "traveling more effectively.",
+                "H": "trying something new.",
+                "J": "using a system."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 2,
+            "number": 21,
+            "prompt": "Select the best replacement for #21.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "it",
+                "C": "those",
+                "D": "DELETE the underlined portion."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 22,
+            "prompt": "Select the best replacement for #22.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "engineer—William Barclay Parsons",
+                "H": "engineer William Barclay Parsons,",
+                "J": "engineer William Barclay Parsons"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 2,
+            "number": 23,
+            "prompt": "Select the best replacement for #23.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "innovate engineer",
+                "C": "innovative engineering",
+                "D": "innovate engineering"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 24,
+            "prompt": "Select the best replacement for #24.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "into the ground deeply under where the roads had previously been removed by them.",
+                "H": "a trench far down below since it was necessary to shovel deep into the earth in this method known as “cut and cover.”",
+                "J": "DELETE the underlined portion and end the sentence with a period."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 2,
+            "number": 25,
+            "prompt": "Select the best replacement for #25.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "created, with",
+                "C": "created with",
+                "D": "created with:"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 26,
+            "prompt": "Select the best replacement for #26.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "of whom",
+                "H": "of who",
+                "J": "DELETE the underlined portion."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 27,
+            "prompt": "Select the best replacement for #27.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "therefore.",
+                "C": "for instance.",
+                "D": "that is."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 2,
+            "number": 28,
+            "prompt": "The writer wishes to add a sentence after #28 that describes the magnitude and expansiveness of the New York City Subway system today. Given that all the following statements are true, which one, if added here, would most clearly and effectively accomplish the writer’s goal?",
+            "options": {
+                "F": "Even today, for many New Yorkers that newspaper’s account is right!",
+                "G": "Today, riding a portion of the New York City Subway’s 656 miles of mainline track is a daily routine for more than 4 million people.",
+                "H": "Today, the New York City Transit Authority continuously maintains two separate fleets of subway cars.",
+                "J": "Now, a typical New York City Subway waiting platform ranges from 400 to 700 feet."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 29,
+            "prompt": "This question asks about the passage as a whole: Upon reviewing the essay and finding that some information has been left out, the writer composes the following sentence incorporating that information:<br><br><i>This technique, also known as “open excavation,” became the standard for subway tunneling for nearly sixty years.</i><br><br>If the writer were to add this sentence to the essay, the sentence would most logically be placed at Point:",
+            "options": {
+                "A": "A.",
+                "B": "B.",
+                "C": "C.",
+                "D": "D."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 30,
+            "start_of_section": true,
+            "prompt": "The writer wants to suggest that the art of the fresco had been in decline previous to Rivera. Which replacement for #30 best accomplishes that goal?",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "engaged in",
+                "H": "influenced",
+                "J": "revived"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 3,
+            "number": 31,
+            "prompt": "Select the best replacement for #31.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "that catered",
+                "C": "while catering",
+                "D": "and catered"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 32,
+            "prompt": "Select the best replacement for #32.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "Rivera should wield more political power for his belief that controversy attracted the working class.",
+                "H": "Rivera for his controversy attracted belief that the working class should wield more political power.",
+                "J": "Rivera attracted controversy for his belief that the working class should wield more political power."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 3,
+            "number": 33,
+            "prompt": "Select the best replacement for #33.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "that he was interested in",
+                "C": "that he focused on",
+                "D": "DELETE the underlined portion."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 3,
+            "number": 34,
+            "prompt": "Select the best replacement for #34.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "then",
+                "H": "as",
+                "J": "if"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 3,
+            "number": 35,
+            "prompt": "Select the best replacement for #35.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "Many",
+                "C": "Each",
+                "D": "Any one"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 36,
+            "prompt": "Select the best replacement for #36.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "history; the",
+                "H": "history, the",
+                "J": "history—the"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 3,
+            "number": 37,
+            "prompt": "Select the best replacement for #37.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "if it were",
+                "C": "was",
+                "D": "if it was"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 38,
+            "prompt": "Select the best replacement for #38.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "various, prestigious",
+                "H": "various, and prestigious",
+                "J": "various and prestigious,"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 3,
+            "number": 39,
+            "prompt": "If #39 were deleted, the sentence would primarily lose a detail that:",
+            "options": {
+                "A": "repeats information found elsewhere in the sentence.",
+                "B": "is necessary for the sentence to be grammatically complete",
+                "C": "provides new and relevant information to the sentence.",
+                "D": "is ambiguous and unnecessary to the sentence."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 40,
+            "prompt": "Select the best replacement for #40.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "since",
+                "H": "thus",
+                "J": "and"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 3,
+            "number": 41,
+            "prompt": "Select the best replacement for #41.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "depict",
+                "C": "depicting some",
+                "D": "had depicted"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 42,
+            "prompt": "The writer is thinking of adding the following phrase to the end of the sentence preceding #42 (changing the period after industries to a comma):<br><br><i>such as medicine, pharmaceuticals, and chemicals.</i><br><br>Should the writer make this addition there?",
+            "options": {
+                "F": "Yes, because it offers relevant examples that help to specify a broad term.",
+                "G": "Yes, because it helps explain how the panels were physically constructed.",
+                "H": "No, because it provides a sampling of industries rather than a full listing.",
+                "J": "No, because it digresses from the main point of the sentence."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 3,
+            "number": 43,
+            "prompt": "Select the best replacement for #43.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "that,",
+                "C": "while,",
+                "D": "that was,"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 44,
+            "prompt": "Select the best replacement for #44.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "Despite this,",
+                "H": "Regardless,",
+                "J": "DELETE the underlined portion."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 4,
+            "number": 45,
+            "start_of_section": true,
+            "prompt": "Select the best replacement for #45.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "close, yet even",
+                "C": "close; even",
+                "D": "close. Even"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 4,
+            "number": 46,
+            "prompt": "Which of the following alternatives to #46 would NOT be acceptable?",
+            "options": {
+                "F": "cityscapes, while I",
+                "G": "cityscapes; I",
+                "H": "cityscapes. I, on the other hand,",
+                "J": "cityscapes I"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 4,
+            "number": 47,
+            "prompt": "Select the best replacement for #47.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "important though",
+                "C": "importantly, though,",
+                "D": "important, though"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 4,
+            "number": 48,
+            "prompt": "Which replacement for #48 would best express the narrator’s positive reaction to speaking with Joan and the narrator’s fondness for her friend?",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "she said that she would rearrange her schedule so that we could meet.",
+                "H": "she told me that she immediately recognized my voice.",
+                "J": "her quick words and the sound of her laugh surprised me."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 4,
+            "number": 49,
+            "prompt": "Select the best replacement for #49.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "who",
+                "C": "whose",
+                "D": "which"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 50,
+            "prompt": "Select the best replacement for #50.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "we",
+                "H": "they",
+                "J": "he"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 4,
+            "number": 51,
+            "prompt": "Which of the following sequences of sentences makes Paragraph 3 most logical?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "1, 3, 2",
+                "C": "2, 1, 3",
+                "D": "3, 2, 1"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 52,
+            "prompt": "Select the best replacement for #52.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "located in the downtown area of the city.",
+                "H": "so the battery would continue to work properly despite the cold weather.",
+                "J": "DELETE the underlined portion and end the sentence with a period."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 4,
+            "number": 53,
+            "prompt": "Which of the following alternatives to #53 would NOT be acceptable?",
+            "options": {
+                "A": "was glowing",
+                "B": "glowed",
+                "C": "shined",
+                "D": "shoned"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 4,
+            "number": 54,
+            "prompt": "If the writer were to delete the sentence preceding #54, the essay would primarily lose:",
+            "options": {
+                "F": "an indication of the narrator’s response to the weather conditions in Fairbanks.",
+                "G": "a detailed analysis of why the narrator had to plug the car engine into an electrical outlet.",
+                "H": "descriptive details that help set the scene of the narrator’s meeting with Joan.",
+                "J": "unnecessary details that repeat information given earlier in the paragraph."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 4,
+            "number": 55,
+            "prompt": "Select the best replacement for #55.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "fell upon",
+                "C": "dropped by",
+                "D": "returned with"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 4,
+            "number": 56,
+            "prompt": "Select the best replacement for #56.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "in the field atop the rabbit hutch behind Joan’s house",
+                "H": "atop the rabbit hutch in the field behind Joan’s house",
+                "J": "behind Joan’s house in the field atop the rabbit hutch"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 4,
+            "number": 57,
+            "prompt": "Which of the following alternatives to #57 would NOT be acceptable?",
+            "options": {
+                "A": "engrossed in",
+                "B": "acquired by",
+                "C": "immersed in",
+                "D": "engaged in"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 58,
+            "prompt": "Which of the following alternatives to #58 would NOT be acceptable?",
+            "options": {
+                "F": "with",
+                "G": "regarding",
+                "H": "along",
+                "J": "about"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 4,
+            "number": 59,
+            "prompt": "Given that all the choices are true, which replacement for #59 would best conclude this essay by effectively summarizing its main idea?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "Sadly, I realized that although we might be able to meet once a year, Joan and I would probably never again live in the same city.",
+                "C": "Even though we had followed different interests, I was glad to know that both Joan and I had been able to devote time to our creative work.",
+                "D": "As a result of the time we spent together when we were very young, I’ll always remember Joan."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 4,
+            "number": 60,
+            "prompt": "This question asks about the preceding passage as a whole: Upon reviewing the essay and finding that some information has been left out, the writer composes the following sentence incorporating that information:<br><br><i>Yet, despite such strong ties, we moved far apart as adults and lost touch.</i><br><br>This sentence would most logically be placed:",
+            "options": {
+                "F": "after Sentence 2 in Paragraph 1.",
+                "G": "at the end of Paragraph 2.",
+                "H": "at the end of Paragraph 4.",
+                "J": "after the first sentence in Paragraph 6."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 61,
+            "start_of_section": true,
+            "prompt": "Select the best replacement for #61.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "stories, which they connected to",
+                "C": "stories, to which they related to",
+                "D": "stories because of"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 5,
+            "number": 62,
+            "prompt": "Select the best replacement for #62.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "sets, gradually,",
+                "H": "sets, and gradually",
+                "J": "setting gradually"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 5,
+            "number": 63,
+            "prompt": "Select the best replacement for #63.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "pattern, or constellation",
+                "C": "pattern or constellation,",
+                "D": "pattern or constellation:"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 5,
+            "number": 64,
+            "prompt": "Given that all the choices are true, which replacement for #64 ends this paragraph with the clearest allusion to Orion, as the constellation is described later in the essay?",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "that is interesting but hard to see without a telescope.",
+                "H": "who plays a dramatic role in a myth that has been told and retold for centuries.",
+                "J": "that is also represented in the night sky once the Sun has set and the stars emerge."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 5,
+            "number": 65,
+            "prompt": "Given that all the choices are true, which replacement for #65 offers visual information about the stars as they appear in modern times?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "have different names in different cultures",
+                "C": "formed long before any of us were born",
+                "D": "together roughly form a straight line"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 5,
+            "number": 66,
+            "prompt": "Which of the following alternatives to #66 would NOT be acceptable?",
+            "options": {
+                "F": "observers",
+                "G": "overseers",
+                "H": "night-sky watchers",
+                "J": "stargazers"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 67,
+            "prompt": "Given that all the choices are true, which replacement for #67 provides a detail that has the most direct connection to the information that follows in this sentence?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "distant",
+                "C": "populated",
+                "D": "historic"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 5,
+            "number": 68,
+            "prompt": "Select the best replacement for #68.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "You’ll be amazed to learn that in",
+                "H": "Consider, if you will, the notion that in",
+                "J": "In"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 5,
+            "number": 69,
+            "prompt": "Select the best replacement for #69.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "In Japan’s imagination, this",
+                "C": "In Japan, this",
+                "D": "This"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 5,
+            "number": 70,
+            "prompt": "Select the best replacement for #70.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "have",
+                "H": "could of",
+                "J": "has been"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 71,
+            "prompt": "Select the best replacement for #71.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "mythology of the Tswana people, of South Africa",
+                "C": "mythology, of the Tswana people, of South Africa",
+                "D": "mythology of the Tswana people of South Africa,"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 5,
+            "number": 72,
+            "prompt": "Select the best replacement for #72.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "so when",
+                "H": "this means",
+                "J": "that"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 5,
+            "number": 73,
+            "prompt": "Select the best replacement for #73.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "they’re",
+                "C": "there",
+                "D": "but there"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 5,
+            "number": 74,
+            "prompt": "Select the best replacement for #74.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "world, and their",
+                "H": "world, with",
+                "J": "world,"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 75,
+            "prompt": "The writer wants to divide the paragraph preceding #75 into two to create a concluding paragraph that is free of direct references to a specific culture’s view of the three stars. The best place to begin the new paragraph would be at the beginning of Sentence:",
+            "options": {
+                "A": "4.",
+                "B": "5.",
+                "C": "6.",
+                "D": "7."
+            },
+            "answer": "D"
+        }
+    ],
+    "passages": [
+        {
+            "section": 1,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/english%202/passage_1.png'></image>"
+        },
+        {
+            "section": 2,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/english%202/passage_2.png'></image>"
+        },
+        {
+            "section": 3,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/english%202/passage_3.png'></image>"
+        },
+        {
+            "section": 4,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/english%202/passage_4.png'></image>"
+        },
+        {
+            "section": 5,
+            "content": "<image src='https://dl.dropboxusercontent.com/u/1131693/english%202/passage_5.png'></image>"
+        }
+    ],
+    "score_conversion": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 3,
+        "6": 4,
+        "7": 4,
+        "8": 4,
+        "9": 5,
+        "10": 5,
+        "11": 6,
+        "12": 6,
+        "13": 6,
+        "14": 7,
+        "15": 7,
+        "16": 7,
+        "17": 8,
+        "18": 8,
+        "19": 8,
+        "20": 9,
+        "21": 9,
+        "22": 9,
+        "23": 10,
+        "24": 10,
+        "25": 11,
+        "26": 11,
+        "27": 12,
+        "28": 12,
+        "29": 13,
+        "30": 14,
+        "31": 14,
+        "32": 14,
+        "33": 15,
+        "34": 15,
+        "35": 16,
+        "36": 16,
+        "37": 16,
+        "38": 17,
+        "39": 17,
+        "40": 18,
+        "41": 18,
+        "42": 19,
+        "43": 19,
+        "44": 19,
+        "45": 20,
+        "46": 20,
+        "47": 20,
+        "48": 21,
+        "49": 21,
+        "50": 21,
+        "51": 22,
+        "52": 22,
+        "53": 23,
+        "54": 23,
+        "55": 23,
+        "56": 24,
+        "57": 24,
+        "58": 25,
+        "59": 25,
+        "60": 26,
+        "61": 26,
+        "62": 27,
+        "63": 27,
+        "64": 28,
+        "65": 28,
+        "66": 29,
+        "67": 30,
+        "68": 31,
+        "69": 32,
+        "70": 33,
+        "71": 34,
+        "72": 34,
+        "73": 35,
+        "74": 35,
+        "75": 36
+    }
+}

@@ -1,0 +1,1010 @@
+{
+    "problems": [
+        {
+            "section": 1,
+            "number": 1,
+            "prompt": "Select the best replacement for #1 in the passage.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "waiting, by the back door,",
+                "C": "waiting by the back door,",
+                "D": "waiting by the back door"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 2,
+            "prompt": "Select the best replacement for #2.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "would sit",
+                "H": "sitting",
+                "J": "sat"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 1,
+            "number": 3,
+            "prompt": "Select the best replacement for #3.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "As my mother&rsquo;s interest is science, she is",
+                "C": "My mother&rsquo;s occupation is that of",
+                "D": "My mother is"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 4,
+            "prompt": "Select the best replacement for #4.  Which choice would most effectively introduce the rest of this paragraph?",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "There seemed to be no explanation for why Mom ran our household the way she did.",
+                "H": "Our household didn&rsquo;t run according to a typical schedule.",
+                "J": "Mom ran our household in a most spectacular manner."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 1,
+            "number": 5,
+            "prompt": "Select the best replacement for #5.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "was defenseless in the face of",
+                "C": "depended on",
+                "D": "trusted in"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 1,
+            "number": 6,
+            "prompt": "Select the best replacement for #6. Which choice most effectively signals the shift from the preceding paragraph to this paragraph?",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "Our lives were likewise affected by the phases of the moon.",
+                "H": "A relationship exists between the moon and the tides.",
+                "J": "The moon is a mysterious orb afloat in the sky."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 1,
+            "number": 7,
+            "prompt": "Select the best replacement for #7.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "Since the moon is",
+                "C": "The moon is",
+                "D": "The moon,"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 1,
+            "number": 8,
+            "prompt": "Select the best replacement for #8.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "one&rsquo;s",
+                "H": "it&rsquo;s",
+                "J": "its&rsquo;"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 1,
+            "number": 9,
+            "prompt": "Consider #9.  If the writer were to delete the phrase “sixteen hours for a complete cycle of tides” from the preceding sentence (ending the sentence with a period), the essay would primarily lose a detail that:",
+            "options": {
+                "A": "shows how the narrator&rsquo;s interests are different from the mother&rsquo;s interests.",
+                "B": "contradicts a point made earlier in the paragraph.",
+                "C": "helps establish the setting for the essay.",
+                "D": "displays the narrator&rsquo;s knowledge of tides."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 10,
+            "prompt": "Select the best replacement for #10.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "brother, and I,",
+                "H": "brother, and I",
+                "J": "brother and I"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 11,
+            "prompt": "Select the best replacement for #11.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "away. Then we",
+                "C": "away. We",
+                "D": "away; we"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 12,
+            "prompt": "Select the best replacement for #12.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "hideouts where crabs, snails, starfish, and sea urchins concealed and hid themselves.",
+                "H": "places where crabs, snails, starfish, and sea urchins were stashed away.",
+                "J": "hiding places of crabs, snails, starfish, and sea urchins."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 13,
+            "prompt": "Consider #13. Which of the following sequences of sentences makes this paragraph most logical?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "2, 1, 3",
+                "C": "2, 3, 1",
+                "D": "3, 1, 2"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 14,
+            "prompt": "Select the best replacement for #14.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "had a specimen bottle attached to its smaller end.",
+                "H": "was woven from cotton and nylon material.",
+                "J": "was shaped like a geometric figure."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 1,
+            "number": 15,
+            "prompt": "The best placement for #15 would be:",
+            "options": {
+                "A": "where it is now.",
+                "B": "after the word <i>lenses</i>.",
+                "C": "after the word <i>microscope</i>.",
+                "D": "after the word <i>bottle</i> (but before the dash)."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 1,
+            "prompt": "Select the best replacement for #1 in the passage.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "gardener&mdash;he still is&mdash;",
+                "C": "gardener, he still is&mdash;",
+                "D": "gardener and he still is"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 2,
+            "prompt": "Select the best replacement for #2.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "picked up his hoe and trowel, and headed",
+                "H": "pick up his hoe and trowel, and head",
+                "J": "picking up his hoe and trowel, and headed"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 2,
+            "number": 3,
+            "prompt": "Consider #3. If the word Saturday were deleted from the preceding sentence, the essay would primarily lose:",
+            "options": {
+                "A": "evidence that the father was an avid gardener.",
+                "B": "a detail that changes the meaning of the sentence.",
+                "C": "support for a point made earlier.",
+                "D": "a crucial link to the following paragraph."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 4,
+            "prompt": "Select the best replacement for #4. Which of the choices best emphasizes how much the father wanted his son to share his avid interest in gardening?",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "Because of my indifference to his hobby,",
+                "H": "Contrary to this thinking,",
+                "J": "Despite his repeated attempts,"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 2,
+            "number": 5,
+            "prompt": "Select the best replacement for #5.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "More important, I had no qualms",
+                "C": "It stands to reason, then, that I certainly would have no qualms",
+                "D": "I had no qualms, as a consequence of it,"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 2,
+            "number": 6,
+            "prompt": "Select the best replacement for #6.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "coaxed",
+                "H": "surrendered",
+                "J": "enlisted"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 7,
+            "prompt": "Select the best replacement for #7.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "the most fun to reap than to sow.",
+                "C": "much more fun to reap than to sow.",
+                "D": "the most fun reaping than if I&rsquo;d had to sow."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 8,
+            "prompt": "Consider #8. The best placement for the underlined portion would be:",
+            "options": {
+                "F": "where it is now.",
+                "G": "after the word <i>sorry</i>.",
+                "H": "after the word <i>follow</i>.",
+                "J": "after the word <i>garden</i> (ending the sentence with a period)."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 2,
+            "number": 9,
+            "prompt": "Select the best replacement for #9.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "have given",
+                "C": "has gave",
+                "D": "have gave"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 10,
+            "prompt": "Select the best replacement for #10.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "with getting",
+                "H": "of getting",
+                "J": "got"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 2,
+            "number": 11,
+            "prompt": "Select the best replacement for #11.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "wished I had spent",
+                "C": "wish I had spent",
+                "D": "wish to have spent"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 12,
+            "prompt": "Consider #12. At this point, the writer is considering adding the following true statement: <p><br>I have many photo albums, and each one includes pictures of my father in various poses.</p> Should the writer make this addition here?",
+            "options": {
+                "F": "Yes, because it informs the reader that the photograph he describes in the preceding sentence is not the only one he has of his father.",
+                "G": "Yes, because it informs the reader that the writer is more than an amateur photographer.",
+                "H": "No, because it contradicts the writer&rsquo;s claim that the photograph he describes in the preceding sentence is one he also treasures.",
+                "J": "No, because it distracts the reader from the main focus of the paragraph and does not logically fit at this point in the essay."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 2,
+            "number": 13,
+            "prompt": "Select the best replacement for #13.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "is",
+                "C": "were",
+                "D": "OMIT the underlined portion."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 2,
+            "number": 14,
+            "prompt": "Consider the whole passage.  For the sake of the logic and coherence of the essay, Paragraph 2 should be placed:",
+            "options": {
+                "F": "where it is now.",
+                "G": "before Paragraph 1.",
+                "H": "after Paragraph 3.",
+                "J": "after Paragraph 4."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 2,
+            "number": 15,
+            "prompt": "Consider the whole passage.  Suppose the writer had intended to write a brief essay showing how a value he holds as an adult is very different from what he felt as a child. Would this essay successfully fulfill the writer’s goal?",
+            "options": {
+                "A": "Yes, because the essay shows how the writer came to value gardening when this was something he had not appreciated as a child.",
+                "B": "Yes, because the essay shows that as an adult the writer finally learned to value his father&rsquo;s ability to be a good parent, when as a child he had not done so.",
+                "C": "No, because the focus of the essay is on the writer&rsquo;s father&rsquo;s values and not on the values of the writer himself.",
+                "D": "No, because the essay is not about values; rather, it is about one man&rsquo;s avid interest in backyard  gardening."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 3,
+            "number": 1,
+            "prompt": "Select the best replacement for #1 in the passage.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "they&rsquo;re",
+                "C": "it&rsquo;s",
+                "D": "its&rsquo;"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 2,
+            "prompt": "Select the best replacement for #2.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "one of the richest and most",
+                "H": "the richest and most",
+                "J": "the richer and more"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 3,
+            "number": 3,
+            "prompt": "Select the best replacement for #3.  Given that all of the choices are true, which one provides the most significant new information?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "thus forming this musical instrument.",
+                "C": "arranged from shortest to longest.",
+                "D": "which are fastened together."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 4,
+            "prompt": "Select the best replacement for #4.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "in quantity of numbers",
+                "H": "number-wise",
+                "J": "in number"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 3,
+            "number": 5,
+            "prompt": "Select the best replacement for #5.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "being binded",
+                "C": "been bounded",
+                "D": "been bound"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 3,
+            "number": 6,
+            "prompt": "Select the best replacement for #6.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "are coming",
+                "H": "comes",
+                "J": "come"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 3,
+            "number": 7,
+            "prompt": "Consider #7.  The best placement for the underlined portion would be:",
+            "options": {
+                "A": "where it is now.",
+                "B": "before the word <i>left.</i>",
+                "C": "before the word <i>of.</i>",
+                "D": "before the word <i>four.</i>"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 3,
+            "number": 8,
+            "prompt": "Select the best replacement for #8.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "beaten",
+                "H": "beated",
+                "J": "beats"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 3,
+            "number": 9,
+            "prompt": "Select the best replacement for #9.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "antara, early musicians",
+                "C": "antara early musicians&rsquo;",
+                "D": "antara early musician&rsquo;s"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 10,
+            "prompt": "Consider #10.  If the writer were to delete the phrase “coordinating the timing and pitch of their instruments” from the preceding sentence, the sentence would primarily lose:",
+            "options": {
+                "F": "a description of how musicians overcame the limitations of the antara.",
+                "G": "an indication that music was an important element in Incan life.",
+                "H": "the idea that the antara was a key feature of Incan music.",
+                "J": "nothing of significance, because the phrase is redundant."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 3,
+            "number": 11,
+            "prompt": "Select the best replacement for #11.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "in such a way that both sets are",
+                "C": "with both sets being",
+                "D": "OMIT the underlined portion."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 3,
+            "number": 12,
+            "prompt": "Consider #12.  For the sake of the logic and coherence of this paragraph, Sentence 4 should be placed:",
+            "options": {
+                "F": "where it is now.",
+                "G": "before Sentence 1.",
+                "H": "after Sentence 1.",
+                "J": "after Sentence 2."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 3,
+            "number": 13,
+            "prompt": "Select the best replacement for #13.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "re-created exactly.",
+                "C": "exact re-created.",
+                "D": "re-created exact."
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 14,
+            "prompt": "Select the best replacement for #14.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "hear, in the music of their descendants",
+                "H": "hear in the music of their descendants;",
+                "J": "hear in the music of their descendants"
+            },
+            "answer": "J"
+        },
+        {
+            "section": 3,
+            "number": 15,
+            "prompt": "Consider #15.  If the writer were to change the pronoun one to we in the preceding sentence, this closing sentence would:",
+            "options": {
+                "A": "indicate that the writer is a descendant of the Incas.",
+                "B": "suggest that the essay&rsquo;s audience are all musicians.",
+                "C": "take on a somewhat more personal tone.",
+                "D": "become more clearly a call to action."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 4,
+            "number": 1,
+            "prompt": "Select the best replacement for #1 in the passage.  Given that all of the choices are true, which one best supports the sentence’s claim about Vatican City’s status as an independent nation?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "with an interesting past.",
+                "C": "with its own government, banking system, postal service, and army.",
+                "D": "that has to import most of its supplies, even such necessities as food and water."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 4,
+            "number": 2,
+            "prompt": "Select the best replacement for #2.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "approximately about one-sixth of a square mile, all told&mdash;",
+                "H": "a grand total sum of about one-sixth of a square mile&mdash;",
+                "J": "a total of about one-sixth of a square mile when added together&mdash;"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 4,
+            "number": 3,
+            "prompt": "Select the best replacement for #3.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "having",
+                "C": "as well as",
+                "D": "OMIT the underlined portion."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 4,
+            "number": 4,
+            "prompt": "Consider #4.  If the writer were to delete the words tiny and disproportionately from the preceding sentence, the sentence would primarily lose:",
+            "options": {
+                "F": "elements of the setting of the essay.",
+                "G": "a contrast emphasizing the unusual number of sites.",
+                "H": "details that stress how important the sites are.",
+                "J": "a comparison between Vatican City and Rome."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 4,
+            "number": 5,
+            "prompt": "Select the best replacement for #5. Given that all of the choices are true, which one best emphasizes the extent and worth of the museums’ holdings?",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "thousands of invaluable",
+                "C": "numerous important",
+                "D": "a group of precious"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 6,
+            "prompt": "Consider #6.  Which of the following alternatives to the underlined portion would NOT be acceptable?",
+            "options": {
+                "F": "in addition to",
+                "G": "besides",
+                "H": "also there is",
+                "J": "and also"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 4,
+            "number": 7,
+            "prompt": "Select the best replacement for #7.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "grab an eyeful of",
+                "C": "check out",
+                "D": "pry"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 4,
+            "number": 8,
+            "prompt": "Select the best replacement for #8.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "Indeed,",
+                "H": "For instance,",
+                "J": "OMIT the underlined portion."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 4,
+            "number": 9,
+            "prompt": "Select the best replacement for #9.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "foundations,",
+                "C": "foundations:",
+                "D": "foundations;"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 10,
+            "prompt": "Consider #10. At this point, the writer is considering adding the following true statement: <p><br>In addition to being an architect and artist, Michelangelo wrote poetry, including more than 300&nbsp;sonnets.</p> Should the writer make this addition here?",
+            "options": {
+                "F": "Yes, because it provides further details about Michelangelo, who designed the dome at St. Peter&rsquo;s.",
+                "G": "Yes, because it reinforces the paragraph&rsquo;s implication that Michelangelo was extremely talented.",
+                "H": "No, because it distracts attention from the paragraph&rsquo;s focus, which is on the architecture and visual art of St. Peter&rsquo;s.",
+                "J": "No, because it adds more information about Michelangelo, who made only small contributions to Vatican City&rsquo;s art and architecture."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 4,
+            "number": 11,
+            "prompt": "Select the best replacement for #11.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "that line",
+                "C": "line",
+                "D": "lines"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 4,
+            "number": 12,
+            "prompt": "Consider #12. If the writer were to delete the quotation marks around the word paintings in the preceding sentence, the sentence would primarily lose a feature that suggests:",
+            "options": {
+                "F": "that mosaics are not paintings in the usual sense of the word.",
+                "G": "how large and complicated the mosaics in St. Peter&rsquo;s actually are.",
+                "H": "how carefully mosaics are put together.",
+                "J": "that the mosaics in St. Peter&rsquo;s are not typical of mosaics in general."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 4,
+            "number": 13,
+            "prompt": "Select the best replacement for #13.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "does contribute",
+                "C": "has contributed",
+                "D": "contribute"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 4,
+            "number": 14,
+            "prompt": "Consider #14. Which of the following alternatives to the underlined portion would NOT be acceptable?",
+            "options": {
+                "F": "Yet,",
+                "G": "Therefore,",
+                "H": "Still,",
+                "J": "Nonetheless,"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 4,
+            "number": 15,
+            "prompt": "Select the best replacement for #15.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "consider some,",
+                "C": "consider, some,",
+                "D": "consider, some"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 5,
+            "number": 1,
+            "prompt": "Select the best replacement for #1 in the passage.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "while",
+                "C": "when",
+                "D": "OMIT the underlined portion."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 5,
+            "number": 2,
+            "prompt": "Select the best replacement for #2.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "for, the presidency",
+                "H": "for: the presidency",
+                "J": "for the presidency,"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 5,
+            "number": 3,
+            "prompt": "Select the best replacement for #3.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "Similarly, suffragists",
+                "C": "However, suffragists",
+                "D": "Suffragists"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 5,
+            "number": 4,
+            "prompt": "Select the best replacement for #4.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "movement or music or,",
+                "H": "movement or, music or,",
+                "J": "movement: or music or"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 5,
+            "number": 5,
+            "prompt": "Select the best replacement for #5.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "have been",
+                "C": "having been",
+                "D": "OMIT the underlined portion."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 5,
+            "number": 6,
+            "prompt": "Select the best replacement for #6.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "among",
+                "H": "with",
+                "J": "amid"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 5,
+            "number": 7,
+            "prompt": "Consider #7. For the sake of the logic and coherence of the paragraph, Sentence 2 should be:",
+            "options": {
+                "A": "placed where it is now.",
+                "B": "placed after Sentence 3.",
+                "C": "placed after Sentence 4.",
+                "D": "OMITTED from the paragraph."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 5,
+            "number": 8,
+            "prompt": "Consider #8. The writer is considering revising the preceding part of this sentence (“At the end of the ‘Golden Lane,’ as the event was also called,”) to read as follows:<p><br>At the end of the parade,</p>If the writer did this, the essay would primarily lose:",
+            "options": {
+                "F": "an indication that Edna Gellhorn preferred the term &ldquo;Golden Lane&rdquo; to the term &ldquo;walkless-talkless parade.&rdquo;",
+                "G": "a possible point of confusion, as the proposed revision eliminates a term that was not explained.",
+                "H": "another historical detail about the parade described in the preceding paragraph.",
+                "J": "details that help establish the time and place of the essay."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 5,
+            "number": 9,
+            "prompt": "Select the best replacement for #9.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "a live scene",
+                "C": "a live scene was",
+                "D": "a live scene that"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 5,
+            "number": 10,
+            "prompt": "Select the best replacement for #10.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "in that",
+                "H": "that",
+                "J": "OMIT the underlined portion."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 5,
+            "number": 11,
+            "prompt": "Select the best replacement for #11.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "the passing delegates to remind the men",
+                "C": "them as a way to remind them",
+                "D": "remind them"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 5,
+            "number": 12,
+            "prompt": "Select the best replacement for #12.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "tiers stood a woman",
+                "H": "tiers stood a woman,",
+                "J": "tiers stood, a woman"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 13,
+            "prompt": "Select the best replacement for #13.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "had became",
+                "C": "becoming",
+                "D": "became"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 5,
+            "number": 14,
+            "prompt": "Select the best replacement for #14.",
+            "options": {
+                "F": "NO CHANGE",
+                "G": "set of positions, otherwise known as its",
+                "H": "set of positions&mdash;its",
+                "J": "OMIT the underlined portion."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 5,
+            "number": 15,
+            "prompt": "Select the best replacement for #15.",
+            "options": {
+                "A": "NO CHANGE",
+                "B": "Amendment to the U.S. Constitution",
+                "C": "Amendment, to the U.S. Constitution",
+                "D": "Amendment to the U.S. Constitution,"
+            },
+            "answer": "B"
+        }
+    ],
+    "directions": [
+        {
+            "section": 1,
+            "content": "<p><b>DIRECTIONS:</b> In the passage that follows, certain words and phrases are underlined and numbered. In the right-hand column, you will find alternatives for the underlined part. In most cases, you are to choose the one that best expresses the idea, makes the statement appropriate for standard written English, or is worded most consistently with the style and tone of the passage as a whole. If you think the original version is best, choose \"NO CHANGE.\" In some cases, you will find in the right-hand column a question about the underlined part. You are to choose the best answer to the question.</p><p>You will also find questions about a section of the passage, or about the passage as a whole. These questions do not refer to an, but rather are identified by a number or numbers in a box.</p><p>For each question, choose the alternative you consider best and fill in the corresponding oval on your answer document. Read the passage through once before you begin to answer the questions that accompany it. For many of the questions, you must read several sentences beyond the question to determine the answer. Be sure that you have read far enough ahead each time you choose an alternative.</p>"
+        }
+    ],
+    "passages": [
+        {
+            "section": 1,
+            "content": "<div class='passage'><h3>A Microscope in the Kitchen</h3><p>I grew up with buckets, shovels, and nets <span class='qone'>waiting by the back door;</span> hip-waders hanging in the closet; tide table charts covering the refrigerator door; and a microscope <span class='qtwo'>was sitting</span> on the kitchen table. <span class='qthree'>Having studied, my mother is</span> a marine biologist. <span class='qfour'>Our household might have been described as uncooperative.</span> Our meals weren’t always served in the expected order of breakfast, lunch, and supper. Everything <span class='qfive'>was subservient to the disposal of</span> the tides. When the tide was low, Mom could be found down on the mudflats. When the tide was high, she would be standing on the inlet bridge with her plankton net.</p><p><span class='qsix'>I have great respect for my mother.</span> I learned early that the moon affected the tides. Mom was always waiting for a full moon, when low tide would be much lower than usual and high tide much higher. <span class='qseven'>The moon being</span> closer to the earth when full, so <span class='qeight'>its</span> gravitational pull is stronger. I knew that it took about eight hours for the tides to change from high to low, sixteen hours for a complete cycle of tides. <span class='box'>9</span> I didn’t have to wait to learn these things in school. In our house they were everyday knowledge.</p><p>[1] Often, my <span class='qten'>brother and I,</span> joined our mother on her adventures into tidal lands. [2]&nbsp;At the very low tides of the full moon, when almost all the water was sucked <span class='qeleven'>away, we</span> found the <span class='qtwelve'>hideaways where crabs, snails, starfish, and sea urchins hid in order not to be seen.</span> [3]&nbsp;Sometimes we would dig with shovels in the mud, where yellow and white worms lived in their leathery tunnels. <span class='box'>13</span></p><p>For plankton tows, we would stand on the bridge while Mom lowered a cone-shaped net that <span class='fourteen'>is often used by marine biologists.</span> Then we would patiently wait. After a while, she would pull up the net, and we would go home. Later, we would see her sitting at the kitchen table, peering <span class='fifteen'>at a drop of water</span> through the lenses of her microscope from the bottle—watching the thousands of tiny swimming organisms.</p></div>"
+        },
+        {
+            "section": 2,
+            "content": "<div class='passage'><div class='panel' style='padding-bottom: 1em;'>The following paragraphs may or may not be in the most logical order.  Each paragraph is numbered in brackets, and question 14 will ask you to choose where Paragraph 2 should most logically be placed.</div><h3>My Father’s Garden</h3><div class='textcenter'>[1]</div><p>When I was a boy growing up in Delhi, India, we had a kitchen garden behind our downstairs apartment. My father was an avid <span class='qone'>gardener, he still is:</span> and every Saturday morning he would put on his work clothes, <span class='qtwo'>pick up his hoe and trowel, and would head</span> out the back door. <span class='box'>3</span></p><div class='textcenter'>[2]</div><p>As a ten-year-old, I was supremely unenthusiastic about swinging a hoe in the garden when I could be out playing with my friends. <span class='qfour'>Having tried and failed,</span> my father was unable to make a gardener of me. <span class='qfive'>I had no qualms, of course,</span> about enjoying the results of his labor: the potatoes, squash, cucumbers, and cauliflower that he <span class='qsix'>pursued</span> out of the earth. I would even help him dig out the potatoes or cut a cucumber from its vine. To me, it was <span class='qseven'>much more fun to reap than sowing.</span></p><div class='textcenter'>[3]</div><p>Many years later, living in an upstairs apartment, I am <span class='qeight'>more often</span> sorry I didn’t follow my father out to the garden. I have several indoor plants, but the experience is not the same. The few times that I’ve helped a friend with yard work <span class='qnine'>has given</span> me the joy of touching the soil with an open palm, <span class='qten'>to get</span> the earth under my fingernails, of patting down the berm around a newly transplanted sapling. Now that I live far from my father (I live in Iowa on the other side of the world), I <span class='qeleven'>wish I’d spend</span> more time with him in the garden.</p><div class='textcenter'>[4]</div><p>My favorite photograph of my father shows him squatting on his heels, trowel in hand, behind a golden heap of onions freshly pulled from the ground.  <span class='box'>12</span> His glowing smile <span class='thirteen'>are</span> evidence of his pride in the onions—the proof of his labor and love—and in me, the photographer, his son. In that photo, his love of the land and his love for me are somehow intertwined, indivisible. It is that same love—love of kin, love of land—that pushes under my fingernails, pushes against my skin, when I thrust my hand into the yielding earth and think that on its far side my father might be doing the same.</p></div>"
+        },
+        {
+            "section": 3,
+            "content": "<div class='passage'><h3>The Andean Panpipe</h3><p>Whether <span class='qone'>its</span> bright and jaunty or haunting and melancholic, the music of the Andes highlands has a mellow sound unique in the musical world. The instrument responsible for this sound is the <i>antara</i>, or Andean panpipe, known for the hollow-sounding, breathy notes it creates. The antara has its origins in the Incan civilization, once <span class='qtwo'>the more richer and more</span>  powerful empire in South America.</p><p>The antara consists of a connected row of hollow, vertical pipes of varying lengths, <span class='qthree'>which are then lined up.</span> The pipes, which can vary <span class='qfour'>numerously</span> from three to fifteen, are fashioned from clay that is rolled around a mold. Each pipe is individually rolled to create the proper pitch before <span class='qfive'>being bound</span> to the other pipes.</p><p>The antara dates back to the ninth century. Evidence about how musicians played the instrument <span class='qsix'>have come</span> from painted images on Incan ceramic pottery. Musicians are depicted playing a six-pipe antara by holding the lower ends of the two longer pipes with the right hand while placing the left hand near the <span class='qseven'>remaining</span> tops of the four pipes. The antara was also sometimes held in one hand while the other hand <span class='qeight'>beat</span> a cylindrical drum.</p><p>[1] Due to the limited number of notes that can be played on an <span class='qnine'>antara, early musicians’</span> most likely worked in groups, coordinating the timing and pitch of their instruments to extend the range of sounds produced.  <span class='box'>10</span> [2] Other pottery images show two antara players facing each other while dancing. [3] Each player holds a set of pipes <span class='qeleven'>so that both sets are</span> connected to the other set by  a string, as if to suggest that those two antaras should be played together. [4] Even to this day, descendants of the Incas, the Quechua people of Peru and Bolivia, prefer to play matched antaras bound together. <span class='box'>12</span></p><p>Unfortunately, the music of the Incas can probably never be <span class='thirteen'>exactly re-creating.</span> Yet one can <span class='fourteen'>hear in the music of their descendants,</span> beautiful variations on a musical sound that has survived for many centuries. <span class='box'>15</span></p></div>"
+        },
+        {
+            "section": 4,
+            "content": "<div class='passage'><h3>Vatican City’s Wonders</h3><p>Surrounded by the ancient city of Rome, Vatican City is an independent nation <span class='qone'>on the west bank of the Tiber River.</span> This tiny country—<span class='qtwo'>about one-sixth of a square mile in all—</span>is also home to a disproportionately large number of sites with great historical, artistic, and <span class='qthree'>which have</span> religious significance. <span class='box'>4</span></p><p>The Vatican Museums house <span class='qfive'>a great many valuable</span> paintings, sculptures, pieces of jewelry, and tapestries, <span class='qsix'>as well as</span> the world’s most extensive collections of ancient manuscripts. Scholars often <span class='qseven'>probe</span> the museums’ archives of early written works for insights into lives led long ago.</p><p><span class='qeight'>Accordingly,</span> St. Peter’s Basilica, the largest cathedral in the Northern Hemisphere, is remarkable. Built upon second-century <span class='qnine'>foundations.</span> St. Peter’s features a dome designed by the artist and architect Michelangelo. <span class='box'>10</span> Intricate mosaics—enormous “paintings” fashioned from millions of tiny cut stones of various colors—<span class='qeleven'>lining</span> each of the basilica’s several smaller domes. <span class='box'>12</span> The marble floor, with its intricate designs, covers the cathedral’s catacombs, where popes are buried. Sculptures by Michelangelo and  Bernini, including Michelangelo’s poignant <i>Pietà</i>, <span class='thirteen'>contributes</span> to the basilica’s beauty.</p><p><span class='fourteen'>However,</span> to many, the most spectacular part of Vatican City is the Sistine Chapel. This vast chapel displays what many <span class='fifteen'>consider some</span> of the most important works of Renaissance art: Michelangelo’s  awe-inspiring frescoes. These frescoes—paintings  made on freshly spread, still-moist plaster—capture  the attention of viewers with a complex array of  religious images. One of his most famous frescoes,  <i>The Last Judgment</i>, is painted on the west wall. A  series of interrelated frescoes covers the vaulted ceiling.</p><p>Despite its small size, Vatican City offers its  many visitors a chance to see a wide range of historical and artistic wonders. It is easy to understand why the city has become one of the most frequently visited  places in the world.</p></div>"
+        },
+        {
+            "section": 5,
+            "content": "<div class='passage'><h3>Edna Gellhorn’s “Walkless-Talkless Parade”</h3><p>In 1916, <span class='qone'>as</span> the Democratic Party’s national convention met in St. Louis, Missouri, to nominate candidates <span class='qtwo'>for the presidency</span> and vice-presidency  and to establish a platform, a set of positions on issues. <span class='qthree'>Therefore, suffragists</span> (those who advocated extending voting rights to women) wanted the  Democrats’ platform to support women’s right to vote.</p><p>[1] Edna Gellhorn, a leader in the Missouri  Equal Suffrage League, planned a “silent parade” without <span class='qfour'>movement or music or</span> speech. [2] She gathered together 7,000 St. Louis women. [3] Similar forms  of demonstrations, known as “walkless-talkless parades,” <span class='qfive'>had been</span> adopted by national woman suffrage organizations in Washington, D.C. [4] Gellhorn made telephone calls and wrote letters. [5] They donned yellow sashes over white dresses and held yellow umbrellas aloft as they lined both sides of Locust Street <span class='qsix'>between</span> the convention delegates’ hotel and the meeting hall. <span class='box'>7</span></p><p>At the end of the “Golden Lane,” as the event was also called, <span class='box'>8</span> Gellhorn organized a three-tiered “living tableau,” <span class='qnine'>which a live scene was</span> presented by silent, costumed participants. Women wearing white represented states <span class='qten'>where</span> women could vote. Others wore gray to represent states with partial suffrage (women could vote in school board elections, for example). Women draped in black represented states  that refused women the vote. This group held out manacled hands to <span class='qeleven'>them as a reminder</span> that, without the vote, women were deprived of their freedom. At the top of the <span class='qtwelve'>tiers, stood a woman</span> dressed as Lady Liberty.</p><p>Edna Gellhorn witnessed a victory that year when votes for women <span class='thirteen'>would became</span> part of the 1916 Democratic Party’s <span class='fourteen'>set of positions, or</span> platform. Then finally in August 1920, after more than seventy years and countless parades, speeches, letters, and calls, the Nineteenth <span class='fifteen'>Amendment, to the U.S. Constitution,</span> was ratified, thus giving all women the right to vote.</p></div>"
+        }
+    ],
+    "score_conversion": {
+        "0": 1,
+        "1": 1,
+        "2": 2,
+        "3": 2,
+        "4": 3,
+        "5": 3,
+        "6": 4,
+        "7": 4,
+        "8": 5,
+        "9": 5,
+        "10": 6,
+        "11": 6,
+        "12": 6,
+        "13": 7,
+        "14": 7,
+        "15": 8,
+        "16": 8,
+        "17": 8,
+        "18": 9,
+        "19": 9,
+        "20": 10,
+        "21": 10,
+        "22": 11,
+        "23": 11,
+        "24": 12,
+        "25": 12,
+        "26": 13,
+        "27": 13,
+        "28": 14,
+        "29": 14,
+        "30": 15,
+        "31": 15,
+        "32": 15,
+        "33": 16,
+        "34": 16,
+        "35": 17,
+        "36": 17,
+        "37": 18,
+        "38": 18,
+        "39": 18,
+        "40": 19,
+        "41": 19,
+        "42": 20,
+        "43": 20,
+        "44": 20,
+        "45": 21,
+        "46": 21,
+        "47": 21,
+        "48": 22,
+        "49": 22,
+        "50": 23,
+        "51": 23,
+        "52": 23,
+        "53": 24,
+        "54": 24,
+        "55": 25,
+        "56": 25,
+        "57": 25,
+        "58": 26,
+        "59": 26,
+        "60": 26,
+        "61": 27,
+        "62": 27,
+        "63": 28,
+        "64": 28,
+        "65": 29,
+        "66": 29,
+        "67": 30,
+        "68": 30,
+        "69": 31,
+        "70": 32,
+        "71": 33,
+        "72": 34,
+        "73": 34,
+        "74": 35,
+        "75": 36
+    }
+}

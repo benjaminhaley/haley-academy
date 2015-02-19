@@ -1,0 +1,64 @@
+<br>
+<!-- Test selection -->
+<span class="text-muted">
+
+  <!-- More info -->
+  <i class="fa fa-info-circle clickable"
+     ng-click="show_progress()"
+     popover="See your progress on the test" 
+     popover-placement="right" 
+     popover-trigger="mouseenter"></i>
+     
+  <!-- Test title -->
+  <span class="dropdown" 
+        dropdown 
+        on-toggle="toggled(open)"
+        popover="Change test" 
+        popover-placement="right" 
+        popover-trigger="mouseenter">
+    <span class="dropdown-toggle clickable"
+          dropdown-toggle>
+      {{test.name}}
+    </span>
+    <ul class="dropdown-menu">
+      <li ng-repeat="t in tests">
+        <a href
+           ng-click="set_current(t)"
+        >{{t.name}}</a>
+      </li>
+    </ul>
+  </span>
+</span>
+
+<!-- Show discussion history -->    
+<span class="pull-right text-muted text-center">
+  <!-- Show discussion history -->
+  <span class="clickable"
+        ng-click="load_history(); show_history()"
+        popover="Show recent discussion" 
+        popover-placement="bottom" 
+        popover-trigger="mouseenter">
+    <small><small><small>
+      <span class="fa-stack">
+          <i class="fa fa-comment-o fa-stack-2x"></i>
+          <i class="fa fa-stack-1x">{{new_message_count()}}</i>
+      </span>
+    </small></small></small>
+  </span>
+  &nbsp;
+
+  <!-- Log in -->
+  <i class="fa fa-user clickable"
+     data-toggle="modal" 
+     data-target="#log_in_modal"
+     popover="Change user" 
+     popover-placement="bottom" 
+     popover-trigger="mouseenter">
+  </i>&nbsp;&nbsp;
+
+  <!-- User Account -->
+  {{user}}
+  &nbsp;
+</span>
+<br>
+<br>

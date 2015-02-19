@@ -1,0 +1,95 @@
+<div class="modal fade" 
+     id="progress_modal" 
+     tabindex="-1" 
+     role="dialog" 
+     aria-labelledby="progress_modal_label" 
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" 
+                class="close" 
+                data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title" 
+            id="progress_modal_label">
+            <i class="fa fa-info-circle"></i> 
+            <span>{{test.name}}</span>
+            
+          <!-- Test Actions (restart, check) -->
+          &nbsp;
+          <span   class="clickable">
+            <span class="text-muted" 
+                  ng-really-message="Restart the test and lose your progress? Your discussion contributions will remain." 
+                  ng-really-click="reset()" 
+                  popover="Restart the test" 
+                  popover-placement="right" 
+                  popover-trigger="mouseenter">
+                    <small><i class="fa fa-refresh"></i></small>
+            </span>
+          </span>
+          &nbsp;
+          <span   class="clickable">
+            <span class="text-muted" 
+                  popover="Check the whole test." 
+                  popover-placement="right" 
+                  popover-trigger="mouseenter"
+                  ng-really-message="Stop working and grade the entire test?" 
+                  ng-really-click="check_all()">
+                    <small><i class="fa fa-check"></i></small>
+            </span>
+          </span>
+        </h4>
+      </div>
+      <div class="modal-body"
+           ng-if="is_progress_showing()">
+    
+        <!-- Progress summary -->
+        <br>
+        <table>
+          <tr>
+            <th>
+              <div class="smashed">
+                <span ng-repeat="question in problems">
+                  <span ng-if="question.number == 1 || question.start_of_section"><br><br></span>
+                  <span class="problem clickable"
+                        ng-class="{current_problem: problem_number === $index,
+                                   answered_problem: get_my(question.attempts).choice ||  get_my(question.attempts).graded}" 
+                        popover="{{problem_summary}}" 
+                        popover-placement="right" 
+                        popover-trigger="mouseenter"
+                        ng-click="set_current_problem($index)"
+                        ng-mouseenter="problem_summary = get_problem_summary($index)">
+                    <i class="fa fa-stop fa-fw" 
+                       ng-if="!get_my(question.attempts).graded"></i>
+                    <i class="fa fa-plus fa-fw" 
+                       ng-if="get_my(question.attempts).correct"></i>
+                    <i class="fa fa-minus fa-fw text-danger" 
+                       ng-if="get_my(question.attempts).wrong"></i>
+                  </span>
+                </span>
+              </div>
+            </th>
+
+            <th>&nbsp;&nbsp;&nbsp;</th>
+        
+            <!-- Totals -->
+            <th>
+              <small>
+                <i class="fa fa-plus fa-fw"></i> 
+                {{attempt_count('correct')}} correct
+                <br><i class="fa fa-minus fa-fw text-danger"></i> 
+                {{attempt_count('wrong')}} wrong
+              </small>
+            </th>
+          </tr>
+        </table>
+        <br>
+        <hr>
+        <b>Your current score is {{score(attempt_count('correct'))}}</b>
+      </div>
+    </div>
+  </div>
+</div> 

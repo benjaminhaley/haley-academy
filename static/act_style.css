@@ -1,0 +1,194 @@
+  .foils {
+  	list-style-type:none;
+  	margin:.5em 0 0 1.3em;
+  }
+  
+  .foils li {
+  	text-indent:-1.3em;
+  }
+  
+  .foil-letter {font-weight:bold;}
+  
+  
+  /* Styles for English Questions */
+  
+  .passage p {
+  	line-height:2em;
+  	text-indent:2em;
+  	font-family:Times New Roman, serif;
+  	font-size:1.1em;
+  	}
+  
+  .passage h3 {
+  	font-size:1.1em;
+  	font-family:Times New Roman, serif;
+  	font-weight:bold;
+  	text-align:center;
+  }
+  	
+  .passage span {
+  	padding-bottom:.8em;
+  	}
+  	
+  span.box {
+  	border:1px solid #000;
+  	padding:2px 5px;
+  	font-size:11px;
+  	color:#000;
+  	font-weight:bold;
+  	}
+  	
+  .qone { background: url(http://media.actstudent.org/designimages/one.gif) 50% 100% no-repeat; }
+  .qtwo { background: url(http://media.actstudent.org/designimages/two.gif) 50% 100% no-repeat; }
+  .qthree { background: url(http://media.actstudent.org/designimages/three.gif) 50% 100% no-repeat; }
+  .qfour { background: url(http://media.actstudent.org/designimages/four.gif) 50% 100% no-repeat; }
+  .qfive { background: url(http://media.actstudent.org/designimages/five.gif) 50% 100% no-repeat; }
+  .qsix { background: url(http://media.actstudent.org/designimages/six.gif) 50% 100% no-repeat; }
+  .qseven { background: url(http://media.actstudent.org/designimages/seven.gif) 50% 100% no-repeat; }
+  .qeight { background: url(http://media.actstudent.org/designimages/eight.gif) 50% 100% no-repeat; }
+  .qnine { background: url(http://media.actstudent.org/designimages/nine.gif) 50% 100% no-repeat; }
+  .qten { background: url(http://media.actstudent.org/designimages/ten.gif) 50% 100% no-repeat; }
+  
+  .qeleven { background: url(http://media.actstudent.org/designimages/eleven.gif) 50% 100% no-repeat; }
+  .qtwelve { background: url(http://media.actstudent.org/designimages/twelve.gif) 50% 100% no-repeat; }
+  .thirteen { background: url(http://media.actstudent.org/designimages/thirteen.gif) 50% 100% no-repeat; }
+  .fourteen { background: url(http://media.actstudent.org/designimages/fourteen.gif) 50% 100% no-repeat; }
+  .fifteen { background: url(http://media.actstudent.org/designimages/fifteen.gif) 50% 100% no-repeat; }
+  .sixteen { background: url(http://media.actstudent.org/designimages/sixteen.gif) 50% 100% no-repeat; }
+  .seventeen { background: url(http://media.actstudent.org/designimages/seventeen.gif) 50% 100% no-repeat; }
+  .eighteen { background: url(http://media.actstudent.org/designimages/eighteen.gif) 50% 100% no-repeat; }
+  .nineteen { background: url(http://media.actstudent.org/designimages/nineteen.gif) 50% 100% no-repeat; }
+  
+  .twenty { background: url(http://media.actstudent.org/designimages/twenty.gif) 50% 100% no-repeat; }
+  .twentyone { background: url(http://media.actstudent.org/designimages/twentyone.gif) 50% 100% no-repeat; }
+  .twentytwo { background: url(http://media.actstudent.org/designimages/twentytwo.gif) 50% 100% no-repeat; }
+  .twentythree { background: url(http://media.actstudent.org/designimages/twentythree.gif) 50% 100% no-repeat; }
+  .twentyfour { background: url(http://media.actstudent.org/designimages/twentyfour.gif) 50% 100% no-repeat; }
+  .twentyfive { background: url(http://media.actstudent.org/designimages/twentyfive.gif) 50% 100% no-repeat; }
+  .twentysix { background: url(http://media.actstudent.org/designimages/twentysix.gif) 50% 100% no-repeat; }
+  .twentyseven { background: url(http://media.actstudent.org/designimages/twentyseven.gif) 50% 100% no-repeat; }
+  .twentyeight { background: url(http://media.actstudent.org/designimages/twentyeight.gif) 50% 100% no-repeat; }
+  .twentynine { background: url(http://media.actstudent.org/designimages/twentynine.gif) 50% 100% no-repeat; }
+  
+  .thirty { background: url(http://media.actstudent.org/designimages/thirty.gif) 50% 100% no-repeat; }
+  .thirtyone { background: url(http://media.actstudent.org/designimages/thirtyone.gif) 50% 100% no-repeat; }
+  .thirtytwo { background: url(http://media.actstudent.org/designimages/thirtytwo.gif) 50% 100% no-repeat; }
+  .thirtythree { background: url(http://media.actstudent.org/designimages/thirtythree.gif) 50% 100% no-repeat; }
+  .thirtyfour { background: url(http://media.actstudent.org/designimages/thirtyfour.gif) 50% 100% no-repeat; }
+  .thirtyfive { background: url(http://media.actstudent.org/designimages/thirtyfive.gif) 50% 100% no-repeat; }
+  .thirtysix { background: url(http://media.actstudent.org/designimages/thirtysix.gif) 50% 100% no-repeat; }
+  .thirtyseven { background: url(http://media.actstudent.org/designimages/thirtyseven.gif) 50% 100% no-repeat; }
+  .thirtyeight { background: url(http://media.actstudent.org/designimages/thirtyeight.gif) 50% 100% no-repeat; }
+  .thirtynine { background: url(http://media.actstudent.org/designimages/thirtynine.gif) 50% 100% no-repeat; }
+  
+  .forty { background: url(http://media.actstudent.org/designimages/forty.gif) 50% 100% no-repeat; }
+  .fortyone { background: url(http://media.actstudent.org/designimages/fortyone.gif) 50% 100% no-repeat; }
+  .fortytwo { background: url(http://media.actstudent.org/designimages/fortytwo.gif) 50% 100% no-repeat; }
+  .fortythree { background: url(http://media.actstudent.org/designimages/fortythree.gif) 50% 100% no-repeat; }
+  .fortyfour { background: url(http://media.actstudent.org/designimages/fortyfour.gif) 50% 100% no-repeat; }
+  .fortyfive { background: url(http://media.actstudent.org/designimages/fortyfive.gif) 50% 100% no-repeat; }
+  .fortysix { background: url(http://media.actstudent.org/designimages/fortysix.gif) 50% 100% no-repeat; }
+  .fortyseven { background: url(http://media.actstudent.org/designimages/fortyseven.gif) 50% 100% no-repeat; }
+  .fortyeight { background: url(http://media.actstudent.org/designimages/fortyeight.gif) 50% 100% no-repeat; }
+  .fortynine { background: url(http://media.actstudent.org/designimages/fortynine.gif) 50% 100% no-repeat; }
+  
+  .fifty { background: url(http://media.actstudent.org/designimages/fifty.gif) 50% 100% no-repeat; }
+  .fiftyone { background: url(http://media.actstudent.org/designimages/fiftyone.gif) 50% 100% no-repeat; }
+  .fiftytwo { background: url(http://media.actstudent.org/designimages/fiftytwo.gif) 50% 100% no-repeat; }
+  .fiftythree { background: url(http://media.actstudent.org/designimages/fiftythree.gif) 50% 100% no-repeat; }
+  .fiftyfour { background: url(http://media.actstudent.org/designimages/fiftyfour.gif) 50% 100% no-repeat; }
+  .fiftyfive { background: url(http://media.actstudent.org/designimages/fiftyfive.gif) 50% 100% no-repeat; }
+  .fiftysix { background: url(http://media.actstudent.org/designimages/fiftysix.gif) 50% 100% no-repeat; }
+  .fiftyseven { background: url(http://media.actstudent.org/designimages/fiftyseven.gif) 50% 100% no-repeat; }
+  .fiftyeight { background: url(http://media.actstudent.org/designimages/fiftyeight.gif) 50% 100% no-repeat; }
+  .fiftynine { background: url(http://media.actstudent.org/designimages/fiftynine.gif) 50% 100% no-repeat; }
+  
+  .sixty { background: url(http://media.actstudent.org/designimages/sixty.gif) 50% 100% no-repeat; }
+  .sixtyone { background: url(http://media.actstudent.org/designimages/sixtyone.gif) 50% 100% no-repeat; }
+  .sixtytwo { background: url(http://media.actstudent.org/designimages/sixtytwo.gif) 50% 100% no-repeat; }
+  .sixtythree { background: url(http://media.actstudent.org/designimages/sixtythree.gif) 50% 100% no-repeat; }
+  .sixtyfour { background: url(http://media.actstudent.org/designimages/sixtyfour.gif) 50% 100% no-repeat; }
+  .sixtyfive { background: url(http://media.actstudent.org/designimages/sixtyfive.gif) 50% 100% no-repeat; }
+  .sixtysix { background: url(http://media.actstudent.org/designimages/sixtysix.gif) 50% 100% no-repeat; }
+  .sixtyseven { background: url(http://media.actstudent.org/designimages/sixtyseven.gif) 50% 100% no-repeat; }
+  .sixtyeight { background: url(http://media.actstudent.org/designimages/sixtyeight.gif) 50% 100% no-repeat; }
+  .sixtynine { background: url(http://media.actstudent.org/designimages/sixtynine.gif) 50% 100% no-repeat; }
+  
+  .seventy { background: url(http://media.actstudent.org/designimages/seventy.gif) 50% 100% no-repeat; }
+  .seventyone { background: url(http://media.actstudent.org/designimages/seventyone.gif) 50% 100% no-repeat; }
+  .seventytwo { background: url(http://media.actstudent.org/designimages/seventytwo.gif) 50% 100% no-repeat; }
+  .seventythree { background: url(http://media.actstudent.org/designimages/seventythree.gif) 50% 100% no-repeat; }
+  .seventyfour { background: url(http://media.actstudent.org/designimages/seventyfour.gif) 50% 100% no-repeat; }
+  .seventyfive { background: url(http://media.actstudent.org/designimages/seventyfive.gif) 50% 100% no-repeat; }
+  
+  .questions {
+  	font-family:Times New Roman, serif;
+  	font-size:1.1em;
+  }
+  
+  .newitem {
+  	margin-top:2em;
+  }
+  
+  /* Styles for Reading Questions */
+  
+  .readingpassage p {
+    left: 2em;
+  	font-size:1.1em;
+  	font-family:Times New Roman, serif;
+  	white-space:nowrap;
+  	line-height:2em;
+  	text-indent:2em;
+  	position:relative;
+  }
+  .readingpassage h3 {
+    left: 2em;
+  }
+  .linenumber {
+  	position:absolute;
+  	left:-3em;
+    font-weight: bold;
+    font-family:Arial, sans-serif;
+  }
+  
+  .linenumber2 {
+  	position:absolute;
+  	left:-3.5em;
+    font-weight: bold;
+    font-family:Arial, sans-serif;
+  }
+  
+  /* Styles for Science Questions */
+  
+  .scipassage h3 {
+  	font-family:Times New Roman, serif;
+  	font-style:italic;
+  	font-size:1.2em;
+  	font-weight:normal;
+  }
+  
+  .scipassage p {
+  	font-size:1.1em;
+  	font-family:Times New Roman, serif;
+  	line-height:2em;
+  	text-indent:2em;
+  }
+  
+  .top {vertical-align: top;}
+  
+  .questions h2 {font-family:Arial, sans-serif;}
+  
+  .mathfigure {margin-top:.9em;}
+  
+  .figurelabel {text-align:center;font-family:Times New Roman, serif;margin-bottom:1em;}
+  
+  .scipassage p.note {font-family:Arial,sans-serif;font-size:1em;white-space:normal;text-indent:0;line-height:1.2em;}
+  
+  .readingpassage p.citation{font-family:Arial,sans-serif;font-size:1em;white-space:normal;text-indent:0;line-height:1.2em;}
+  
+  /* Styles for MATH Questions */
+  
+  .sq {
+      background: url("http://media.act.org/images/squareroot.gif") no-repeat scroll 0 0 transparent;
+      padding: 2px 2px 2px 15px;
+  }

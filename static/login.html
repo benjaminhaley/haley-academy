@@ -1,0 +1,50 @@
+<div class="modal fade" 
+     id="log_in_modal" 
+     tabindex="-1" 
+     role="dialog" 
+     aria-labelledby="log_in_modal_label" 
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title" 
+            id="log_in_modal_label"><i class="fa fa-user"></i> Log in</h4>
+      </div>
+      <div class="modal-body">
+        <div class="alert alert-warning" 
+             role="alert"
+             ng-if="log_in_message">{{log_in_message}}</div>
+             
+        <form>
+          <div class="form-group">
+            <label for="user_to_login_name">Your name</label>
+            <input 
+                  id="user_to_login_name"
+                  type="text" 
+                  ng-model="user_to_login_name" 
+                  placeholder="John Doe" 
+                  typeahead="name for name in users() | filter:$viewValue | limitTo:5" 
+                  typeahead-loading="laoding_user_list" 
+                  class="form-control">
+            <i ng-show="laoding_user_list" 
+               class="glyphicon glyphicon-refresh"></i>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" 
+                class="btn btn-default" 
+                data-dismiss="modal"
+                ng-click="log_out()">Log out</button>
+        <button type="button" 
+                class="btn btn-primary" 
+                data-dismiss="modal"
+                ng-click="log_in(user_to_login_name)">Log in</button>
+      </div>
+    </div>
+  </div>
+</div>

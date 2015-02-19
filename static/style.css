@@ -1,0 +1,49 @@
+.problem {
+  opacity: 0.2;
+}
+.answered_problem {
+  opacity: 0.4;
+}
+.current_problem {
+  opacity: 1.0;
+}
+.container {
+  max-width: 600px;
+}
+.smashed {
+  font-size: 8px;
+  line-height: 2px;
+}
+.correct_option {
+  opacity: 0.5;
+}
+.incorrect_option {
+  opacity: 0.3;
+}
+.popover-content {
+  color: black;
+  font-size: 12px;
+  line-height: 12px;
+}
+.no-bullets {
+  list-style-type: none;
+}
+.clickable{
+  cursor: pointer;
+}
+.fa{
+  vertical-align: middle;
+}
+.table tbody tr.highlight td { 
+    background-color: #ddd;
+}
+.problem_passage {
+  overflow-y: scroll; 
+  height:200px;
+  padding: 15px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fff;
+  border-color: #ddd;
+  border-radius: 4px 4px 4px 4px;
+}

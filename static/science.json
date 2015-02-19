@@ -1,0 +1,557 @@
+{
+    "problems": [
+        {
+            "section": 1,
+            "number": 1,
+            "prompt": "Which of the following best describes how the 2 scientists explain how craters are removed from Europa's surface?",
+            "options": {
+                "A": "<u>Scientist 1</u>: Sublimation - <u>Scientist 2</u>: Filled in by water",
+                "B": "<u>Scientist 1</u>: Filled in by water - <u>Scientist 2</u>: Sublimation",
+                "C": "<u>Scientist 1</u>: Worn smooth by wind - <u>Scientist 2</u>: Sublimation",
+                "D": "<u>Scientist 1</u>: Worn smooth by wind - <u>Scientist 2</u>: Filled in by water"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 1,
+            "number": 2,
+            "prompt": "According to the information provided, which of the following descriptions of Europa would be accepted by both scientists?",
+            "options": {
+                "F": "Europa has a larger diameter than does Jupiter.",
+                "G": "Europa has a surface made of rocky material.",
+                "H": "Europa has a surface temperature of 20°C.",
+                "J": "Europa is completely covered by a layer of ice."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 1,
+            "number": 3,
+            "prompt": "With which of the following statements about the conditions on Europa or the evolution of Europa's surface would both Scientist 1 and Scientist 2 most likely agree? The surface of Europa:",
+            "options": {
+                "A": "is being shaped by the movement of ice.",
+                "B": "is covered with millions of meteorite craters.",
+                "C": "is the same temperature as the surface of the Arctic Ocean on Earth.",
+                "D": "has remained unchanged for millions of years."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 1,
+            "number": 4,
+            "prompt": "Which of the following statements about meteorite craters on Europa would be most consistent with both scientists' views?",
+            "options": {
+                "F": "No meteorites have struck Europa for millions of years.",
+                "G": "Meteorite craters, once formed, are then smoothed or removed by Europa's surface processes.",
+                "H": "Meteorite craters, once formed on Europa, remain unchanged for billions of years.",
+                "J": "Meteorites frequently strike Europa's surface but do not leave any craters."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 1,
+            "number": 5,
+            "prompt": "Scientist 2 explains that ice sublimes to water vapor and enters Europa's atmosphere. If ultraviolet light then broke those water vapor molecules apart, which of the following gases would one most likely expect to find in Europa's atmosphere as a result of this process?",
+            "options": {
+                "A": "Nitrogen",
+                "B": "Methane",
+                "C": "Chlorine",
+                "D": "Oxygen"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 1,
+            "number": 6,
+            "prompt": "Based on the information in Scientist 1's view, which of the following materials must be present on Europa if a magnetic field is to be generated on Europa?",
+            "options": {
+                "F": "Frozen nitrogen",
+                "G": "Water ice",
+                "H": "Dissolved salts",
+                "J": "Molten magma"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 1,
+            "number": 7,
+            "prompt": "Assume Scientist 2's view about the similarities between Europa's surface features and flowing glaciers on Earth is correct. Based on this assumption and the information provided, Earth's glaciers would be least likely to exhibit which of the following features?",
+            "options": {
+                "A": "Pressure ridges",
+                "B": "Cracks",
+                "C": "Meteorite craters",
+                "D": "Dark bands"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 2,
+            "number": 1,
+            "prompt": "Which of the following best describes the difference between the procedures used in Experiments 1 and 2 ? In Experiment 1, the:",
+            "options": {
+                "A": "temperature was varied; in Experiment 2, the diameter of the tube was varied.",
+                "B": "diameter of the tube was varied; in Experiment 2, the temperature was varied.",
+                "C": "distance between the swabs was varied; in Experiment 2, the temperature was varied.",
+                "D": "temperature was varied; in Experiment 2, the distance between the swabs was varied."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 2,
+            "number": 2,
+            "prompt": "Which of the following sets of trials in Experiments 1, 2, and 3 were conducted with identical sets of conditions?",
+            "options": {
+                "F": "Trials 2, 3, and 4",
+                "G": "Trials 1, 5, and 9",
+                "H": "Trials 4, 7, and 9",
+                "J": "Trials 10, 11, and 12"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 3,
+            "prompt": "Based on the results of Experiment 1, which of the following graphs best shows the relationship between the temperature and the distance of the ring from the HCl swab?",
+            "options": {
+                "A": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4215_f.gif'></image>",
+                "B": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4215_g.gif'></image>",
+                "C": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4215_h.gif'></image>",
+                "D": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4215_j.gif'></image>"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 2,
+            "number": 4,
+            "prompt": "If a trial in Experiment 3 had been performed with the swabs 25 cm apart, the distance from the HCl swab to the ring would most likely have been closest to:",
+            "options": {
+                "F": "8 cm.",
+                "G": "10 cm.",
+                "H": "12 cm.",
+                "J": "14 cm."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 2,
+            "number": 5,
+            "prompt": "If another student wanted to test a factor that was not studied in Experiments 1–3, which of the following should he do next? He should test how the diffusion rates of gases are affected by:",
+            "options": {
+                "A": "atmospheric pressure.",
+                "B": "tube length.",
+                "C": "temperature.",
+                "D": "tube diameter."
+            },
+            "answer": "A"
+        },
+        {
+            "section": 2,
+            "number": 6,
+            "prompt": "The student concluded that NH3 diffuses at a greater rate than HCl. Do the results of Experiments 1–3 support her conclusion?",
+            "options": {
+                "F": "No; in Trials 1–9 the HCl vapors traveled farther than the NH3 vapors.",
+                "G": "No; in Trials 1–9 the NH3 vapors traveled farther than the HCl vapors.",
+                "H": "Yes; in Trials 1–9 the HCl vapors traveled farther than the NH3 vapors.",
+                "J": "Yes; in Trials 1–9 the NH3 vapors traveled farther than the HCl vapors."
+            },
+            "answer": "J"
+        },
+        {
+            "section": 3,
+            "number": 1,
+            "prompt": "In general, the results of Study 1 suggest that peony seeds that are placed in a petri dish containing damp paper are most likely to germinate when they are maintained at which of the following temperatures?",
+            "options": {
+                "A": "13°C",
+                "B": "18°C",
+                "C": "23°C",
+                "D": "28°C"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 3,
+            "number": 2,
+            "prompt": "Suppose another set of 25 peony seeds had been included in Study 2 and these seeds had a storage temperature of 25°C and a germination temperature of 18°C. Based on the information provided, the number of seeds that would have germinated after being maintained for 30 days would most likely have been closest to:",
+            "options": {
+                "F": "0.",
+                "G": "8.",
+                "H": "16.",
+                "J": "24."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 3,
+            "number": 3,
+            "prompt": "In Study 2, at the storage temperature of 5°C, as germination temperature increased from 13°C to 28°C, the number of seeds that germinated:",
+            "options": {
+                "A": "decreased only.",
+                "B": "increased only.",
+                "C": "decreased, then increased.",
+                "D": "increased, then decreased."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 3,
+            "number": 4,
+            "prompt": "Which of the following sets of seeds were exposed to the same conditions prior to being placed in the petri dishes?",
+            "options": {
+                "F": "The seeds from Study 1 that were stored for 8 weeks and the seeds from Study 2 that were stored at 5°C",
+                "G": "The seeds from Study 1 that were stored for 8 weeks and the seeds from Study 2 that were stored at 15°C",
+                "H": "The seeds from Study 1 that were stored for 10 weeks and the seeds from Study 2 that were stored at 5°C",
+                "J": "The seeds from Study 1 that were stored for 10 weeks and the seeds from Study 2 that were stored at 15°C"
+            },
+            "answer": "H"
+        },
+        {
+            "section": 3,
+            "number": 5,
+            "prompt": "A student stored 100 peony seeds at a constant temperature for 10 weeks. The student then divided the seeds into 4 sets and maintained them as described in Study 2. The results were as follows:<p>&nbsp;</p><table class='table' style='width: 100%;' border='1' cellpadding='5' cellspacing='0'><thead> <tr><th scope='col'>Germination<br> temperature (°C)</th><th scope='col'>Number of seeds<br> that germinated</th></tr></thead> <tbody><tr><td>13<br>18<br>23<br>28</td><td>1<br>6<br>3<br>0</td></tr></tbody></table>These seeds most likely had a storage temperature of:",
+            "options": {
+                "A": "0°C.",
+                "B": "5°C.",
+                "C": "10°C.",
+                "D": "15°C."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 3,
+            "number": 6,
+            "prompt": "The experimental designs of Study 2 and Study 1 differed in that in Study 2:",
+            "options": {
+                "F": "storage temperature was held constant.",
+                "G": "storage time was held constant.",
+                "H": "germination temperature was varied.",
+                "J": "germination time was varied."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 4,
+            "number": 1,
+            "prompt": "According to Study 2, the thermal conductivity of rock salt measured at a temperature of 500°C would be closest to which of the following values?",
+            "options": {
+                "A": "1.0 W/m°C",
+                "B": "2.0 W/m°C",
+                "C": "3.5 W/m°C",
+                "D": "4.0 W/m°C"
+            },
+            "answer": "B"
+        },
+        {
+            "section": 4,
+            "number": 2,
+            "prompt": "According to Study 3, if another set of temperatures had been calculated for a time 1,000,000 years in the future, the calculated temperature increase in any of the 4 rock types would most likely be closest to:",
+            "options": {
+                "F": "0°C.",
+                "G": "10°C.",
+                "H": "20°C.",
+                "J": "30°C."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 4,
+            "number": 3,
+            "prompt": "<i>Welded tuff</i> (another rock type) has a thermal conductivity of 1.8 W/m°C at 25°C. If measurements of the temperature of this rock type adjacent to SF canisters were taken as in Study 1, the recorded temperature would be closest to:",
+            "options": {
+                "A": "100°C.",
+                "B": "110°C.",
+                "C": "120°C.",
+                "D": "130°C."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 4,
+            "number": 4,
+            "prompt": "According to the results of Study 1, which of the following best describes the relationship between thermal conductivity and rock temperature? As thermal conductivity increases, the rock temperature recorded adjacent to buried SF canisters:",
+            "options": {
+                "F": "decreases only.",
+                "G": "increases only.",
+                "H": "increases, then decreases.",
+                "J": "remains the same."
+            },
+            "answer": "F"
+        },
+        {
+            "section": 4,
+            "number": 5,
+            "prompt": "Based only on the information provided, which of the following rock types would be the safest in which to bury SF?",
+            "options": {
+                "A": "Rock salt",
+                "B": "Granite",
+                "C": "Basalt",
+                "D": "Shale"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 4,
+            "number": 6,
+            "prompt": "Which of the following procedures, in addition to Studies 1, 2, and 3, would best test whether the amount of heat generated by SF is related to the mass of the SF?",
+            "options": {
+                "F": "Following the design of Study 1 but using concrete canisters containing 0.4 metric tons of SF",
+                "G": "Following the design of Study 1 but using stainless steel canisters containing 0.8 metric tons of SF",
+                "H": "Following the design of Study 2 but determining the thermal conductivities of twice as much of each rock type",
+                "J": "Following the design of Study 3 but determining the rock temperatures 0.5 km from the sites of SF burial"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 1,
+            "prompt": "The information in Tables 1 and 2 supports the conclusion that Sample 3 contains:",
+            "options": {
+                "A": "Cu<sup>2+</sup> and Cd<sup>2+</sup> only.",
+                "B": "Co<sup>2+</sup> and Hg<sup>2+</sup> only.",
+                "C": "Ni<sup>2+</sup>, Co<sup>2+</sup>, and Cd<sup>2+</sup> only.",
+                "D": "Ni<sup>2+</sup>, Cd<sup>2+</sup>, and Hg<sup>2+</sup> only."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 5,
+            "number": 2,
+            "prompt": "Based on the information in Tables 1 and 2, one can conclude that Sample 2 contains:",
+            "options": {
+                "F": "1 metal ion only.",
+                "G": "2 metal ions only.",
+                "H": "either 1 or 2 metal ions.",
+                "J": "more than 2 metal ions."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 5,
+            "number": 3,
+            "prompt": "Based on the information in Table 1, which of the following lists the metal ions in order from the fastest to slowest speed with which they moved up the paper?",
+            "options": {
+                "A": "Hg<sup>2+</sup>, Cd<sup>2+</sup>, Cu<sup>2+</sup>, Co<sup>2+</sup>, Ni<sup>2+</sup>",
+                "B": "Cd<sup>2+</sup>, Cu<sup>2+</sup>, Co<sup>2+</sup>, Hg<sup>2+</sup>, Ni<sup>2+</sup>",
+                "C": "Ni<sup>2+</sup>, Hg<sup>2+</sup>, Co<sup>2+</sup>, Cu<sup>2+</sup>, Cd<sup>2+</sup>",
+                "D": "Ni<sup>2+</sup>, Co<sup>2+</sup>, Cu<sup>2+</sup>, Cd<sup>2+</sup>, Hg<sup>2+</sup>"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 5,
+            "number": 4,
+            "prompt": "Based on the information in Table 2, which of the following figures best illustrates the appearance of the filter paper after Sample 1 was analyzed?",
+            "options": {
+                "F": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4325_a.gif'></image>",
+                "G": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4325_b.gif'></image>",
+                "H": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4325_c.gif'></image>",
+                "J": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/4325_d.gif'></image>"
+            },
+            "answer": "F"
+        },
+        {
+            "section": 5,
+            "number": 5,
+            "prompt": "Based on the information in Table 1, to best identify a metal ion using paper chromatography, one should know the:",
+            "options": {
+                "A": "spot color for the ion only.",
+                "B": "distance the solvent traveled only.",
+                "C": "Rf value and spot color for the ion only.",
+                "D": "distance the solvent traveled and spot color of the ion only."
+            },
+            "answer": "C"
+        },
+        {
+            "section": 6,
+            "number": 1,
+            "prompt": "Based on Figure 1, Material A's temperature increased the fastest during which of the following time intervals?",
+            "options": {
+                "A": "0 – 2 sec",
+                "B": "2 – 12 sec",
+                "C": "12 – 22 sec",
+                "D": "22 – 24 sec"
+            },
+            "answer": "D"
+        },
+        {
+            "section": 6,
+            "number": 2,
+            "prompt": "Based on the passage and Table 1, what was the density of liquid Material A?",
+            "options": {
+                "F": "0.5 g/cm<sup>3</sup>",
+                "G": "1 g/cm<sup>3</sup>",
+                "H": "5 g/cm<sup>3</sup>",
+                "J": "10 g/cm<sup>3</sup>"
+            },
+            "answer": "G"
+        },
+        {
+            "section": 6,
+            "number": 3,
+            "prompt": "Suppose 1 g of Material D at –10°C is heated at the rate of 10 cal/sec and kept at 1 atm until all of the liquid is vaporized. Based on Figure 1 and Table 2, a plot of Material D's temperature versus time would be best represented by which of the following graphs?",
+            "options": {
+                "A": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/3878_a.gif'></image>",
+                "B": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/3878_b.gif'></image>",
+                "C": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/3878_c.gif'></image>",
+                "D": "<image src='http://dl.dropbox.com/u/1131693/bloodrop/3878_d.gif'></image>"
+            },
+            "answer": "C"
+        },
+        {
+            "section": 6,
+            "number": 4,
+            "prompt": "Table 1 and Figure 1 best support which of the following hypotheses about the temperature and volume of Material A?<br>(Note: Pressure is assumed to stay constant.)",
+            "options": {
+                "F": "If liquid Material A is in contact with gaseous Material A and the volume of the gas increases, the gas's temperature will increase.",
+                "G": "If liquid Material A is in contact with gaseous Material A and the volume of the gas increases, the gas's temperature will decrease.",
+                "H": "When the temperature of gaseous Material A increases, its volume will increase.",
+                "J": "When the temperature of liquid Material A increases, its volume will increase."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 6,
+            "number": 5,
+            "prompt": "Suppose 1 g samples of liquid Materials A–D are just beginning to boil. If each of the liquids absorbs heat at the rate of 10 cal/sec while kept at 1 atm, which of the liquids will be the first to be completely turned into a gas?",
+            "options": {
+                "A": "Material A",
+                "B": "Material B",
+                "C": "Material C",
+                "D": "Material D"
+            },
+            "answer": "A"
+        },
+        {
+            "section": 7,
+            "number": 1,
+            "prompt": "Based on Table 1, which of the following statements best explains the results of Trials 1–3?",
+            "options": {
+                "A": "The light was too intense to eject electrons from the metal in the photocell.",
+                "B": "The light was too intense to eject photons from the metal in the photocell.",
+                "C": "The energy per electron was too high to eject photons from the metal in the photocell.",
+                "D": "The energy per photon was too low to eject electrons from the metal in the photocell."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 7,
+            "number": 2,
+            "prompt": "Consider the following results, obtained using 5.0&nbsp;eV photons and the same photocell that is discussed in the passage.<br>  <table class='table table-bordered'> <thead>  <tr valign='bottom'> <th scope='col'>Relative<br>intensity<br>of light</th><th scope='col'>Electrical<br>current (mA)</th><th scope='col'>Maximum kinetic<br>energy of ejected<br>electron (eV)</th> </tr> </thead>  <tbody> <tr> <td class='alignl'>low<br>medium<br>high</td> <td>28<br>42<br>58</td> <td>3.1<br>3.1<br>3.1</td> </tr> </tbody> </table> <br> The maximum kinetic energy of the ejected electron, 3.1&nbsp;eV, was not the expected value. The expected value was:  ",
+            "options": {
+                "F": "0.0 eV.",
+                "G": "between 0.1 eV and 0.8 eV.",
+                "H": "between 0.9 eV and 2.9 eV.",
+                "J": "greater than 3.0 eV."
+            },
+            "answer": "H"
+        },
+        {
+            "section": 7,
+            "number": 3,
+            "prompt": "When 8.0 eV photons were shone on the photocell, electrons ejected from the metal in the photocell had a maximum kinetic energy of 4.9 eV. Based on this information and Table 1, the relative intensity of the light shone on the photocell:",
+            "options": {
+                "A": "was high.",
+                "B": "was medium.",
+                "C": "was low.",
+                "D": "cannot be determined."
+            },
+            "answer": "D"
+        },
+        {
+            "section": 7,
+            "number": 4,
+            "prompt": "Based on the passage and Table 1, the work function of the metal used in the photocell was:",
+            "options": {
+                "F": "2.0 eV.",
+                "G": "3.1 eV.",
+                "H": "4.9 eV.",
+                "J": "6.0 eV."
+            },
+            "answer": "G"
+        },
+        {
+            "section": 7,
+            "number": 5,
+            "prompt": "In the photocell discussed in the passage, suppose the work function of the metal had been 5.1 eV. If the energy per photon had been the same as in Trials 7–9, the maximum kinetic energy of electrons that were ejected from the metal would have been:",
+            "options": {
+                "A": "0.9 eV.",
+                "B": "2.0 eV.",
+                "C": "4.0 eV.",
+                "D": "5.1 eV."
+            },
+            "answer": "A"
+        }
+    ],
+    "passages": [
+        {
+            "section": 1,
+            "content": "<div class='six columns scipassage'> <h2>Passage I</h2> <p>Unmanned spacecraft taking images of Jupiter's moon Europa have found its surface to be very smooth with few meteorite craters.  Europa's surface ice shows evidence of being continually resmoothed and reshaped.  Cracks, dark bands, and <i>pressure ridges</i> (created when water or slush is squeezed up between 2 slabs of ice) are commonly seen in images of the surface.  Two scientists express their views as to whether the presence of a deep ocean beneath the surface is responsible for Europa's surface features.</p> <h3>Scientist 1</h3> <p>A deep ocean of liquid water exists on Europa. Jupiter's gravitational field produces tides within Europa that can cause heating of the subsurface to a point where liquid water can exist. The numerous cracks and dark bands in the surface ice closely resemble the appearance of thawing ice covering the polar oceans on Earth.  Only a substantial amount of circulating liquid water can crack and rotate such large slabs of ice.  The few meteorite craters that exist are shallow and have been smoothed by liquid water that oozed up into the crater from the subsurface and then quickly froze.</p> <p>Jupiter's magnetic field, sweeping past Europa, would interact with the salty, deep ocean and produce a second magnetic field around Europa. The spacecraft has found evidence of this second magnetic field.</p> <h3>Scientist 2</h3> <p>No deep, liquid water ocean exists on Europa.  The heat generated  by gravitational tides is quickly lost to space because of Europa's small size, as shown by its  very low surface temperature (–160°C).  Many of the features on Europa's surface resemble features created by flowing glaciers on Earth.  Large amounts of liquid water are not required for the  creation of these features.  If a thin layer of ice below the surface is much warmer than the  surface ice, it may be able to flow and cause cracking and movement of the surface ice.  Few  meteorite craters are observed because of Europa's very thin atmosphere; surface ice  continually <i>sublimes</i> (changes from solid to gas) into this atmosphere, quickly eroding and removing any craters that may have formed.</p> </div>"
+        },
+        {
+            "section": 2,
+            "content": "<div class='six columns scipassage'> <h2>Passage II</h2> <p>A student studying how gases diffuse derived the following formula:<br> <img src='http://media.actstudent.org/images/science_p2_formula_01.gif'><br> The following experiments were conducted to test her formula and to study factors affecting the rate at which gases diffuse.</p> <h3>Experiment 1</h3> <p>When hydrogen chloride (HCl) and ammonia (NH<sub>3</sub>) vapors react, they form solid ammonium chloride (NH<sub>4</sub>Cl):</p> <p>HCl(g) + NH<sub>3</sub>(g) → NH<sub>4</sub>Cl(s)</p> <p>A swab soaked with HCl solution was inserted into one end of a glass tube (1&nbsp;cm diameter), and, simultaneously, a swab soaked with NH<sub>3</sub> solution was inserted into the other end, so that the swabs were 10&nbsp;cm apart.  The distance that each vapor traveled could be determined because, at the point they made contact, a white ring of NH<sub>4</sub>Cl formed (see Figure&nbsp;1).  The reaction was done at different temperatures.  The time it took for the ring to start to form and its distance from the HCl swab were measured for each trial (see Table&nbsp;1).</p> <table class='table table-bordered table-striped'> <caption>Table 1</caption> <thead>  <tr> <th scope='col'>Trial</th><th scope='col'>Temperature (°C)</th><th scope='col'>Time (sec)</th><th scope='col'>Distance of ring from HCl swab (cm)</th> </tr> </thead>  <tbody> <tr> <td>1</td> <td>20</td> <td>33</td> <td>4.0</td> </tr> <tr> <td>2</td> <td>30</td> <td>30</td> <td>4.1</td> </tr> <tr> <td>3</td> <td>40</td> <td>26</td> <td>4.1</td> </tr> <tr> <td>4</td> <td>50</td> <td>23</td> <td>4.0</td> </tr> </tbody> </table> <p>Using the formula, the student predicted that the distance of the ring from the HCl swab would be 4.06&nbsp;cm, so the student concluded that her formula was correct.</p> <div class='zoom'><a data-reveal-id='zoomimg' href='http://media.actstudent.org/images/GID-4214.gif'> <img src='http://media.actstudent.org/images/GID-4214_sm.gif' border='0'> </a></div> <div class='reveal-modal' id='zoomimg'><img src='http://media.actstudent.org/images/GID-4214.gif'><a class='close-reveal-modal'>×</a></div> <div class='zoomdetails'><a data-reveal-id='zoomimg' href='http://media.actstudent.org/images/GID-4214.gif' class='zoombtn'> <img src='http://media.actstudent.org/images/zoom.gif' border='0'> </a> <div class='figurelabel'>Figure 1</div> </div> <h3>Experiment 2</h3> <p>Experiment 1 was repeated, but the temperature was held constant at 20°C and the diameter of the tube was varied for each trial (see Table 2).</p> <table class='table table-bordered table-striped'> <caption>Table 2</caption> <thead>  <tr> <th scope='col'>Trial</th><th scope='col'>Tube diameter (cm)</th><th scope='col'>Time (sec)</th><th scope='col'>Distance of ring from HCl swab (cm)</th> </tr> </thead>  <tbody> <tr> <td>5</td> <td>1.0</td> <td>33</td> <td>4.0</td> </tr> <tr> <td>6</td> <td>1.2</td> <td>33</td> <td>4.0</td> </tr> <tr> <td>7</td> <td>1.4</td> <td>33</td> <td>4.1</td> </tr> <tr> <td>8</td> <td>1.6</td> <td>33</td> <td>4.0</td> </tr> </tbody> </table> <h3>Experiment 3</h3> <p>Experiment 2 was repeated, but the diameter of the tube was kept constant at 1 cm and longer tubes were used so that the distance between the swabs could be varied for each trial (see Table 3).</p> <table class='table table-bordered table-striped'> <caption>Table 3</caption> <thead>  <tr> <th scope='col'>Trial</th><th scope='col'>Distance between swabs (cm)</th><th scope='col'>Time (sec)</th><th scope='col'>Distance of ring from HCl swab (cm)</th> </tr> </thead>  <tbody> <tr> <td>9</td> <td>10</td> <td>33</td> <td>4.0</td> </tr> <tr> <td>10</td> <td>20</td> <td>67</td> <td>8.1</td> </tr> <tr> <td>11</td> <td>30</td> <td>101</td> <td>12.2</td> </tr> <tr> <td>12</td> <td>40</td> <td>133</td> <td>16.2</td> </tr> </tbody> </table> </div>"
+        },
+        {
+            "section": 3,
+            "content": "<div class='six columns scipassage'> <h2>Passage III</h2> <p>A student performed 2 studies to investigate the factors that affect the germination of peony seeds.</p> <h3>Study 1</h3> <p>Peony seeds were placed in dry containers. Some of the containers were stored at 5°C for either 4, 6, 8, or 10&nbsp;weeks. The temperature and time periods were defined as the <i>storage temperature</i> and the <i>storage period</i>, respectively.</p> <p>The peony seeds were divided evenly so that there were 20&nbsp;sets of 25&nbsp;seeds. Twenty petri dishes were then prepared. Each contained damp paper. Each set of seeds was placed in a separate petri dish. Each petri dish was maintained at 1 of 4&nbsp;temperatures for 30&nbsp;days. The temperature and time periods were defined as the <i>germination temperature</i> and the <i>germination period</i>, respectively. Table&nbsp;1 shows the number of seeds that germinated in each dish.</p> <table class='table' border='1' cellpadding='5' cellspacing='0'> <caption>Table 1</caption> <thead>  <tr valign='bottom'> <th rowspan='2' scope='col'>Storage<br>period<br>(weeks)</th><th colspan='4' scope='colgroup'>Number of peony seeds that germinated when maintained at a germination temperature of:</th> </tr> <tr> <th scope='col'>13°C</th><th scope='col'>18°C</th><th scope='col'>23°C</th><th scope='col'>28°C</th> </tr> </thead>  <tbody> <tr> <td>&nbsp;0<br>&nbsp;4<br>&nbsp;6<br>&nbsp;8<br>10</td> <td>&nbsp;0<br>&nbsp;0<br>&nbsp;3<br>&nbsp;7<br>15</td> <td>&nbsp;0<br>&nbsp;2<br>&nbsp;8<br>22<br>24</td> <td>&nbsp;0<br>&nbsp;0<br>&nbsp;6<br>18<br>21</td> <td>0<br>0<br>0<br>0<br>1</td> </tr> </tbody> </table> <h3></h3> <h3>Study 2</h3> <p>Peony seeds were placed in dry containers. The containers were stored at various temperatures for 10&nbsp;weeks.</p> <p>The peony seeds were divided evenly so that there were 20&nbsp;sets of 25&nbsp;seeds. Twenty petri dishes were then prepared. Each contained damp paper. Each set of seeds was placed in a petri dish. The petri dishes were maintained at 1 of 4&nbsp;temperatures for 30&nbsp;days. Table&nbsp;2 shows the number of seeds that germinated in each dish.</p> <table class='table' border='1' cellpadding='5' cellspacing='0'> <caption>Table 2</caption> <thead>  <tr valign='bottom'> <th rowspan='2' scope='col'>Storage<br>temperature<br>(°C)</th><th colspan='4' scope='colgroup'>Number of peony seeds that germinated when maintained at a germination  temperature of:</th> </tr> <tr> <th scope='col'>13°C</th><th scope='col'>18°C</th><th scope='col'>23°C</th><th scope='col'>28°C</th> </tr> </thead>  <tbody> <tr> <td>&nbsp;0<br>&nbsp;5<br>10<br>15<br>20</td> <td>15<br>16<br>&nbsp;0<br>&nbsp;0<br>&nbsp;0</td> <td>24<br>23<br>6<br>&nbsp;0<br>&nbsp;0</td> <td>21<br>21<br>&nbsp;4<br>&nbsp;0<br>&nbsp;0</td> <td>1<br>1<br>0<br>0<br>0</td> </tr> </tbody> </table> <p class='note'>Tables adapted from Joel Beller, <i>Experimenting with Plants</i>. ©1985 by Joel Beller.</p> </div>"
+        },
+        {
+            "section": 4,
+            "content": "<div class='six columns scipassage'> <h2>Passage IV</h2> <p><i>Spent fuel</i> (SF), a radioactive waste, is often buried underground in canisters for disposal. As it decays, SF generates high heat and raises the temperature of the surrounding rock, which may expand and crack, allowing radioactivity to escape into the environment. Scientists wanted to determine which of 4&nbsp;rock types—rock salt, granite, basalt, or shale—would be least affected by the heat from SF. The <i>thermal conductivity</i> (how well heat is conducted through a material) and heating trends of the 4&nbsp;rock types were studied.</p> <h3>Study 1</h3> <p>Fifty holes, each 0.5&nbsp;m across and 20&nbsp;m deep, were dug into each of the following: a rock salt deposit, granite bedrock, basalt bedrock, and shale bedrock. A stainless steel canister containing 0.4&nbsp;metric tons of SF was buried in each hole. The rock temperature was measured next to each canister after 1&nbsp;year had passed. The results are shown in Table&nbsp;1, along with the typical thermal conductivity of each rock type, in Watts per meter per °C (W/m°C), at 25°C. The higher the thermal conductivity, the more quickly heat is conducted through the rock and away from the canisters.</p> <table class='table' style='width: 100%;' border='1' cellpadding='5' cellspacing='0'> <caption>Table 1</caption> <thead>  <tr> <th scope='col'>Rock</th><th scope='col'>Thermal conductivity<br>(W/m°C)</th><th scope='col'>Rock temperature<br>(°C)*</th> </tr> </thead> <tfoot>  <tr> <td class='alignl' colspan='3'>*All rock types had an initial temperature of 10°C.</td> </tr> </tfoot>  <tbody> <tr> <td class='alignl'>Rock salt<br>Granite<br>Basalt<br>Shale</td> <td>5.70<br>2.80<br>1.26<br>1.57</td> <td>110<br>121<br>165<br>146</td> </tr> </tbody> </table> <h3></h3> <h3>Study 2</h3> <p>The scientists determined the thermal conductivity of the 4&nbsp;rock types at a number of different temperatures between 0°C and 400°C. The results are shown in Figure&nbsp;1.</p> <img src='http://media.actstudent.org/images/3941.gif' height='353' width='350'> <div class='figurelabel'>Figure 1</div> <h3>Study 3</h3> <p>The scientists calculated the temperature increase that would be expected over a period of 100,000&nbsp;yr in each rock type at a point within a site holding buried SF. The results are shown in Figure&nbsp;2.</p> <img src='http://media.actstudent.org/images/3942.gif' height='342' width='350'> <div class='figurelabel'>Figure 2</div> <p class='note'>Table and figures adapted from J. S. Y. Wang, D. C. Mangold, and  C. F. Tsang, 'Thermal Impact of Waste Emplacement and Surface Cooling Associated with Geologic Disposal of High-Level Nuclear Waste.' ©1988 by Springer-Verlag New York Inc.</p> </div>"
+        },
+        {
+            "section": 5,
+            "content": "<div class='six columns scipassage'> <h2>Passage V</h2> <p><i>Paper chromatography</i> can be used to identify metal ions in wastewater. A drop of sample solution is placed on filter paper. The bottom of the paper is set in a solvent that travels up the paper (see Figure&nbsp;1).</p> <img src='http://media.actstudent.org/images/4324.gif' height='192' width='350'> <div class='figurelabel'>Figure 1</div> <p>The solvent carries the ions up the paper. Some ions move faster, and therefore farther than others, resulting in a separation as they move up the paper. The paper is dried, then stained, causing the ions to appear as colored spots. <i>R<sub>f</sub> values</i> are calculated for each spot:</p> <div class='textcenter'><img src='http://media.actstudent.org/images/rf_equation.gif' height='38' width='300'></div> <p>Table 1 shows R<sub>f</sub> values for 5&nbsp;ions. Table&nbsp;2 shows R<sub>f</sub> values from 3&nbsp;samples of wastewater. The same solvent was used for all ions and samples.</p> <table class='table' style='width: 100%;' border='1' cellpadding='5' cellspacing='0'> <caption>Table 1</caption> <thead>  <tr valign='bottom'> <th scope='col'>Ion</th><th>Molar mass<br>(g/mole)</th><th scope='col'>Distance<br>traveled<br>(cm)</th><th scope='col'>R<sub>f</sub></th><th scope='col'>Spot color</th> </tr> </thead>  <tbody> <tr valign='top'> <td class='alignl'>Nickel<br>(Ni<sup>2+</sup>)</td> <td>&nbsp;58.7</td> <td>0.8</td> <td>0.08</td> <td class='alignl'>pink</td> </tr> <tr valign='top'> <td class='alignl'>Cobalt<br>(Co<sup>2+</sup>)</td> <td>&nbsp;58.9</td> <td>3.5</td> <td>0.35</td> <td class='alignl'>brown-black</td> </tr> <tr valign='top'> <td class='alignl'>Copper<br>(Cu<sup>2+</sup>)</td> <td>&nbsp;63.5</td> <td>6.0</td> <td>0.60</td> <td class='alignl'>blue</td> </tr> <tr valign='top'> <td class='alignl'>Cadmium<br>(Cd<sup>2+</sup>)</td> <td>112.4</td> <td>7.8</td> <td>0.78</td> <td class='alignl'>yellow</td> </tr> <tr valign='top'> <td class='alignl'>Mercury<br>(Hg<sup>2+</sup>)</td> <td>200.6</td> <td>9.5</td> <td>0.95</td> <td class='alignl'>brown-black</td> </tr> </tbody> </table> <p class='note'>Table 1 adapted from Thomas McCullough, CSC, and Marissa Curlee, 'Qualitative Analysis of Cations Using Paper Chromatography.' ©1993 by the American Chemical Society.</p> <table class='table' style='width: 75%;' border='1' cellpadding='5' cellspacing='0'> <caption>Table 2</caption> <thead>  <tr valign='bottom'> <th scope='col'>Sample</th><th scope='col'>R<sub>f</sub></th><th scope='col'>Spot color</th> </tr> </thead> <tfoot>  <tr> <td class='alignl' colspan='3'>Note: Samples contain only the metal ions listed in Table&nbsp;1.</td> </tr> </tfoot>  <tbody> <tr valign='top'> <td>1</td> <td>0.60<br>0.78</td> <td class='alignl'>blue<br>yellow</td> </tr> <tr valign='top'> <td>2</td> <td>0.35<br>0.95</td> <td class='alignl'>brown-black<br>brown-black</td> </tr> <tr valign='top'> <td>3</td> <td>0.08<br>0.78<br>0.95</td> <td class='alignl'>pink<br>yellow<br>brown-black</td> </tr> </tbody> </table> </div>"
+        },
+        {
+            "section": 6,
+            "content": "<div class='six columns scipassage'> <h2>Passage VI</h2> <p>Suppose that 1&nbsp;gram&nbsp;(g) of Material&nbsp;A, initially a liquid, is kept in a cylinder fitted with a piston at a constant pressure of 1&nbsp;atmosphere&nbsp;(atm). Table&nbsp;1 and Figure&nbsp;1, respectively, show how Material&nbsp;A's volume and temperature vary over time as Material&nbsp;A absorbs heat at a rate of 10&nbsp;calories per second (cal/sec). Table&nbsp;2 gives the boiling points of liquid Materials&nbsp;B–D at 1&nbsp;atm; the heat absorbed refers to the amount of heat that is needed to turn 1&nbsp;g of a liquid at its boiling point into a gas.</p> <table class='table table-bordered' style='width: 70%;' border='1' cellpadding='5' cellspacing='0'> <caption>Table 1</caption> <thead>  <tr valign='bottom'> <th scope='col'>Time<br>(sec)</th><th scope='col'>Volume of Material A<br>(cm<sup>3</sup>)</th> </tr> </thead>  <tbody> <tr> <td style='text-align: right; padding-right: 20px;'>&nbsp;0<br> &nbsp;2<br> &nbsp;4<br> &nbsp;6<br> &nbsp;8<br> 10<br> 12<br> 14<br> 16<br> 18<br> 20<br> 22<br> 24</td> <td style='text-align: right; padding-right: 80px;'>1<br> 1<br> 136<br> 271<br> 406<br> 541<br> 676<br> 811<br> 946<br> 1,081<br> 1,216<br> 1,351<br> 1,541</td> </tr> </tbody> </table> <img src='http://media.actstudent.org/images/3877.gif'> <div class='figurelabel'>Figure 1</div> <br>  <table class='table table-bordered' style='width: 80%;' border='1' cellpadding='5' cellspacing='0'> <caption>Table 2</caption> <thead>  <tr valign='bottom'> <th scope='col'>Material</th><th scope='col'>Boiling point<br>(°C)</th><th scope='col'>Heat absorbed<br>(cal)</th> </tr> </thead>  <tbody> <tr> <td>B<br>C<br>D</td> <td>13<br>19<br>28</td> <td>500<br>610<br>270</td> </tr> </tbody> </table> </div>"
+        },
+        {
+            "section": 7,
+            "content": "<div class='six columns scipassage'> <h2>Passage VII</h2> <p>A <i>photocell</i> is a device for generating an electrical current from light (see Figure&nbsp;1).  <img src='http://media.actstudent.org/images/4167.gif'></p> <div class='figurelabel'>Figure 1</div> <p>Each photocell contains a metal. A photon of light that strikes the metal can eject an electron from the metal if the photon's energy exceeds the metal's <i>work function</i>. The maximum kinetic energy the ejected electron can have is the photon's energy minus the metal's work function. The amount of electrical current varies with light's <i>relative intensity</i> (a measure of the number of photons with a given energy striking the metal each second).</p> <p>Table 1 shows the results of 9 trials in which a photocell was exposed to light.</p> <table class='table table-bordered' border='1' cellpadding='5' cellspacing='0'> <caption>Table 1</caption> <thead>  <tr valign='bottom'> <th scope='col'>Trial</th><th>Energy per photon (eV)*</th><th scope='col'>Relative intensity of light</th><th scope='col'>Electrical current (mA)†</th><th scope='col'>Maximum<br>kinetic<br>energy of<br>electron if<br>ejected&nbsp;from<br>metal (eV)</th> </tr> </thead> <tfoot>  <tr> <td class='alignl' colspan='5'>*eV = electron volts<br> †mA = milliamps</td> </tr> </tfoot>  <tbody> <tr> <td>1<br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9</td> <td>2.0<br> 2.0<br> 2.0<br> 4.0<br> 4.0<br> 4.0<br> 6.0<br> 6.0<br> 6.0</td> <td class='alignl'>low<br> medium<br> high<br> low<br> medium<br> high<br> low<br> medium<br> high</td> <td>&nbsp;0<br> &nbsp;0<br> &nbsp;0<br> 29<br> 43<br> 60<br> 27<br> 40<br> 55</td> <td>0.0<br> 0.0<br> 0.0<br> 0.9<br> 0.9<br> 0.9<br> 2.9<br> 2.9<br> 2.9</td> </tr> </tbody> </table> </div>"
+        }
+    ],
+    "score_conversion": {
+        "0": 1,
+        "1": 3,
+        "2": 5,
+        "3": 6,
+        "4": 8,
+        "5": 9,
+        "6": 9,
+        "7": 10,
+        "8": 11,
+        "9": 12,
+        "10": 13,
+        "11": 14,
+        "12": 14,
+        "13": 15,
+        "14": 16,
+        "15": 17,
+        "16": 17,
+        "17": 18,
+        "18": 19,
+        "19": 19,
+        "20": 20,
+        "21": 20,
+        "22": 21,
+        "23": 22,
+        "24": 22,
+        "25": 23,
+        "26": 24,
+        "27": 24,
+        "28": 25,
+        "29": 26,
+        "30": 27,
+        "31": 28,
+        "32": 28,
+        "33": 29,
+        "34": 30,
+        "35": 32,
+        "36": 33,
+        "37": 34,
+        "38": 35,
+        "39": 36,
+        "40": 36
+    }
+}
