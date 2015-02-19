@@ -3,7 +3,6 @@ Soon
 
 * IE warning!
 * make it impossible to sign in with no name
-* save answers
 * a timed test
 * Don't show anything but questions, when questions are going on
 

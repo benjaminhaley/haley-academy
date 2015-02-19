@@ -19,17 +19,19 @@
              role="alert"
              ng-if="log_in_message">{{log_in_message}}</div>
              
-        <form>
+        <form novalidate>
           <div class="form-group">
             <label for="user_to_login_name">Your name</label>
-            <input 
-                  id="user_to_login_name"
-                  type="text" 
-                  ng-model="user_to_login_name" 
-                  placeholder="John Doe" 
-                  typeahead="name for name in users() | filter:$viewValue | limitTo:5" 
-                  typeahead-loading="laoding_user_list" 
-                  class="form-control">
+            <input required
+                   id="user_to_login_name"
+                   name="user_to_login_name"
+                   type="text" 
+                   ng-model="user_to_login_name" 
+                   placeholder="John Doe" 
+                   value=""
+                   typeahead="name for name in users() | filter:$viewValue | limitTo:5" 
+                   typeahead-loading="laoding_user_list" 
+                   class="form-control">
             <i ng-show="laoding_user_list" 
                class="glyphicon glyphicon-refresh"></i>
           </div>
@@ -40,10 +42,11 @@
                 class="btn btn-default" 
                 data-dismiss="modal"
                 ng-click="log_out()">Log out</button>
-        <button type="button" 
+        <button type="submit" 
                 class="btn btn-primary" 
                 data-dismiss="modal"
-                ng-click="log_in(user_to_login_name)">Log in</button>
+                ng-click="log_in(user_to_login_name)"
+                ng-disabled="!user_to_login_name">Log in</button>
       </div>
     </div>
   </div>

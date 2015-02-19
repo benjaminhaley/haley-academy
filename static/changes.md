@@ -1,6 +1,11 @@
 # Changes
 Improvements I have made to the site over time.  With pretty pictures too.
 
+## Require user to enter a name to sign in
+*19 February 2015*
+
+>![](http://dl.dropbox.com/u/1131693/bloodrop/Haley_Academy.png)
+
 ## Added a change list
 *(how meta!)*  
 *19 February 2015*
