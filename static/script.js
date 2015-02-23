@@ -59,6 +59,11 @@ var tests = [
     "source": "reading.json"
   },
   {
+    "id": "reading_2",
+    "name": "reading II",
+    "source": "reading_2.json"
+  },
+  {
     "id": "science",
     "name": "science",
     "source": "science.json"
