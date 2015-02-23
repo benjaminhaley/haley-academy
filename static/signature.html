@@ -1,0 +1,20 @@
+<span class="text-muted">
+  <small>
+    <em>
+        {{item.user}} 
+        <span ng-if="item.type == 'comment'">commenting on {{item.parent_user}}</span> 
+        <span ng-if="item.type == 'vote' && item.content == 'up'">upvoted {{item.parent_user}}'s contribution</span> 
+        <span ng-if="item.type == 'vote' && item.content == 'down'">downvoted {{item.parent_user}}'s contribution</span> 
+        <span ng-if="should_show_problem_in_signature()"
+              class="clickable"
+              popover="Go to the problem"
+              popover-placement="right"
+              popover-trigger="mouseenter"
+              ng-click="set_current(get_test_from_id(item.test), item.section, item.number); hide_history()">
+            on {{item.test}} {{item.section}}.{{item.number}}
+        </span>
+        {{ item.modified | ago }}
+
+    </em>
+  </small>
+</span>

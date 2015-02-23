@@ -116,69 +116,28 @@
                infinite-scroll-distance="3">
             <div ng-repeat="event in get_history_to_show(n_events_to_show) track by event.modified">
 
-              <!-- Event number (to make counting easier) -->
-              <span class="text-muted pull-right">
-                &nbsp;
-                <small>
-                  # {{$index + 1}}
-                </small>
+              <!-- Contributions -->
+              <span ng-if="event.type == 'contribution'">
+                <contribution ng-init="contribution = event"></contribution>
               </span>
-              
-              <!-- Comments and contributions -->
-              <span ng-if="event.type == 'comment' || event.type == 'contribution'">
+
+              <!-- Comments -->
+              <span ng-if="event.type == 'comment'">
                 <span ng-bind-html="event.content | trust"></span>
+                <br>
+                <signature ng-init="item = event; show_link_to_problem = true;"></signature>
               </span>
               
               <!-- Votes -->
               <span ng-if="event.type == 'vote' && event.content == 'up'">
                 <i class="fa fa-caret-up fa-lg"></i> +1
+                <signature ng-init="item = event; show_link_to_problem = true;"></signature>
               </span>
               <span ng-if="event.type == 'vote' && event.content == 'down'">
                 <i class="fa fa-caret-down fa-lg"></i> -1
+                <signature ng-init="item = event; show_link_to_problem = true;"></signature>
               </span>
               
-              <!-- Signature -->
-              <small>
-                <p class="text-muted"> 
-                  {{event.user}} 
-                  <span ng-if="event.type == 'comment'">commenting on {{event.parent_user}}</span> 
-                  <span ng-if="event.type == 'vote' && event.content == 'up'">upvoted {{event.parent_user}}'s contribution</span> 
-                  <span ng-if="event.type == 'vote' && event.content == 'down'">downvoted {{event.parent_user}}'s contribution</span> 
-                  <br>
-                  <span class="clickable"
-                        popover="Go to the problem" 
-                        popover-placement="right" 
-                        popover-trigger="mouseenter"
-                        ng-click="set_current(get_test_from_id(event.test), event.section, event.number); hide_history()">
-                    {{event.test}} {{event.section}}.{{event.number}}
-                  </span>
-                  
-                  - 
-                  <span ng-init="previous = get_history_to_show(n_events_to_show)[$index - 1];"
-                        popover="{{moment(event.modified).from(previous.modified, true)}} earlier than the last event"
-                        popover-placement="right" 
-                        popover-trigger="mouseenter">
-
-                    <!-- Time since now -->
-                    {{ moment(event.modified).fromNow() }}
-                    
-                    <!-- Time since last event -->
-                    <span ng-if="same_time_frame_as_previous">
-                      - {{
-                        moment(
-                          event.modified
-                        ).from(
-                          previous.modified,
-                          true
-                        )
-                      }} earlier than the last event
-                    </span>
-                    
-
-                  </span>
-                  
-                </p>
-              </small>
               <hr>
             </div>
             <a href 

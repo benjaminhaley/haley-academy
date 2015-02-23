@@ -83,6 +83,14 @@ app.controller('controller', [
   '$http',
   '$timeout',
   function($scope, $modal, $sce, storage, $resource, $http, $timeout) {
+
+  /* 
+   * Unsorted
+   * new functions that don't have a nice home yet.
+   */
+  $scope.should_show_problem_in_signature = function() {
+    return $scope.is_history_showing();
+  };
   
   /* Api
    * A simple key value store with tagging.
@@ -107,30 +115,22 @@ app.controller('controller', [
      options =  options || {};
 
     // make a new object
-    // and add it to it's parent
     var item = {
       content: "",
       user: $scope.user,
       type: type,
       id: $scope.random(),
-      modified: new Date()
+      modified: new Date(),
+      // Default to current problem, unless otherwise specified
+      test: $scope.test.id,
+      section: $scope.problem.section,
+      number: $scope.problem.number
     };
     
     // add options
     _.map(options, function(v, k) {item[k] = $scope.deep_clone(v);});
     
     return item;
-  };
-  $scope.add_child = function(child, parent) {
-    // Add parent information to the child
-    $scope.add_parent(child, parent);
-    
-    // Add child information the parent
-    var containter = $scope.pluralize(child.type);
-    if(child.type == 'vote' && child.content == 'up') { containter = 'upvotes'; }
-    if(child.type == 'vote' && child.content == 'down') { containter = 'downvotes'; }
-    parent[containter] = parent[containter] || [];
-    parent[containter].push(child);
   };
   $scope.get_parent = function(child, candidates) {
     return _.find(candidates, function(candidate) {
@@ -211,11 +211,20 @@ app.controller('controller', [
     });
   };
   $scope.get_tags = function(item) {
+    console.log('item', item)
     var tags = [item.type, 
-                $scope.old_problem_id(), 
-                $scope.problem_id(),
-                $scope.user,
-                $scope.test.id];
+                $scope.old_problem_id(
+                  $scope.get_problem_number(item.section, item.number),
+                  item.test
+                ), 
+                $scope.format_problem_id(
+                  item.number, 
+                  item.section, 
+                  item.test),
+                item.user,
+                item.test];
+
+    console.log('tags', tags);
     
     // Give a common label for discussion items.
     if(_.contains(['contribution', 'vote', 'comment'], item.type)) {
@@ -224,11 +233,26 @@ app.controller('controller', [
     
     return tags;
   };
+  $scope.bind = function(child, parent) {
+    $scope.add_parent(child, parent);
+    $scope.add_child(child, parent);
+  }
   $scope.add_parent = function(child, parent) {
-    // The child should save info about its parent
+    // Add parent information to the child
     child.parent = parent.id;
     child.parent_user = parent.user;
     child.parent_type = parent.type;
+    child.test = parent.test;
+    child.section = parent.section;
+    child.number = parent.number;
+  };
+  $scope.add_child = function(child, parent) {
+    // Add child information the parent
+    var containter = $scope.pluralize(child.type);
+    if(child.type == 'vote' && child.content == 'up') { containter = 'upvotes'; }
+    if(child.type == 'vote' && child.content == 'down') { containter = 'downvotes'; }
+    parent[containter] = parent[containter] || [];
+    parent[containter].push(child);
   };
   $scope.save_item = function(item, options) {
     options = options || {}
@@ -243,12 +267,9 @@ app.controller('controller', [
     if(options.parent){
       $scope.add_parent(item, options.parent);
     }
-    
+
     // Add item info
     item.saved_content = item.content;
-    item.test = $scope.test.id;
-    item.section = $scope.problem.section;
-    item.number = $scope.problem.number;
     item.server_id = $scope.server_id(item);
     
     // Record the most recent save attempt for this problem
@@ -466,6 +487,7 @@ app.controller('controller', [
       });
       
       history = _.sortBy(history, function(item){ return -Date.parse(item.modified); });
+      $scope.nest(history);
       $scope.history = history;
       
       // Tell the ui we are done
@@ -777,23 +799,28 @@ app.controller('controller', [
     var summary = $scope.test.name + " " + p.section + "." + p.number + " - " + status; // e.g. math 4.2
     return summary;
   };
+  $scope.format_problem_id = function(number, section, test_id) {
+    return 'problem ' + number + 
+           ' section ' + section +
+           ' of the ' + test_id + ' test ';
+
+  }
   $scope.problem_id = function(problem, test) {
     // default to current
     problem = problem || $scope.problem;
     test = test || $scope.test;
 
-    return 'problem ' + problem.number + 
-           ' section ' + problem.section +
-           ' of the ' + test.id + ' test ';
+    return $scope.format_problem_id(problem.number, problem.section, test.id);
   }
   // TODO: get rid of this (replace it with the new problem_id)
   //       it should only affect attempts before February 2015
-  $scope.old_problem_id = function(problem_number) {
+  $scope.old_problem_id = function(problem_number, test_id) {
     // Default to current problem
-    problem_number = typeof problem_number !== 'undefined' ? problem_number : $scope.problem_number;
-    
+    var problem_number = typeof problem_number !== 'undefined' ? problem_number : $scope.problem_number;
+    var test_id = typeof test_id !== 'undefined' ? test_id : $scope.test.id;
+
     //  Globally unique id for a problem
-    return $scope.test.id + " problem # " + problem_number;
+    return test_id + " problem # " + problem_number;
   };
   $scope.show_progress = function() {
     $('#progress_modal').modal('show'); 
@@ -924,7 +951,6 @@ app.controller('controller', [
   };
   $scope.attempt_count = function(attribute) {
     // Count the number of times correct, wrong, etc. appear in items
-    // @here
     var count = (_.reduce($scope.problems, function(n, item) {
       var attempt = $scope.get_my(item.attempts);
       if(attempt && attempt[attribute]) { return n + 1; }
@@ -1196,6 +1222,19 @@ replace('questionMark', '<i class="fa fa-question fa-lg"></i>');
 replace('page', '<li><a href="javascript:void(0)"><span ng-transclude></span></a></li>');
 
 
+/* Contribution
+ *
+ * Contributions left in a discussion.
+ */
+app.directive('contribution', function() {
+  return {
+    restrict: 'E',
+    transclude: true,
+    templateUrl: 'contribution.html',
+  };
+});
+
+
 /* Comments
  *
  * Comments left on a contribution.
@@ -1205,6 +1244,18 @@ app.directive('comments', function() {
     restrict: 'E',
     transclude: true,
     templateUrl: 'comments.html',
+  };
+});
+
+/* Signature
+ *
+ * How a problem, etc. is signed
+ */
+app.directive('signature', function() {
+  return {
+    restrict: 'E',
+    transclude: true,
+    templateUrl: 'signature.html',
   };
 });
 

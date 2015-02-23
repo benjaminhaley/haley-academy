@@ -1,6 +1,11 @@
 # Changes
 Improvements I have made to the site over time.  With pretty pictures too.
 
+## Show context in history
+**22 February 2015 - ** Now I can quickly see if I have upvoted a comment that someone left.  Took longer than expected because it was difficult to associate my vote to the correct problem when I was looking at the history.  This is because the association was based on the current active problem, now it is based on the parent, better practice I think. 
+
+>![](http://dl.dropbox.com/u/1131693/bloodrop/Screenshot%202015-02-22%2018.25.03.png)
+
 ## Require user to enter a name to sign in
 *19 February 2015*
 

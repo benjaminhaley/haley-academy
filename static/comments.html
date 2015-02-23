@@ -1,5 +1,5 @@
 <!-- Show comments -->
-<span class="clickable text-muted pull-right"
+<span class="clickable text-muted"
       ng-click="contribution.show_comments = !contribution.show_comments"
       popover="{{(contribution.show_comments && 'hide comments') || 'show comments'}}" 
       popover-placement="top" 
@@ -109,7 +109,7 @@
                    !(is_mine(contribution) && contribution.editing)">
         <span class="clickable" 
               ng-if="user_is_logged_in()"
-              ng-click="add_child(
+              ng-click="bind(
                           new_item('comment', {'editing': true}),
                           contribution)
                           "

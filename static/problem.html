@@ -1,7 +1,7 @@
 <div class="panel panel-default" ng-if="test_loaded">
   <!-- Make sure I have an attempt -->
   <span ng-if="!i_have_any(problem.attempts)">
-    <span ng-init="add_child(new_item('attempt'), problem)">
+    <span ng-init="bind(new_item('attempt'), problem)">
     </span>
   </span>
   <div class="panel-heading">

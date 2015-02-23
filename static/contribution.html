@@ -17,23 +17,27 @@
                   !i_have_any(contribution.downvotes) && 
                   !is_my(contribution)"
            class="text-center clickable text-muted"
-           ng-click="vote = upvote(contribution)" 
+           ng-click="vote = vote || new_item('vote', {'content': 'up'});
+                     save_item(vote, {'parent': contribution})" 
            popover="Great point!" 
            popover-placement="right" 
            popover-trigger="mouseenter">
         <span ng-if="!vote.saving && !vote.save_failed"><i class="fa fa-caret-up"></i></span>
         <span ng-if="vote.saving"><i class="fa fa-spinner fa-spin"></i></span>
-        <span ng-if="vote.save_failed">Could not save, click to retry</span>
+        <span ng-if="vote.save_failed"><i class="fa fa-caret-up"></i></span>
       </div>
       <div ng-if="user_is_logged_in() && 
                   i_have_any(contribution.upvotes) && 
                   !is_my(contribution)"
            class="text-center clickable"
-           ng-click="delete_item(get_my(contribution.upvotes))" 
+           ng-click="vote = get_my(contribution.upvotes);
+                     delete_item(vote);" 
            popover="Remove your upvote" 
            popover-placement="right" 
            popover-trigger="mouseenter">
-        <i class="fa fa-caret-up"></i>
+        <b ng-if="!vote.deleting && !vote.delete_failed"><i class="fa fa-caret-up"></i></b>
+        <span ng-if="vote.deleting"><i class="fa fa-spinner fa-spin"></i></span>
+        <span ng-if="vote.delete_failed"><i class="fa fa-caret-up"></i></span>
       </div>
       <div class="text-center"
             popover="{{voting_summary(contribution)}}" 
@@ -48,38 +52,38 @@
                    !i_have_any(contribution.upvotes) && 
                    !is_my(contribution)"
             class="text-center clickable text-muted"
-            ng-click="downvote(contribution)" 
+            ng-click="vote = vote || new_item('vote', {'content': 'down'});
+                      save_item(vote, {'parent': contribution})" 
             popover="Not helpful.  Hide this post." 
             popover-placement="right" 
             popover-trigger="mouseenter">
-        <i class="fa fa-caret-down"></i>
+        <span ng-if="!vote.saving && !vote.save_failed"><i class="fa fa-caret-down"></i></span>
+        <span ng-if="vote.saving"><i class="fa fa-spinner fa-spin"></i></span>
+        <span ng-if="vote.save_failed"><i class="fa fa-caret-down"></i></span>
       </div>
       <div  ng-if="user_is_logged_in() && 
                    i_have_any(contribution.downvotes) && 
                    !is_my(contribution)"
             class="text-center clickable"
-            ng-click="delete_item(get_my(contribution.downvotes))" 
+            ng-click="vote = get_my(contribution.downvotes);
+                      delete_item(vote)" 
             popover="Remove your downvote." 
             popover-placement="right" 
             popover-trigger="mouseenter">
-        <i class="fa fa-caret-down"></i>
+        <b ng-if="!vote.deleting && !vote.delete_failed"><i class="fa fa-caret-down"></i></b>
+        <span ng-if="vote.deleting"><i class="fa fa-spinner fa-spin"></i></span>
+        <span ng-if="vote.delete_failed"><i class="fa fa-caret-down"></i></span>
       </div>
     </td>
     
-    <!-- Text -->
-    <td style="width:100%;">
     
+    <td style="width:100%;">
       <!-- Other's contributions -->
       <div ng-if="user != contribution.user">
         <p ng-bind-html="contribution.content | trust"></p>
     
         <!-- Signature -->
-        <span class="text-muted">
-          <small>
-            <em>- {{contribution.user}}  {{ contribution.modified | ago }}
-            </em>
-          </small>
-        </span>
+        <signature ng-init="item = contribution"></signature>
         
         <!-- Comments -->
         <comments></comments>
@@ -94,33 +98,34 @@
            popover="Click to edit your contribution" 
            popover-placement="bottom" 
            popover-trigger="mouseenter"></p>
-           
-        <!-- Signature -->
-        <span class="text-muted">
-          <small>
-            <em>- {{contribution.user}}  {{ contribution.modified | ago }} </em>
-          </small>
-          <span ng-if="!contribution.editing">
+
+        <!-- Delete -->
+        <span ng-if="!contribution.editing">
             <span   class="clickable" 
                     ng-really-message="Really delete your contribution?  This cannot be undone." 
                     ng-really-click="delete_item(contribution)"
                     popover="Delete your contribution" 
-                    popover-placement="left" 
+                    popover-placement="right" 
                     popover-trigger="mouseenter">
               <span aria-hidden="true">
                 <b ng-if="!contribution.deleting && !contribution.delete_failed">&times;</b>
                 <span ng-if="contribution.deleting"><i class="fa fa-spinner fa-spin"></i></span>
-                <span ng-if="contribution.delete_failed"><br>Could not delete your comment.  Click here to try again.</span>
-              </span>
+                <span ng-if="contribution.delete_failed">&times;</span>
             </span>
-          </span>
         </span>
+
+           
+        <!-- Signature -->
+        <signature ng-init="item = contribution"></signature>
 
         <!-- Comments -->
         <comments></comments>
       </div>
-      
       <br>
     </td>
+    <td class="center-block" 
+        style="width:40px;"></td>
+
   </tr>
 </table>
+
