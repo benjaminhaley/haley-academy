@@ -211,7 +211,6 @@ app.controller('controller', [
     });
   };
   $scope.get_tags = function(item) {
-    console.log('item', item)
     var tags = [item.type, 
                 $scope.old_problem_id(
                   $scope.get_problem_number(item.section, item.number),
@@ -223,8 +222,6 @@ app.controller('controller', [
                   item.test),
                 item.user,
                 item.test];
-
-    console.log('tags', tags);
     
     // Give a common label for discussion items.
     if(_.contains(['contribution', 'vote', 'comment'], item.type)) {
@@ -242,9 +239,9 @@ app.controller('controller', [
     child.parent = parent.id;
     child.parent_user = parent.user;
     child.parent_type = parent.type;
-    child.test = parent.test;
-    child.section = parent.section;
-    child.number = parent.number;
+    child.test = parent.test || child.test;
+    child.section = parent.section || child.section;
+    child.number = parent.number || child.number;
   };
   $scope.add_child = function(child, parent) {
     // Add child information the parent
