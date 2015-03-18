@@ -1,0 +1,43 @@
+<div class="modal fade" 
+     id="scores_modal" 
+     tabindex="-1" 
+     role="dialog" 
+     aria-labelledby="scores_modal_label" 
+     aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" 
+                class="close" 
+                data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <h4 class="modal-title" 
+            id="progress_modal_label">
+            <span>Scores</span>
+        </h4>
+      </div>
+      <div class="modal-body">
+        <div ng-repeat="(test, i) in everyones_attempts_summary">
+          <h2>{{test}}</h2>
+          <table class="table">
+            <tr>
+              <th>user</th>
+              <th>correct</th>
+              <th>wrong</th>
+              <th>total</th>
+            </tr>
+            <tr ng-repeat="(user, j) in i">
+              <td>{{user}}</td>
+              <td>{{j['correct']}}</td>
+              <td>{{j['wrong']}}</td>
+              <td>{{j['total']}}</td>
+            </tr>
+          </table>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+</div> 

@@ -31,8 +31,14 @@ if (!Date.now) {
 /* Teachers */
 var teachers = ["Ben Haley", "Mr. Weglarz"]
 
+
 /* Tests */
 var tests = [
+  {
+    "id": "parcc_english_1.json",
+    "name": "English",
+    "source": "parcc_english_1.json"
+  },
   {
     "id": "math",
     "name": "math",
@@ -72,7 +78,7 @@ var tests = [
     "id": "science_2",
     "name": "science II",
     "source": "science_2.json"
-  },
+  }
 ]
 
 /* Our app */
@@ -96,6 +102,40 @@ app.controller('controller', [
   $scope.should_show_problem_in_signature = function() {
     return $scope.is_history_showing();
   };
+  $scope.summarize_everyones_attempts = function() {
+    var summary = {};
+
+    _.each($scope.everyones_attempts, function(a){
+      // Defaults
+      summary[a.test] = summary[a.test] || {}
+      summary[a.test][a.user] = summary[a.test][a.user] || {};
+      summary[a.test][a.user]['correct'] = summary[a.test][a.user]['correct'] || 0;
+      summary[a.test][a.user]['wrong'] = summary[a.test][a.user]['wrong'] || 0;
+      summary[a.test][a.user]['total'] = summary[a.test][a.user]['total'] || 0;
+
+      // Add totals
+      if(a.correct) {summary[a.test][a.user]['correct']++;}
+      if(a.wrong) {summary[a.test][a.user]['wrong']++;}
+      summary[a.test][a.user]['total']++;
+
+    })
+
+    $scope.everyones_attempts_summary = summary;
+  }
+  $scope.load_attempts = function() {
+    var attempts = new Query.get({'tags': ['attempt']}); 
+
+    attempts.$promise.then(function(attempts) {
+      attempts = $scope.load_items(attempts.items)
+      $scope.everyones_attempts = attempts;
+      $scope.summarize_everyones_attempts();
+    });
+  };
+  $scope.load_items = function(items) {
+    return _.map(items, function(item){
+      return $scope.load_item(item);
+    });
+  }
   
   /* Api
    * A simple key value store with tagging.
@@ -1131,6 +1171,7 @@ app.controller('controller', [
     $scope.user = user || $scope.user || "";
     $scope.load_current_position($scope.user);
     $scope.load_history();
+    $scope.load_attempts();
     $scope.user_to_show = 'everyone';
   };
   $scope.reset = function(user) {
@@ -1336,6 +1377,19 @@ app.directive('testinfo', function() {
     templateUrl: 'testinfo.html',
   };
 });
+
+/* Scores
+ *
+ * Overall scores for all students
+ */
+app.directive('scores', function() {
+  return {
+    restrict: 'E',
+    transclude: true,
+    templateUrl: 'scores.html',
+  };
+});
+
 
 
 /* Header

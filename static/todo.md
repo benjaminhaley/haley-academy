@@ -1,8 +1,8 @@
 Soon
 ====
 
+* Post reading II
 * IE warning!
-* make it impossible to sign in with no name
 * a timed test
 * Don't show anything but questions, when questions are going on
 
