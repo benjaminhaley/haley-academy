@@ -35,8 +35,18 @@ var teachers = ["Ben Haley", "Mr. Weglarz"]
 /* Tests */
 var tests = [
   {
+    "id": "reading",
+    "name": "reading",
+    "source": "reading.json"
+  },
+  {
+    "id": "reading_2",
+    "name": "reading II",
+    "source": "reading_2.json"
+  },
+  {
     "id": "parcc_english_1.json",
-    "name": "English",
+    "name": "parcc english",
     "source": "parcc_english_1.json"
   },
   {
@@ -58,16 +68,6 @@ var tests = [
     "id": "english_2",
     "name": "english II",
     "source": "english_2.json"
-  },
-  {
-    "id": "reading",
-    "name": "reading",
-    "source": "reading.json"
-  },
-  {
-    "id": "reading_2",
-    "name": "reading II",
-    "source": "reading_2.json"
   },
   {
     "id": "science",
